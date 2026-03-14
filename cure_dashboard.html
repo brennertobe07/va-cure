@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DPVA // Cure Dashboard</title>
+<style>
+/* ── Google Font ── */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap');
+
+/* ── Variables ── */
+:root {
+  --bg:         #0a1420;
+  --surface:    #111e2d;
+  --surface2:   #162535;
+  --border:     #1e3348;
+  --border-hi:  #2a4a66;
+  --text:       #c8d8e8;
+  --text-dim:   #6b8aa0;
+  --text-hi:    #e8f4ff;
+  --dem:        #4a9eff;
+  --dem-dim:    #1d4a7a;
+  --dem-bg:     rgba(74,158,255,0.10);
+  --rep:        #ff6b5b;
+  --rep-dim:    #7a2a1d;
+  --rep-bg:     rgba(255,107,91,0.10);
+  --green:      #3ecf8e;
+  --green-bg:   rgba(62,207,142,0.10);
+  --yellow:     #f5c842;
+  --yellow-bg:  rgba(245,200,66,0.10);
+  --orange:     #ff8c42;
+  --orange-bg:  rgba(255,140,66,0.10);
+  --accent:     #4a9eff;
+  --mono:       'IBM Plex Mono', monospace;
+  --sans:       'IBM Plex Sans', sans-serif;
+  --radius:     6px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--text);
+  font-size: 13px;
+  min-height: 100vh;
+}
+
+/* ── Header ── */
+header {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.header-left { display: flex; align-items: center; gap: 14px; }
+.logo {
+  font-family: var(--mono);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--dem);
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}
+.election-badge {
+  background: var(--dem-bg);
+  border: 1px solid var(--dem-dim);
+  color: var(--dem);
+  font-family: var(--mono);
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 3px;
+  letter-spacing: 0.06em;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+.meta-item {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--text-dim);
+  letter-spacing: 0.04em;
+}
+.meta-item span {
+  display: block;
+  color: var(--text-hi);
+  font-size: 11px;
+  margin-top: 1px;
+}
+
+/* ── Nav ── */
+nav {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  gap: 0;
+  padding: 0 20px;
+  overflow-x: auto;
+}
+.tab {
+  padding: 10px 16px;
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  white-space: nowrap;
+  transition: all 0.15s;
+  text-transform: uppercase;
+}
+.tab:hover { color: var(--text); }
+.tab.active { color: var(--dem); border-bottom-color: var(--dem); }
+
+/* ── Main ── */
+main { padding: 20px; max-width: 1400px; }
+
+/* ── Panel ── */
+.panel { display: none; }
+.panel.active { display: block; }
+
+/* ── Section header ── */
+.section-title {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-bottom: 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--border);
+}
+
+/* ── KPI Grid ── */
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 10px;
+  margin-bottom: 24px;
+}
+.kpi {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  position: relative;
+}
+.kpi.dem-tinted   { border-left: 3px solid var(--dem);    background: var(--dem-bg); }
+.kpi.green-tinted { border-left: 3px solid var(--green);  background: var(--green-bg); }
+.kpi.warn-tinted  { border-left: 3px solid var(--orange); background: var(--orange-bg); }
+.kpi.yellow-tinted{ border-left: 3px solid var(--yellow); background: var(--yellow-bg); }
+.kpi-label {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-bottom: 6px;
+}
+.kpi-value {
+  font-family: var(--mono);
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--text-hi);
+  line-height: 1;
+}
+.kpi-sub {
+  font-size: 11px;
+  color: var(--text-dim);
+  margin-top: 4px;
+  font-family: var(--mono);
+}
+.kpi-sub .dem { color: var(--dem); }
+.kpi-sub .rep { color: var(--rep); }
+.kpi-sub .green { color: var(--green); }
+.kpi-sub .warn { color: var(--orange); }
+
+/* ── Two col layout ── */
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+@media (max-width: 900px) { .two-col { grid-template-columns: 1fr; } }
+
+/* ── Card ── */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+}
+.card-title {
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin-bottom: 14px;
+}
+
+/* ── Funnel ── */
+.funnel-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  gap: 10px;
+}
+.funnel-label {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--text-dim);
+  width: 160px;
+  flex-shrink: 0;
+}
+.funnel-bar-wrap {
+  flex: 1;
+  background: var(--bg);
+  border-radius: 2px;
+  height: 18px;
+  overflow: hidden;
+  position: relative;
+}
+.funnel-bar-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.4s ease;
+  display: flex;
+  align-items: center;
+  padding-left: 6px;
+}
+.funnel-bar-fill .inner-label {
+  font-family: var(--mono);
+  font-size: 9px;
+  color: rgba(255,255,255,0.8);
+  white-space: nowrap;
+}
+.funnel-count {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-hi);
+  width: 70px;
+  text-align: right;
+  flex-shrink: 0;
+}
+.funnel-pct {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--text-dim);
+  width: 50px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+/* ── Dem/Rep party bar ── */
+.party-bar-wrap { display: flex; height: 22px; border-radius: 3px; overflow: hidden; margin-top: 6px; }
+.party-bar-dem { background: var(--dem); display: flex; align-items: center; justify-content: flex-end; padding-right: 6px; }
+.party-bar-rep { background: var(--rep); display: flex; align-items: center; padding-left: 6px; }
+.party-bar-label { font-family: var(--mono); font-size: 9px; color: rgba(0,0,0,0.7); font-weight: 600; }
+.party-legend { display: flex; gap: 16px; margin-top: 8px; }
+.party-legend-item { display: flex; align-items: center; gap: 5px; font-family: var(--mono); font-size: 10px; color: var(--text-dim); }
+.legend-dot { width: 8px; height: 8px; border-radius: 50%; }
+
+/* ── Table ── */
+.tbl-wrap { overflow-x: auto; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+thead tr {
+  background: var(--bg);
+}
+thead th {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  padding: 8px 10px;
+  text-align: right;
+  border-bottom: 1px solid var(--border);
+  cursor: pointer;
+  white-space: nowrap;
+  user-select: none;
+}
+thead th:first-child { text-align: left; }
+thead th.sorted { color: var(--accent); }
+thead th:hover { color: var(--text); }
+thead th .sort-arrow { margin-left: 3px; opacity: 0.5; }
+thead th.sorted .sort-arrow { opacity: 1; }
+
+tbody tr {
+  border-bottom: 1px solid var(--border);
+  transition: background 0.1s;
+}
+tbody tr:hover { background: var(--surface2); }
+tbody tr.target-row { background: rgba(74,158,255,0.05); }
+tbody tr.target-row td:first-child { border-left: 2px solid var(--dem); }
+
+td {
+  padding: 7px 10px;
+  color: var(--text);
+  text-align: right;
+  font-family: var(--mono);
+  font-size: 11px;
+}
+td:first-child {
+  text-align: left;
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-hi);
+}
+td.dim { color: var(--text-dim); }
+td.good { color: var(--green); }
+td.warn { color: var(--orange); }
+td.bad  { color: var(--rep); }
+td.dem  { color: var(--dem); }
+
+/* ── Filter bar ── */
+.filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+.filter-bar input[type=text] {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 7px 12px;
+  color: var(--text-hi);
+  font-family: var(--mono);
+  font-size: 11px;
+  width: 240px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+.filter-bar input[type=text]:focus { border-color: var(--dem); }
+.filter-bar input[type=text]::placeholder { color: var(--text-dim); }
+.btn-group { display: flex; gap: 0; }
+.btn-group button {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  padding: 6px 14px;
+  font-family: var(--mono);
+  font-size: 10px;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: all 0.15s;
+}
+.btn-group button:first-child { border-radius: var(--radius) 0 0 var(--radius); }
+.btn-group button:last-child  { border-radius: 0 var(--radius) var(--radius) 0; }
+.btn-group button.active { background: var(--dem-bg); border-color: var(--dem); color: var(--dem); }
+.filter-label { font-family: var(--mono); font-size: 10px; color: var(--text-dim); letter-spacing: 0.06em; }
+
+/* ── Toggle only-targets ── */
+.toggle-wrap { display: flex; align-items: center; gap: 6px; cursor: pointer; }
+.toggle-wrap input { cursor: pointer; accent-color: var(--dem); }
+.toggle-wrap span { font-family: var(--mono); font-size: 10px; color: var(--text-dim); }
+
+/* ── Pill badge ── */
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.badge-target { background: var(--dem-bg); color: var(--dem); border: 1px solid var(--dem-dim); }
+.badge-yes    { background: var(--green-bg); color: var(--green); }
+.badge-no     { background: transparent; color: var(--text-dim); }
+
+/* ── Key / legend table ── */
+.key-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+.key-table th {
+  font-family: var(--mono); font-size: 9px; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--text-dim);
+  padding: 8px 12px; border-bottom: 1px solid var(--border); text-align: left;
+}
+.key-table td { padding: 8px 12px; border-bottom: 1px solid var(--border); color: var(--text); vertical-align: top; }
+.key-table td:first-child { font-family: var(--mono); color: var(--dem); font-size: 11px; white-space: nowrap; }
+.key-table tr:hover td { background: var(--surface2); }
+
+/* ── Rate gauge ── */
+.rate-row { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
+.rate-label { font-family: var(--mono); font-size: 10px; color: var(--text-dim); width: 180px; flex-shrink: 0; }
+.rate-bar-wrap { flex: 1; background: var(--bg); border-radius: 2px; height: 14px; overflow: hidden; }
+.rate-bar-fill { height: 100%; border-radius: 2px; transition: width 0.4s; }
+.rate-val { font-family: var(--mono); font-size: 11px; font-weight: 600; width: 50px; text-align: right; flex-shrink: 0; }
+
+/* ── Loading / error ── */
+.loading { color: var(--text-dim); font-family: var(--mono); font-size: 12px; padding: 40px 20px; }
+.error-box {
+  background: var(--rep-bg); border: 1px solid var(--rep-dim);
+  color: var(--text-hi); padding: 20px; border-radius: var(--radius);
+  font-family: var(--mono); font-size: 11px; line-height: 1.7; max-width: 600px;
+}
+.error-box code { background: rgba(255,255,255,0.08); padding: 1px 5px; border-radius: 3px; }
+
+/* ── Compact summary row ── */
+.summary-row {
+  display: flex; gap: 24px; flex-wrap: wrap;
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 12px 16px; margin-bottom: 16px;
+}
+.summary-item { font-family: var(--mono); font-size: 11px; color: var(--text-dim); }
+.summary-item strong { color: var(--text-hi); }
+.summary-item .dem { color: var(--dem); }
+.summary-item .green { color: var(--green); }
+.summary-item .warn { color: var(--orange); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <div class="logo">DPVA // CURE TRACKER</div>
+    <div class="election-badge" id="electionBadge">Loading…</div>
+  </div>
+  <div class="header-right">
+    <div class="meta-item">Snapshot<span id="metaSnap">—</span></div>
+    <div class="meta-item">Exported<span id="metaDate">—</span></div>
+    <div class="meta-item">Records<span id="metaRecords">—</span></div>
+  </div>
+</header>
+
+<nav>
+  <div class="tab active" data-tab="statewide">Statewide</div>
+  <div class="tab" data-tab="locality">By Locality</div>
+  <div class="tab" data-tab="byhd">By HD</div>
+  <div class="tab" data-tab="reasons">Rej. Reasons</div>
+  <div class="tab" data-tab="key">Key / Definitions</div>
+</nav>
+
+<main id="mainContent">
+  <div class="loading" id="loadingMsg">Loading cure_data.json …</div>
+</main>
+
+<script>
+// ─────────────────────────────────────────────────────────────
+// State
+// ─────────────────────────────────────────────────────────────
+let DATA = null;
+let currentTab = 'statewide';
+let localitySort = { col: 'ever_not_accepted', dir: -1 };
+let hdSort = { col: 'ever_not_accepted', dir: -1 };
+let localityFilter = '';
+let hdFilter = '';
+let localityTargetsOnly = false;
+
+// ─────────────────────────────────────────────────────────────
+// Boot
+// ─────────────────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', () => {
+  fetch('data/cure_data.json')
+    .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+    .then(d => { DATA = d; init(); })
+    .catch(err => {
+      document.getElementById('mainContent').innerHTML = `
+        <div class="error-box">
+          <strong>Could not load data/cure_data.json</strong><br><br>
+          ${err.message}<br><br>
+          Run <code>export_cure_dashboard.py</code> and commit the
+          <code>data/cure_data.json</code> file to this repo.<br><br>
+          For local testing, use <code>python -m http.server</code>
+          (not file://) to avoid CORS issues.
+        </div>`;
+    });
+
+  document.querySelectorAll('.tab').forEach(t => {
+    t.addEventListener('click', () => {
+      currentTab = t.dataset.tab;
+      document.querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
+      t.classList.add('active');
+      renderCurrentTab();
+    });
+  });
+});
+
+function init() {
+  const m = DATA.meta;
+  document.getElementById('electionBadge').textContent = m.election_name || 'Election';
+  document.getElementById('metaSnap').textContent   = m.snapshot_date  || '—';
+  document.getElementById('metaDate').textContent   = m.export_time    || '—';
+  document.getElementById('metaRecords').textContent = (m.source_records || 0).toLocaleString();
+  renderCurrentTab();
+}
+
+function renderCurrentTab() {
+  const main = document.getElementById('mainContent');
+  main.innerHTML = '';
+  const panel = document.createElement('div');
+  panel.className = 'panel active';
+
+  switch (currentTab) {
+    case 'statewide': renderStatewide(panel); break;
+    case 'locality':  renderLocality(panel);  break;
+    case 'byhd':      renderByHD(panel);      break;
+    case 'reasons':   renderReasons(panel);   break;
+    case 'key':       renderKey(panel);       break;
+  }
+  main.appendChild(panel);
+}
+
+// ─────────────────────────────────────────────────────────────
+// Helpers
+// ─────────────────────────────────────────────────────────────
+const fmtN  = n => (n == null ? '—' : Number(n).toLocaleString());
+const fmtP  = v => (v == null ? '—' : (v * 100).toFixed(1) + '%');
+const fmtP1 = v => (v == null ? '—' : (v * 100).toFixed(0) + '%');
+
+function rateClass(v, goodBelow, warnBelow) {
+  if (v == null) return '';
+  if (v <= goodBelow)  return 'good';
+  if (v <= warnBelow)  return 'warn';
+  return 'bad';
+}
+function cureRateClass(v) {
+  if (v == null) return '';
+  if (v >= 0.8)  return 'good';
+  if (v >= 0.5)  return 'warn';
+  return 'bad';
+}
+
+function makeFunnelRow(label, count, total, color) {
+  const pct = total > 0 ? count / total : 0;
+  const w   = Math.max(1, pct * 100).toFixed(1);
+  return `
+    <div class="funnel-row">
+      <div class="funnel-label">${label}</div>
+      <div class="funnel-bar-wrap">
+        <div class="funnel-bar-fill" style="width:${w}%;background:${color};">
+          <span class="inner-label">${fmtP1(pct)}</span>
+        </div>
+      </div>
+      <div class="funnel-count">${fmtN(count)}</div>
+    </div>`;
+}
+
+function makePartyBar(demCount, totalCount) {
+  const demPct = totalCount > 0 ? (demCount / totalCount * 100).toFixed(1) : 0;
+  const repPct = (100 - parseFloat(demPct)).toFixed(1);
+  return `
+    <div class="party-bar-wrap">
+      <div class="party-bar-dem" style="width:${demPct}%">
+        <span class="party-bar-label">${demPct}% D</span>
+      </div>
+      <div class="party-bar-rep" style="width:${repPct}%">
+        <span class="party-bar-label">${repPct}% R</span>
+      </div>
+    </div>
+    <div class="party-legend">
+      <div class="party-legend-item"><div class="legend-dot" style="background:var(--dem)"></div>Dem ${fmtN(demCount)}</div>
+      <div class="party-legend-item"><div class="legend-dot" style="background:var(--rep)"></div>Rep ${fmtN(totalCount - demCount)}</div>
+    </div>`;
+}
+
+function makeRateRow(label, val, color, max) {
+  const w = Math.min(100, (val || 0) * 100 / (max || 1) * 100).toFixed(1);
+  return `
+    <div class="rate-row">
+      <div class="rate-label">${label}</div>
+      <div class="rate-bar-wrap">
+        <div class="rate-bar-fill" style="width:${w}%;background:${color};"></div>
+      </div>
+      <div class="rate-val" style="color:${color}">${fmtP(val)}</div>
+    </div>`;
+}
+
+// ─────────────────────────────────────────────────────────────
+// STATEWIDE
+// ─────────────────────────────────────────────────────────────
+function renderStatewide(el) {
+  const s = DATA.statewide;
+  if (!s) { el.innerHTML = '<div class="loading">No statewide data.</div>'; return; }
+
+  // KPIs row 1
+  let html = `<div class="section-title">Statewide Summary — All Ballots</div>
+  <div class="kpi-grid">
+    <div class="kpi dem-tinted">
+      <div class="kpi-label">Total Attempts</div>
+      <div class="kpi-value">${fmtN(s.total_attempts)}</div>
+      <div class="kpi-sub">Ballots entered cure universe</div>
+    </div>
+    <div class="kpi dem-tinted">
+      <div class="kpi-label">Total VBM Accepted</div>
+      <div class="kpi-value">${fmtN(s.total_vbm)}</div>
+      <div class="kpi-sub"><span class="dem">${fmtP(s.dem_pct_vbm)} Dem</span></div>
+    </div>
+    <div class="kpi warn-tinted">
+      <div class="kpi-label">Ever Needs Cure</div>
+      <div class="kpi-value">${fmtN(s.ever_not_accepted)}</div>
+      <div class="kpi-sub">Had rejection at any point · <span class="dem">${fmtP(s.ever_not_accepted_dem_pct)} Dem</span></div>
+    </div>
+    <div class="kpi warn-tinted">
+      <div class="kpi-label">Currently Needs Cure</div>
+      <div class="kpi-value">${fmtN(s.currently_needs_cure)}</div>
+      <div class="kpi-sub">Still rejected today · <span class="dem">${fmtN(s.currently_needs_cure_dem)} Dem</span></div>
+    </div>
+    <div class="kpi green-tinted">
+      <div class="kpi-label">Cured</div>
+      <div class="kpi-value">${fmtN(s.cured_total)}</div>
+      <div class="kpi-sub"><span class="dem">${fmtN(s.cured_dem)} Dem</span> · <span class="green">${fmtP(s.cure_rate)} cure rate</span></div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">Never Needs Cure</div>
+      <div class="kpi-value">${fmtN(s.never_needs_cure)}</div>
+      <div class="kpi-sub">Accepted without rejection</div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">Switched → EVIP</div>
+      <div class="kpi-value">${fmtN(s.switched_to_evip)}</div>
+      <div class="kpi-sub">Voted in person after cure attempt · <span class="dem">${fmtP(s.dem_pct_evip)} Dem</span></div>
+    </div>
+    <div class="kpi">
+      <div class="kpi-label">Re-Issued</div>
+      <div class="kpi-value">${fmtN(s.reissued)}</div>
+      <div class="kpi-sub">New ballot issued after rejection · <span class="dem">${fmtP(s.dem_pct_reissued)} Dem</span></div>
+    </div>
+  </div>`;
+
+  // Two column: funnel + rates
+  html += `<div class="two-col">`;
+
+  // Funnel
+  html += `<div class="card">
+    <div class="card-title">Cure Funnel — Total Attempts Breakdown</div>`;
+  html += makeFunnelRow('Total Attempts',       s.total_attempts,       s.total_attempts, '#2a4a66');
+  html += makeFunnelRow('Never Needs Cure',     s.never_needs_cure,     s.total_attempts, 'var(--green)');
+  html += makeFunnelRow('Ever Needs Cure',      s.ever_not_accepted,    s.total_attempts, 'var(--orange)');
+  html += makeFunnelRow('↳ Cured',              s.cured_total,          s.total_attempts, 'var(--dem)');
+  html += makeFunnelRow('↳ Currently Rejected', s.currently_needs_cure, s.total_attempts, 'var(--rep)');
+  html += makeFunnelRow('↳ Switched to EVIP',   s.switched_to_evip,     s.total_attempts, '#8855ff');
+  html += makeFunnelRow('↳ Re-Issued',          s.reissued,             s.total_attempts, 'var(--yellow)');
+  html += `</div>`;
+
+  // Rates
+  html += `<div class="card">
+    <div class="card-title">Rejection &amp; Cure Rates</div>`;
+  html += makeRateRow('Pre-Cure Rejection Rate',         s.pre_cure_rej_rate,  'var(--orange)', 0.30);
+  html += makeRateRow('Post-Cure Rejection Rate',        s.post_cure_rej_rate, 'var(--rep)',    0.30);
+  html += makeRateRow('Cure Rate (Cured / Ever Rej.)',   s.cure_rate,          'var(--green)',  1.00);
+  html += makeRateRow('Dem Pre-Cure Rate',               s.dem_pre_cure_rate,  'var(--dem)',    0.30);
+  html += makeRateRow('Dem Post-Cure Rate',              s.dem_post_cure_rate, 'var(--dem)',    0.30);
+  html += `<div style="margin-top:16px"><div class="card-title">Ever Needs Cure — Party Breakdown</div>`;
+  html += makePartyBar(s.ever_not_accepted_dem, s.ever_not_accepted);
+  html += `</div></div>`;
+
+  html += `</div>`; // end two-col
+
+  // Currently Needs Cure card
+  if (s.currently_needs_cure > 0) {
+    html += `<div class="card" style="max-width:420px">
+      <div class="card-title">Currently Needs Cure — Party Split</div>`;
+    html += makePartyBar(s.currently_needs_cure_dem, s.currently_needs_cure);
+    html += `</div>`;
+  }
+
+  el.innerHTML = html;
+}
+
+// ─────────────────────────────────────────────────────────────
+// BY LOCALITY
+// ─────────────────────────────────────────────────────────────
+function renderLocality(el) {
+  const rows = DATA.by_locality;
+  if (!rows || !rows.length) { el.innerHTML = '<div class="loading">No locality data.</div>'; return; }
+
+  const cols = [
+    { key: 'locality',            label: 'Locality',              fmt: r => r.locality },
+    { key: 'target_hd',           label: 'Target',                fmt: r => r.target_hd && r.target_hd !== 'No' ? `<span class="badge badge-target">${r.target_hd}</span>` : '' },
+    { key: 'attempts',            label: 'Attempts',              fmt: r => fmtN(r.attempts) },
+    { key: 'total_vbm',           label: 'VBM Acc.',              fmt: r => fmtN(r.total_vbm) },
+    { key: 'dem_pct_vbm',         label: '% Dem',                 fmt: r => `<span class="dem">${fmtP(r.dem_pct_vbm)}</span>` },
+    { key: 'ever_not_accepted',   label: 'Ever Cure',             fmt: r => r.ever_not_accepted > 0 ? fmtN(r.ever_not_accepted) : '<span class="dim">—</span>' },
+    { key: 'currently_needs_cure',label: 'Curr. Needs Cure',      fmt: r => {
+      if (!r.currently_needs_cure) return '<span class="dim">—</span>';
+      return `<span class="${r.currently_needs_cure > 0 ? 'warn' : ''}">${fmtN(r.currently_needs_cure)}</span>`;
+    }},
+    { key: 'dem_currently_needs_cure', label: 'Dem Curr.',        fmt: r => r.dem_currently_needs_cure > 0 ? `<span class="dem">${fmtN(r.dem_currently_needs_cure)}</span>` : '<span class="dim">—</span>' },
+    { key: 'cured',               label: 'Cured',                 fmt: r => r.cured > 0 ? `<span class="good">${fmtN(r.cured)}</span>` : '<span class="dim">—</span>' },
+    { key: 'cure_rate',           label: 'Cure Rate',             fmt: r => r.ever_not_accepted ? `<span class="${cureRateClass(r.cure_rate)}">${fmtP(r.cure_rate)}</span>` : '<span class="dim">—</span>' },
+    { key: 'pre_cure_rej_rate',   label: 'Pre-Cure %',            fmt: r => r.pre_cure_rej_rate != null ? `<span class="${rateClass(r.pre_cure_rej_rate, 0.05, 0.10)}">${fmtP(r.pre_cure_rej_rate)}</span>` : '<span class="dim">—</span>' },
+    { key: 'post_cure_rej_rate',  label: 'Post-Cure %',           fmt: r => r.post_cure_rej_rate != null ? `<span class="${rateClass(r.post_cure_rej_rate, 0.03, 0.07)}">${fmtP(r.post_cure_rej_rate)}</span>` : '<span class="dim">—</span>' },
+    { key: 'rej_vs_statewide',    label: '△ vs State',            fmt: r => {
+      const v = r.rej_vs_statewide;
+      if (v == null) return '<span class="dim">—</span>';
+      const sign = v >= 0 ? '+' : '';
+      const cls  = v > 0.02 ? 'bad' : (v < -0.02 ? 'good' : 'dim');
+      return `<span class="${cls}">${sign}${(v*100).toFixed(1)}pp</span>`;
+    }},
+  ];
+
+  const statewide = DATA.statewide;
+
+  // Summary row
+  const totalCureLocalities = rows.filter(r => r.ever_not_accepted > 0).length;
+  let html = `
+  <div class="summary-row">
+    <div class="summary-item">Localities: <strong>${rows.length}</strong></div>
+    <div class="summary-item">With cure activity: <strong>${totalCureLocalities}</strong></div>
+    <div class="summary-item">State pre-cure rate: <strong class="warn">${fmtP(statewide?.pre_cure_rej_rate)}</strong></div>
+    <div class="summary-item">State post-cure rate: <strong class="warn">${fmtP(statewide?.post_cure_rej_rate)}</strong></div>
+    <div class="summary-item">State cure rate: <strong class="green">${fmtP(statewide?.cure_rate)}</strong></div>
+  </div>`;
+
+  // Filter bar
+  html += `
+  <div class="filter-bar">
+    <input type="text" id="localitySearch" placeholder="Search locality…" value="${localityFilter}">
+    <label class="toggle-wrap">
+      <input type="checkbox" id="targetsOnly" ${localityTargetsOnly ? 'checked' : ''}>
+      <span>Target HDs only</span>
+    </label>
+  </div>`;
+
+  // Table
+  html += `<div class="tbl-wrap"><table><thead><tr>`;
+  cols.forEach((c, i) => {
+    const sorted = localitySort.col === c.key;
+    const arrow = sorted ? (localitySort.dir === -1 ? '▼' : '▲') : '⇅';
+    html += `<th class="${sorted ? 'sorted' : ''}" data-col="${c.key}">${c.label} <span class="sort-arrow">${arrow}</span></th>`;
+  });
+  html += `</tr></thead><tbody id="localityTbody">`;
+
+  let filtered = rows.filter(r => {
+    if (localityFilter && !r.locality.toLowerCase().includes(localityFilter.toLowerCase())) return false;
+    if (localityTargetsOnly && (!r.target_hd || r.target_hd === 'No')) return false;
+    return true;
+  });
+  filtered.sort((a, b) => {
+    let va = a[localitySort.col]; let vb = b[localitySort.col];
+    if (va == null) va = localitySort.dir < 0 ? -Infinity : Infinity;
+    if (vb == null) vb = localitySort.dir < 0 ? -Infinity : Infinity;
+    if (typeof va === 'string') return localitySort.dir * va.localeCompare(vb);
+    return localitySort.dir * (vb - va);
+  });
+
+  filtered.forEach(r => {
+    const isTarget = r.target_hd && r.target_hd !== 'No';
+    html += `<tr class="${isTarget ? 'target-row' : ''}">`;
+    cols.forEach(c => {
+      html += `<td>${c.fmt(r)}</td>`;
+    });
+    html += `</tr>`;
+  });
+  html += `</tbody></table></div>`;
+
+  el.innerHTML = html;
+
+  // Wire up events
+  el.querySelector('#localitySearch').addEventListener('input', e => {
+    localityFilter = e.target.value; renderCurrentTab();
+  });
+  el.querySelector('#targetsOnly').addEventListener('change', e => {
+    localityTargetsOnly = e.target.checked; renderCurrentTab();
+  });
+  el.querySelectorAll('thead th').forEach(th => {
+    th.addEventListener('click', () => {
+      const col = th.dataset.col;
+      if (!col) return;
+      if (localitySort.col === col) localitySort.dir *= -1;
+      else { localitySort.col = col; localitySort.dir = -1; }
+      renderCurrentTab();
+    });
+  });
+}
+
+// ─────────────────────────────────────────────────────────────
+// BY HD
+// ─────────────────────────────────────────────────────────────
+function renderByHD(el) {
+  const rows = DATA.by_hd;
+  if (!rows || !rows.length) { el.innerHTML = '<div class="loading">No HD data.</div>'; return; }
+
+  const cols = [
+    { key: 'hd',                  label: 'HD',               fmt: r => r.hd },
+    { key: 'target',              label: 'Target',           fmt: r => r.target ? `<span class="badge badge-target">TARGET</span>` : '' },
+    { key: 'localities',          label: 'Localities',       fmt: r => r.localities || '—' },
+    { key: 'attempts',            label: 'Attempts',         fmt: r => fmtN(r.attempts) },
+    { key: 'total_vbm',           label: 'VBM',              fmt: r => fmtN(r.total_vbm) },
+    { key: 'dem_pct_vbm',         label: '% Dem',            fmt: r => `<span class="dem">${fmtP(r.dem_pct_vbm)}</span>` },
+    { key: 'ever_not_accepted',   label: 'Ever Cure',        fmt: r => r.ever_not_accepted > 0 ? fmtN(r.ever_not_accepted) : '<span class="dim">—</span>' },
+    { key: 'currently_needs_cure',label: 'Curr. Needs Cure', fmt: r => r.currently_needs_cure > 0 ? `<span class="warn">${fmtN(r.currently_needs_cure)}</span>` : '<span class="dim">—</span>' },
+    { key: 'dem_currently_needs_cure', label: 'Dem Curr.',   fmt: r => r.dem_currently_needs_cure > 0 ? `<span class="dem">${fmtN(r.dem_currently_needs_cure)}</span>` : '<span class="dim">—</span>' },
+    { key: 'cured',               label: 'Cured',            fmt: r => r.cured > 0 ? `<span class="good">${fmtN(r.cured)}</span>` : '<span class="dim">—</span>' },
+    { key: 'cure_rate',           label: 'Cure Rate',        fmt: r => r.ever_not_accepted ? `<span class="${cureRateClass(r.cure_rate)}">${fmtP(r.cure_rate)}</span>` : '<span class="dim">—</span>' },
+    { key: 'pre_cure_rej_rate',   label: 'Pre-Cure %',       fmt: r => r.pre_cure_rej_rate != null ? `<span class="${rateClass(r.pre_cure_rej_rate, 0.05, 0.10)}">${fmtP(r.pre_cure_rej_rate)}</span>` : '<span class="dim">—</span>' },
+    { key: 'post_cure_rej_rate',  label: 'Post-Cure %',      fmt: r => r.post_cure_rej_rate != null ? `<span class="${rateClass(r.post_cure_rej_rate, 0.03, 0.07)}">${fmtP(r.post_cure_rej_rate)}</span>` : '<span class="dim">—</span>' },
+  ];
+
+  let html = `
+  <div class="filter-bar">
+    <input type="text" id="hdSearch" placeholder="Filter by HD or locality…" value="${hdFilter}">
+  </div>`;
+
+  html += `<div class="tbl-wrap"><table><thead><tr>`;
+  cols.forEach(c => {
+    const sorted = hdSort.col === c.key;
+    const arrow  = sorted ? (hdSort.dir === -1 ? '▼' : '▲') : '⇅';
+    html += `<th class="${sorted ? 'sorted' : ''}" data-col="${c.key}">${c.label} <span class="sort-arrow">${arrow}</span></th>`;
+  });
+  html += `</tr></thead><tbody>`;
+
+  let filtered = rows.filter(r => {
+    if (!hdFilter) return true;
+    const q = hdFilter.toLowerCase();
+    return (r.hd || '').includes(q) || (r.localities || '').toLowerCase().includes(q);
+  });
+  filtered.sort((a, b) => {
+    let va = a[hdSort.col]; let vb = b[hdSort.col];
+    if (va == null) va = hdSort.dir < 0 ? -Infinity : Infinity;
+    if (vb == null) vb = hdSort.dir < 0 ? -Infinity : Infinity;
+    if (typeof va === 'string') return hdSort.dir * va.localeCompare(vb);
+    return hdSort.dir * (vb - va);
+  });
+
+  filtered.forEach(r => {
+    html += `<tr class="${r.target ? 'target-row' : ''}">`;
+    cols.forEach(c => html += `<td>${c.fmt(r)}</td>`);
+    html += `</tr>`;
+  });
+  html += `</tbody></table></div>`;
+
+  el.innerHTML = html;
+  el.querySelector('#hdSearch').addEventListener('input', e => {
+    hdFilter = e.target.value; renderCurrentTab();
+  });
+  el.querySelectorAll('thead th').forEach(th => {
+    th.addEventListener('click', () => {
+      const col = th.dataset.col;
+      if (!col) return;
+      if (hdSort.col === col) hdSort.dir *= -1;
+      else { hdSort.col = col; hdSort.dir = -1; }
+      renderCurrentTab();
+    });
+  });
+}
+
+// ─────────────────────────────────────────────────────────────
+// REJECTION REASONS
+// ─────────────────────────────────────────────────────────────
+function renderReasons(el) {
+  const rows = DATA.rejection_reasons;
+  if (!rows || !rows.length) { el.innerHTML = '<div class="loading">No rejection reason data.</div>'; return; }
+
+  const total = rows.reduce((s, r) => s + (r.total || 0), 0);
+
+  let html = `<div class="section-title">Rejection Reasons — All Ballots</div>
+  <div class="two-col">
+  <div class="card">
+    <div class="card-title">Breakdown by Reason (initial rejection)</div>`;
+
+  rows.forEach(r => {
+    const pct = total > 0 ? r.total / total : 0;
+    const w   = (pct * 100).toFixed(1);
+    const isNeedsCure = r.reason && r.reason.toLowerCase().includes('needs cure');
+    const color = isNeedsCure ? 'var(--orange)' : (r.reason === 'Undeliverable' ? '#8855ff' : 'var(--text-dim)');
+    html += `<div class="funnel-row">
+      <div class="funnel-label" style="color:var(--text)">${r.reason}</div>
+      <div class="funnel-bar-wrap">
+        <div class="funnel-bar-fill" style="width:${w}%;background:${color}">
+          <span class="inner-label">${fmtP1(pct)}</span>
+        </div>
+      </div>
+      <div class="funnel-count">${fmtN(r.total)}</div>
+    </div>`;
+  });
+
+  html += `</div>
+  <div class="card">
+    <div class="card-title">Party Breakdown by Reason</div>
+    <div class="tbl-wrap"><table>
+    <thead><tr>
+      <th style="text-align:left">Reason</th>
+      <th>Total</th>
+      <th>Dem</th>
+      <th>% Dem</th>
+      <th>Rep</th>
+      <th>Cure Rate</th>
+    </tr></thead><tbody>`;
+
+  rows.forEach(r => {
+    const demPct = r.total > 0 ? r.dem / r.total : null;
+    html += `<tr>
+      <td>${r.reason}</td>
+      <td>${fmtN(r.total)}</td>
+      <td class="dem">${fmtN(r.dem)}</td>
+      <td class="dem">${fmtP(demPct)}</td>
+      <td class="rep">${fmtN(r.rep)}</td>
+      <td class="${cureRateClass(r.cure_rate)}">${fmtP(r.cure_rate)}</td>
+    </tr>`;
+  });
+
+  html += `</tbody></table></div></div></div>`;
+
+  // Status flow table
+  if (DATA.status_transitions) {
+    html += `<div class="card" style="margin-top:16px">
+      <div class="card-title">Rejection → Current Status Flow</div>
+      <div class="tbl-wrap"><table>
+      <thead><tr>
+        <th style="text-align:left">Rejection Reason</th>
+        <th>Still Unmarked</th>
+        <th>Now Marked (Cured)</th>
+        <th>EVIP</th>
+        <th>Re-Issued</th>
+        <th>Total</th>
+        <th>Cure Rate</th>
+      </tr></thead><tbody>`;
+    DATA.status_transitions.forEach(r => {
+      html += `<tr>
+        <td>${r.rejection_reason}</td>
+        <td class="warn">${fmtN(r.still_unmarked)}</td>
+        <td class="good">${fmtN(r.now_marked)}</td>
+        <td>${fmtN(r.evip)}</td>
+        <td>${fmtN(r.reissued)}</td>
+        <td>${fmtN(r.total)}</td>
+        <td class="${cureRateClass(r.cure_rate)}">${fmtP(r.cure_rate)}</td>
+      </tr>`;
+    });
+    html += `</tbody></table></div></div>`;
+  }
+
+  el.innerHTML = html;
+}
+
+// ─────────────────────────────────────────────────────────────
+// KEY / DEFINITIONS
+// ─────────────────────────────────────────────────────────────
+function renderKey(el) {
+  el.innerHTML = `
+  <div class="section-title">Data Dictionary &amp; Interpretation Logic</div>
+  <div class="two-col">
+  <div class="card">
+    <div class="card-title">Ballot Status Interpretation (from VAN / ELECT field)</div>
+    <table class="key-table">
+    <thead><tr><th>ELECT Status</th><th>Sub-Status</th><th>Cure Category</th><th>Accepted?</th></tr></thead>
+    <tbody>
+      <tr><td>Unmarked</td><td>Needs Cure</td><td>Attempted — Ever Not Accepted</td><td>Not Accepted</td></tr>
+      <tr><td>Unmarked</td><td>Other</td><td>Attempted — Ever Not Accepted</td><td>Not Accepted</td></tr>
+      <tr><td>Unmarked</td><td>Undeliverable</td><td>No Attempt (no cure needed)</td><td>—</td></tr>
+      <tr><td>Unmarked</td><td>Voter doesn't want</td><td>No Attempt</td><td>—</td></tr>
+      <tr><td>Unmarked</td><td>Blank/No Reason</td><td>No Attempt</td><td>—</td></tr>
+      <tr><td>Marked / Pre-Processed</td><td>VBM</td><td>Attempted — Accepted</td><td>Accepted</td></tr>
+      <tr><td>On Machine</td><td>EVIP</td><td>No Attempt (voted in person)</td><td>Accepted</td></tr>
+      <tr><td>Issued</td><td>Outstanding</td><td>No Attempt (still out)</td><td>—</td></tr>
+    </tbody>
+    </table>
+  </div>
+  <div class="card">
+    <div class="card-title">Internal Cure Categories (derived)</div>
+    <table class="key-table">
+    <thead><tr><th>Category</th><th>Definition</th></tr></thead>
+    <tbody>
+      <tr><td>Never Needs Cure</td><td>No record of "Needs Cure" or "Other" — current status is Marked/Pre-Processed</td></tr>
+      <tr><td>Ever Not Accepted</td><td>Had "Needs Cure" or "Other" at any point in history</td></tr>
+      <tr><td>Cured</td><td>Had rejection; current status is now Marked/Pre-Processed</td></tr>
+      <tr><td>Cured → EVIP</td><td>Had rejection; current status is On Machine (voted in person)</td></tr>
+      <tr><td>Ballot Re-Issued</td><td>Had rejection; current status is Issued (new ballot sent)</td></tr>
+      <tr><td>Currently Needs Cure</td><td>Current status is Unmarked with "Needs Cure" or "Other"</td></tr>
+      <tr><td>Total Attempts</td><td>Never Rejected + Ever Rejected (all ballots that entered cure universe)</td></tr>
+    </tbody>
+    </table>
+  </div>
+  </div>
+  <div class="card" style="margin-top:16px">
+    <div class="card-title">Key Metrics Formulas</div>
+    <table class="key-table">
+    <thead><tr><th>Metric</th><th>Formula</th><th>Interpretation</th></tr></thead>
+    <tbody>
+      <tr><td>Pre-Cure Rejection Rate</td><td>Ever Not Accepted / Total Attempts</td><td>Share of all attempt ballots that had at least one rejection — before any cure effort</td></tr>
+      <tr><td>Post-Cure Rejection Rate</td><td>Currently Needs Cure / Total Attempts</td><td>Share still rejected today — the residual problem after cure efforts</td></tr>
+      <tr><td>Cure Rate</td><td>Cured / Ever Not Accepted</td><td>Of all voters who had a rejection, how many have been resolved</td></tr>
+      <tr><td>△ vs Statewide</td><td>Locality Post-Cure Rate − Statewide Post-Cure Rate</td><td>Positive = worse than state avg; negative = better than state avg</td></tr>
+      <tr><td>Dem Rejection Rate</td><td>Dem Ever Not Accepted / Total Dem Attempts</td><td>Rejection rate among Dem voters specifically</td></tr>
+    </tbody>
+    </table>
+  </div>
+  <div class="card" style="margin-top:16px; max-width:500px">
+    <div class="card-title">Source Tables (Absentee DB, INSTANCE-1)</div>
+    <table class="key-table">
+    <thead><tr><th>Table</th><th>Description</th></tr></thead>
+    <tbody>
+      <tr><td>Daily_Absentee_List</td><td>Current-day snapshot — one row per ballot, today's status</td></tr>
+      <tr><td>Cure_History</td><td>Cumulative cure log — all rejection events across all snapshots</td></tr>
+      <tr><td>dbo.van</td><td>Voter demographics bridge — party, age, HD, locality</td></tr>
+      <tr><td>Targets</td><td>Target HD list for the current election cycle</td></tr>
+    </tbody>
+    </table>
+  </div>`;
+}
+</script>
+</body>
+</html>
