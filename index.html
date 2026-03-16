@@ -1099,8 +1099,8 @@ function renderNeedsCureList(el) {
       fmt: r => r.rejection_reason
         ? `<span style="color:var(--orange);font-size:11px">${r.rejection_reason}</span>`
         : '<span class="dim">—</span>' },
-    { key: 'ballot_status_reason', label: 'Notes',          align: 'left',
-      fmt: r => r.ballot_status_reason || '<span class="dim">—</span>' },
+    { key: 'ballot_comment',      label: 'Comment',         align: 'left',
+      fmt: r => r.ballot_comment || '<span class="dim">—</span>' },
   ];
 
   let html = `<div class="section-title">Currently Needs Cure — Voter List</div>`;
@@ -1222,7 +1222,7 @@ function exportNeedsCureCsv(filteredRows) {
     'CountyName', 'PrecinctName',
     'Age', 'Sex', 'DOB',
     'Party', 'HD', 'Locality', 'CountyName_Cure',
-    'RejectionReason', 'Notes', 'CureStatus'
+    'RejectionReason', 'Ballot_Comment', 'CureStatus'
   ];
   const csvRows = filteredRows.map(r => [
     r.voter_file_vanid, r.state_file_id,
@@ -1232,7 +1232,7 @@ function exportNeedsCureCsv(filteredRows) {
     r.county_name, r.precinct_name,
     r.age, r.sex, r.dob,
     r.party, r.hd, r.locality, r.county_name,
-    r.rejection_reason, r.ballot_status_reason, r.cure_status
+    r.rejection_reason, r.ballot_comment, r.cure_status
   ].map(csvEscape).join(','));
   const csv = [headers.join(','), ...csvRows].join('\r\n');
   downloadCsv(csv, `needs_cure_${snap}.csv`);

@@ -2,7 +2,7 @@
   "meta": {
     "election_name": "2026 April 21 Special",
     "snapshot_date": "2026-03-15",
-    "export_time": "2026-03-16 01:18",
+    "export_time": "2026-03-16 01:31",
     "source_records": 370,
     "target_hds": [
       "021",
@@ -195,6 +195,24 @@
       "rej_vs_statewide": 0.014693
     },
     {
+      "locality": "WARREN COUNTY",
+      "hd": "033",
+      "target_hd": "No",
+      "attempts": 286,
+      "total_vbm": 276,
+      "dem_pct_vbm": 0.576087,
+      "ever_not_accepted": 10,
+      "ever_not_accepted_dem": 8,
+      "currently_needs_cure": 10,
+      "currently_needs_cure_dem": 8,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.034965,
+      "post_cure_rej_rate": 0.034965,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": 0.018516
+    },
+    {
       "locality": "CAROLINE COUNTY",
       "hd": "067",
       "target_hd": "No",
@@ -229,24 +247,6 @@
       "post_cure_rej_rate": 0.029412,
       "cure_rate": 0.1,
       "rej_vs_statewide": 0.012963
-    },
-    {
-      "locality": "WARREN COUNTY",
-      "hd": "033",
-      "target_hd": "No",
-      "attempts": 286,
-      "total_vbm": 276,
-      "dem_pct_vbm": 0.576087,
-      "ever_not_accepted": 10,
-      "ever_not_accepted_dem": 8,
-      "currently_needs_cure": 10,
-      "currently_needs_cure_dem": 8,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.034965,
-      "post_cure_rej_rate": 0.034965,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": 0.018516
     },
     {
       "locality": "AMHERST COUNTY",
@@ -285,24 +285,6 @@
       "rej_vs_statewide": -0.002624
     },
     {
-      "locality": "WISE COUNTY",
-      "hd": "045",
-      "target_hd": "No",
-      "attempts": 106,
-      "total_vbm": 98,
-      "dem_pct_vbm": 0.346939,
-      "ever_not_accepted": 8,
-      "ever_not_accepted_dem": 1,
-      "currently_needs_cure": 8,
-      "currently_needs_cure_dem": 1,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.075472,
-      "post_cure_rej_rate": 0.075472,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": 0.059023
-    },
-    {
       "locality": "BEDFORD COUNTY",
       "hd": "053",
       "target_hd": "No",
@@ -319,6 +301,24 @@
       "post_cure_rej_rate": 0.039024,
       "cure_rate": 0.0,
       "rej_vs_statewide": 0.022575
+    },
+    {
+      "locality": "WISE COUNTY",
+      "hd": "045",
+      "target_hd": "No",
+      "attempts": 106,
+      "total_vbm": 98,
+      "dem_pct_vbm": 0.346939,
+      "ever_not_accepted": 8,
+      "ever_not_accepted_dem": 1,
+      "currently_needs_cure": 8,
+      "currently_needs_cure_dem": 1,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.075472,
+      "post_cure_rej_rate": 0.075472,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": 0.059023
     },
     {
       "locality": "CHARLES CITY COUNTY",
@@ -357,24 +357,6 @@
       "rej_vs_statewide": 0.026496
     },
     {
-      "locality": "PULASKI COUNTY",
-      "hd": "046",
-      "target_hd": "No",
-      "attempts": 215,
-      "total_vbm": 208,
-      "dem_pct_vbm": 0.567308,
-      "ever_not_accepted": 7,
-      "ever_not_accepted_dem": 5,
-      "currently_needs_cure": 7,
-      "currently_needs_cure_dem": 5,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.032558,
-      "post_cure_rej_rate": 0.032558,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": 0.016109
-    },
-    {
       "locality": "NEWPORT NEWS CITY",
       "hd": "085",
       "target_hd": "No",
@@ -391,6 +373,24 @@
       "post_cure_rej_rate": 0.021021,
       "cure_rate": 0.0,
       "rej_vs_statewide": 0.004572
+    },
+    {
+      "locality": "PULASKI COUNTY",
+      "hd": "046",
+      "target_hd": "No",
+      "attempts": 215,
+      "total_vbm": 208,
+      "dem_pct_vbm": 0.567308,
+      "ever_not_accepted": 7,
+      "ever_not_accepted_dem": 5,
+      "currently_needs_cure": 7,
+      "currently_needs_cure_dem": 5,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.032558,
+      "post_cure_rej_rate": 0.032558,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": 0.016109
     },
     {
       "locality": "APPOMATTOX COUNTY",
@@ -411,24 +411,6 @@
       "rej_vs_statewide": 0.044157
     },
     {
-      "locality": "ROANOKE COUNTY",
-      "hd": "040",
-      "target_hd": "No",
-      "attempts": 506,
-      "total_vbm": 500,
-      "dem_pct_vbm": 0.574,
-      "ever_not_accepted": 6,
-      "ever_not_accepted_dem": 2,
-      "currently_needs_cure": 6,
-      "currently_needs_cure_dem": 2,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.011858,
-      "post_cure_rej_rate": 0.011858,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": -0.004591
-    },
-    {
       "locality": "HALIFAX COUNTY",
       "hd": "050",
       "target_hd": "No",
@@ -445,6 +427,24 @@
       "post_cure_rej_rate": 0.056075,
       "cure_rate": 0.0,
       "rej_vs_statewide": 0.039626
+    },
+    {
+      "locality": "ROANOKE COUNTY",
+      "hd": "040",
+      "target_hd": "No",
+      "attempts": 506,
+      "total_vbm": 500,
+      "dem_pct_vbm": 0.574,
+      "ever_not_accepted": 6,
+      "ever_not_accepted_dem": 2,
+      "currently_needs_cure": 6,
+      "currently_needs_cure_dem": 2,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.011858,
+      "post_cure_rej_rate": 0.011858,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": -0.004591
     },
     {
       "locality": "MECKLENBURG COUNTY",
@@ -483,22 +483,22 @@
       "rej_vs_statewide": 0.033551
     },
     {
-      "locality": "JAMES CITY COUNTY",
-      "hd": "071",
-      "target_hd": "071",
-      "attempts": 304,
-      "total_vbm": 299,
-      "dem_pct_vbm": 0.725753,
+      "locality": "LUNENBURG COUNTY",
+      "hd": "050",
+      "target_hd": "No",
+      "attempts": 66,
+      "total_vbm": 61,
+      "dem_pct_vbm": 0.754098,
       "ever_not_accepted": 5,
       "ever_not_accepted_dem": 3,
       "currently_needs_cure": 5,
       "currently_needs_cure_dem": 3,
       "cured": 0,
       "cured_dem": 0,
-      "pre_cure_rej_rate": 0.016447,
-      "post_cure_rej_rate": 0.016447,
+      "pre_cure_rej_rate": 0.075758,
+      "post_cure_rej_rate": 0.075758,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -2e-06
+      "rej_vs_statewide": 0.059309
     },
     {
       "locality": "SMYTH COUNTY",
@@ -519,22 +519,22 @@
       "rej_vs_statewide": 0.039107
     },
     {
-      "locality": "LUNENBURG COUNTY",
-      "hd": "050",
-      "target_hd": "No",
-      "attempts": 66,
-      "total_vbm": 61,
-      "dem_pct_vbm": 0.754098,
+      "locality": "JAMES CITY COUNTY",
+      "hd": "071",
+      "target_hd": "071",
+      "attempts": 304,
+      "total_vbm": 299,
+      "dem_pct_vbm": 0.725753,
       "ever_not_accepted": 5,
       "ever_not_accepted_dem": 3,
       "currently_needs_cure": 5,
       "currently_needs_cure_dem": 3,
       "cured": 0,
       "cured_dem": 0,
-      "pre_cure_rej_rate": 0.075758,
-      "post_cure_rej_rate": 0.075758,
+      "pre_cure_rej_rate": 0.016447,
+      "post_cure_rej_rate": 0.016447,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.059309
+      "rej_vs_statewide": -2e-06
     },
     {
       "locality": "HAMPTON CITY",
@@ -553,24 +553,6 @@
       "post_cure_rej_rate": 0.036036,
       "cure_rate": 0.0,
       "rej_vs_statewide": 0.019587
-    },
-    {
-      "locality": "MARTINSVILLE CITY",
-      "hd": "048",
-      "target_hd": "No",
-      "attempts": 115,
-      "total_vbm": 111,
-      "dem_pct_vbm": 0.81982,
-      "ever_not_accepted": 4,
-      "ever_not_accepted_dem": 4,
-      "currently_needs_cure": 4,
-      "currently_needs_cure_dem": 4,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.034783,
-      "post_cure_rej_rate": 0.034783,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": 0.018334
     },
     {
       "locality": "FALLS CHURCH CITY",
@@ -609,6 +591,24 @@
       "rej_vs_statewide": 0.002599
     },
     {
+      "locality": "MARTINSVILLE CITY",
+      "hd": "048",
+      "target_hd": "No",
+      "attempts": 115,
+      "total_vbm": 111,
+      "dem_pct_vbm": 0.81982,
+      "ever_not_accepted": 4,
+      "ever_not_accepted_dem": 4,
+      "currently_needs_cure": 4,
+      "currently_needs_cure_dem": 4,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.034783,
+      "post_cure_rej_rate": 0.034783,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": 0.018334
+    },
+    {
       "locality": "FAIRFAX CITY",
       "hd": "011",
       "target_hd": "No",
@@ -625,6 +625,78 @@
       "post_cure_rej_rate": 0.019704,
       "cure_rate": 0.0,
       "rej_vs_statewide": 0.003255
+    },
+    {
+      "locality": "PATRICK COUNTY",
+      "hd": "047",
+      "target_hd": "No",
+      "attempts": 100,
+      "total_vbm": 97,
+      "dem_pct_vbm": 0.463918,
+      "ever_not_accepted": 3,
+      "ever_not_accepted_dem": 1,
+      "currently_needs_cure": 3,
+      "currently_needs_cure_dem": 1,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.03,
+      "post_cure_rej_rate": 0.03,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": 0.013551
+    },
+    {
+      "locality": "MANASSAS PARK CITY",
+      "hd": "020",
+      "target_hd": "No",
+      "attempts": 112,
+      "total_vbm": 109,
+      "dem_pct_vbm": 0.807339,
+      "ever_not_accepted": 3,
+      "ever_not_accepted_dem": 3,
+      "currently_needs_cure": 3,
+      "currently_needs_cure_dem": 3,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.026786,
+      "post_cure_rej_rate": 0.026786,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": 0.010337
+    },
+    {
+      "locality": "NORTHUMBERLAND COUNTY",
+      "hd": "067",
+      "target_hd": "No",
+      "attempts": 40,
+      "total_vbm": 37,
+      "dem_pct_vbm": 0.594595,
+      "ever_not_accepted": 3,
+      "ever_not_accepted_dem": 2,
+      "currently_needs_cure": 3,
+      "currently_needs_cure_dem": 2,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.075,
+      "post_cure_rej_rate": 0.075,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": 0.058551
+    },
+    {
+      "locality": "GRAYSON COUNTY",
+      "hd": "046",
+      "target_hd": "No",
+      "attempts": 72,
+      "total_vbm": 69,
+      "dem_pct_vbm": 0.521739,
+      "ever_not_accepted": 3,
+      "ever_not_accepted_dem": 1,
+      "currently_needs_cure": 3,
+      "currently_needs_cure_dem": 1,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.041667,
+      "post_cure_rej_rate": 0.041667,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": 0.025218
     },
     {
       "locality": "WASHINGTON COUNTY",
@@ -663,22 +735,22 @@
       "rej_vs_statewide": 0.012963
     },
     {
-      "locality": "DICKENSON COUNTY",
-      "hd": "043",
+      "locality": "GILES COUNTY",
+      "hd": "042",
       "target_hd": "No",
-      "attempts": 51,
-      "total_vbm": 48,
-      "dem_pct_vbm": 0.5,
+      "attempts": 88,
+      "total_vbm": 85,
+      "dem_pct_vbm": 0.494118,
       "ever_not_accepted": 3,
-      "ever_not_accepted_dem": 0,
+      "ever_not_accepted_dem": 3,
       "currently_needs_cure": 3,
-      "currently_needs_cure_dem": 0,
+      "currently_needs_cure_dem": 3,
       "cured": 0,
       "cured_dem": 0,
-      "pre_cure_rej_rate": 0.058824,
-      "post_cure_rej_rate": 0.058824,
+      "pre_cure_rej_rate": 0.034091,
+      "post_cure_rej_rate": 0.034091,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.042375
+      "rej_vs_statewide": 0.017642
     },
     {
       "locality": "CHARLOTTESVILLE CITY",
@@ -735,148 +807,22 @@
       "rej_vs_statewide": 0.009867
     },
     {
-      "locality": "GRAYSON COUNTY",
-      "hd": "046",
+      "locality": "DICKENSON COUNTY",
+      "hd": "043",
       "target_hd": "No",
-      "attempts": 72,
-      "total_vbm": 69,
-      "dem_pct_vbm": 0.521739,
+      "attempts": 51,
+      "total_vbm": 48,
+      "dem_pct_vbm": 0.5,
       "ever_not_accepted": 3,
-      "ever_not_accepted_dem": 1,
+      "ever_not_accepted_dem": 0,
       "currently_needs_cure": 3,
-      "currently_needs_cure_dem": 1,
+      "currently_needs_cure_dem": 0,
       "cured": 0,
       "cured_dem": 0,
-      "pre_cure_rej_rate": 0.041667,
-      "post_cure_rej_rate": 0.041667,
+      "pre_cure_rej_rate": 0.058824,
+      "post_cure_rej_rate": 0.058824,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.025218
-    },
-    {
-      "locality": "MANASSAS PARK CITY",
-      "hd": "020",
-      "target_hd": "No",
-      "attempts": 112,
-      "total_vbm": 109,
-      "dem_pct_vbm": 0.807339,
-      "ever_not_accepted": 3,
-      "ever_not_accepted_dem": 3,
-      "currently_needs_cure": 3,
-      "currently_needs_cure_dem": 3,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.026786,
-      "post_cure_rej_rate": 0.026786,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": 0.010337
-    },
-    {
-      "locality": "GILES COUNTY",
-      "hd": "042",
-      "target_hd": "No",
-      "attempts": 88,
-      "total_vbm": 85,
-      "dem_pct_vbm": 0.494118,
-      "ever_not_accepted": 3,
-      "ever_not_accepted_dem": 3,
-      "currently_needs_cure": 3,
-      "currently_needs_cure_dem": 3,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.034091,
-      "post_cure_rej_rate": 0.034091,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": 0.017642
-    },
-    {
-      "locality": "PATRICK COUNTY",
-      "hd": "047",
-      "target_hd": "No",
-      "attempts": 100,
-      "total_vbm": 97,
-      "dem_pct_vbm": 0.463918,
-      "ever_not_accepted": 3,
-      "ever_not_accepted_dem": 1,
-      "currently_needs_cure": 3,
-      "currently_needs_cure_dem": 1,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.03,
-      "post_cure_rej_rate": 0.03,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": 0.013551
-    },
-    {
-      "locality": "NORTHUMBERLAND COUNTY",
-      "hd": "067",
-      "target_hd": "No",
-      "attempts": 40,
-      "total_vbm": 37,
-      "dem_pct_vbm": 0.594595,
-      "ever_not_accepted": 3,
-      "ever_not_accepted_dem": 2,
-      "currently_needs_cure": 3,
-      "currently_needs_cure_dem": 2,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.075,
-      "post_cure_rej_rate": 0.075,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": 0.058551
-    },
-    {
-      "locality": "SHENANDOAH COUNTY",
-      "hd": "033",
-      "target_hd": "No",
-      "attempts": 67,
-      "total_vbm": 65,
-      "dem_pct_vbm": 0.753846,
-      "ever_not_accepted": 2,
-      "ever_not_accepted_dem": 2,
-      "currently_needs_cure": 2,
-      "currently_needs_cure_dem": 2,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.029851,
-      "post_cure_rej_rate": 0.029851,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": 0.013402
-    },
-    {
-      "locality": "FRANKLIN COUNTY",
-      "hd": "039",
-      "target_hd": "No",
-      "attempts": 35,
-      "total_vbm": 33,
-      "dem_pct_vbm": 0.757576,
-      "ever_not_accepted": 2,
-      "ever_not_accepted_dem": 2,
-      "currently_needs_cure": 2,
-      "currently_needs_cure_dem": 2,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.057143,
-      "post_cure_rej_rate": 0.057143,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": 0.040694
-    },
-    {
-      "locality": "WINCHESTER CITY",
-      "hd": "032",
-      "target_hd": "No",
-      "attempts": 91,
-      "total_vbm": 89,
-      "dem_pct_vbm": 0.561798,
-      "ever_not_accepted": 2,
-      "ever_not_accepted_dem": 2,
-      "currently_needs_cure": 2,
-      "currently_needs_cure_dem": 2,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.021978,
-      "post_cure_rej_rate": 0.021978,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": 0.005529
+      "rej_vs_statewide": 0.042375
     },
     {
       "locality": "LOUISA COUNTY",
@@ -897,6 +843,42 @@
       "rej_vs_statewide": -0.003462
     },
     {
+      "locality": "WINCHESTER CITY",
+      "hd": "032",
+      "target_hd": "No",
+      "attempts": 91,
+      "total_vbm": 89,
+      "dem_pct_vbm": 0.561798,
+      "ever_not_accepted": 2,
+      "ever_not_accepted_dem": 2,
+      "currently_needs_cure": 2,
+      "currently_needs_cure_dem": 2,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.021978,
+      "post_cure_rej_rate": 0.021978,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": 0.005529
+    },
+    {
+      "locality": "FRANKLIN COUNTY",
+      "hd": "039",
+      "target_hd": "No",
+      "attempts": 35,
+      "total_vbm": 33,
+      "dem_pct_vbm": 0.757576,
+      "ever_not_accepted": 2,
+      "ever_not_accepted_dem": 2,
+      "currently_needs_cure": 2,
+      "currently_needs_cure_dem": 2,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.057143,
+      "post_cure_rej_rate": 0.057143,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": 0.040694
+    },
+    {
       "locality": "RADFORD CITY",
       "hd": "042",
       "target_hd": "No",
@@ -913,42 +895,6 @@
       "post_cure_rej_rate": 0.010309,
       "cure_rate": 0.5,
       "rej_vs_statewide": -0.00614
-    },
-    {
-      "locality": "TAZEWELL COUNTY",
-      "hd": "043",
-      "target_hd": "No",
-      "attempts": 112,
-      "total_vbm": 110,
-      "dem_pct_vbm": 0.472727,
-      "ever_not_accepted": 2,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 2,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.017857,
-      "post_cure_rej_rate": 0.017857,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": 0.001408
-    },
-    {
-      "locality": "WILLIAMSBURG CITY",
-      "hd": "071",
-      "target_hd": "071",
-      "attempts": 140,
-      "total_vbm": 138,
-      "dem_pct_vbm": 0.724638,
-      "ever_not_accepted": 2,
-      "ever_not_accepted_dem": 1,
-      "currently_needs_cure": 2,
-      "currently_needs_cure_dem": 1,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.014286,
-      "post_cure_rej_rate": 0.014286,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": -0.002163
     },
     {
       "locality": "AMELIA COUNTY",
@@ -969,24 +915,6 @@
       "rej_vs_statewide": 0.005773
     },
     {
-      "locality": "STAFFORD COUNTY",
-      "hd": "023",
-      "target_hd": "No",
-      "attempts": 119,
-      "total_vbm": 117,
-      "dem_pct_vbm": 0.598291,
-      "ever_not_accepted": 2,
-      "ever_not_accepted_dem": 2,
-      "currently_needs_cure": 2,
-      "currently_needs_cure_dem": 2,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.016807,
-      "post_cure_rej_rate": 0.016807,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": 0.000358
-    },
-    {
       "locality": "NORTHAMPTON COUNTY",
       "hd": "100",
       "target_hd": "No",
@@ -1005,220 +933,76 @@
       "rej_vs_statewide": 0.042375
     },
     {
-      "locality": "CHARLOTTE COUNTY",
-      "hd": "050",
+      "locality": "TAZEWELL COUNTY",
+      "hd": "043",
       "target_hd": "No",
-      "attempts": 9,
-      "total_vbm": 8,
-      "dem_pct_vbm": 0.625,
-      "ever_not_accepted": 1,
+      "attempts": 112,
+      "total_vbm": 110,
+      "dem_pct_vbm": 0.472727,
+      "ever_not_accepted": 2,
       "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 1,
+      "currently_needs_cure": 2,
       "currently_needs_cure_dem": 0,
       "cured": 0,
       "cured_dem": 0,
-      "pre_cure_rej_rate": 0.111111,
-      "post_cure_rej_rate": 0.111111,
+      "pre_cure_rej_rate": 0.017857,
+      "post_cure_rej_rate": 0.017857,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.094662
+      "rej_vs_statewide": 0.001408
     },
     {
-      "locality": "NORFOLK CITY",
-      "hd": "092",
+      "locality": "SHENANDOAH COUNTY",
+      "hd": "033",
       "target_hd": "No",
-      "attempts": 90,
-      "total_vbm": 89,
-      "dem_pct_vbm": 0.898876,
-      "ever_not_accepted": 1,
-      "ever_not_accepted_dem": 1,
-      "currently_needs_cure": 1,
-      "currently_needs_cure_dem": 1,
+      "attempts": 67,
+      "total_vbm": 65,
+      "dem_pct_vbm": 0.753846,
+      "ever_not_accepted": 2,
+      "ever_not_accepted_dem": 2,
+      "currently_needs_cure": 2,
+      "currently_needs_cure_dem": 2,
       "cured": 0,
       "cured_dem": 0,
-      "pre_cure_rej_rate": 0.011111,
-      "post_cure_rej_rate": 0.011111,
+      "pre_cure_rej_rate": 0.029851,
+      "post_cure_rej_rate": 0.029851,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.005338
+      "rej_vs_statewide": 0.013402
     },
     {
-      "locality": "ESSEX COUNTY",
-      "hd": "068",
+      "locality": "STAFFORD COUNTY",
+      "hd": "023",
       "target_hd": "No",
-      "attempts": 19,
-      "total_vbm": 18,
-      "dem_pct_vbm": 0.722222,
-      "ever_not_accepted": 1,
+      "attempts": 119,
+      "total_vbm": 117,
+      "dem_pct_vbm": 0.598291,
+      "ever_not_accepted": 2,
+      "ever_not_accepted_dem": 2,
+      "currently_needs_cure": 2,
+      "currently_needs_cure_dem": 2,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.016807,
+      "post_cure_rej_rate": 0.016807,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": 0.000358
+    },
+    {
+      "locality": "WILLIAMSBURG CITY",
+      "hd": "071",
+      "target_hd": "071",
+      "attempts": 140,
+      "total_vbm": 138,
+      "dem_pct_vbm": 0.724638,
+      "ever_not_accepted": 2,
       "ever_not_accepted_dem": 1,
-      "currently_needs_cure": 1,
+      "currently_needs_cure": 2,
       "currently_needs_cure_dem": 1,
       "cured": 0,
       "cured_dem": 0,
-      "pre_cure_rej_rate": 0.052632,
-      "post_cure_rej_rate": 0.052632,
+      "pre_cure_rej_rate": 0.014286,
+      "post_cure_rej_rate": 0.014286,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.036183
-    },
-    {
-      "locality": "BOTETOURT COUNTY",
-      "hd": "037",
-      "target_hd": "No",
-      "attempts": 125,
-      "total_vbm": 124,
-      "dem_pct_vbm": 0.435484,
-      "ever_not_accepted": 1,
-      "ever_not_accepted_dem": 1,
-      "currently_needs_cure": 1,
-      "currently_needs_cure_dem": 1,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.008,
-      "post_cure_rej_rate": 0.008,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": -0.008449
-    },
-    {
-      "locality": "PRINCE WILLIAM COUNTY",
-      "hd": "019",
-      "target_hd": "No",
-      "attempts": 1288,
-      "total_vbm": 1287,
-      "dem_pct_vbm": 0.695416,
-      "ever_not_accepted": 1,
-      "ever_not_accepted_dem": 1,
-      "currently_needs_cure": 1,
-      "currently_needs_cure_dem": 1,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.000776,
-      "post_cure_rej_rate": 0.000776,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": -0.015673
-    },
-    {
-      "locality": "PRINCE EDWARD COUNTY",
-      "hd": "056",
-      "target_hd": "No",
-      "attempts": 38,
-      "total_vbm": 37,
-      "dem_pct_vbm": 0.648649,
-      "ever_not_accepted": 1,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 1,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.026316,
-      "post_cure_rej_rate": 0.026316,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": 0.009867
-    },
-    {
-      "locality": "CLARKE COUNTY",
-      "hd": "031",
-      "target_hd": "No",
-      "attempts": 42,
-      "total_vbm": 41,
-      "dem_pct_vbm": 0.560976,
-      "ever_not_accepted": 1,
-      "ever_not_accepted_dem": 1,
-      "currently_needs_cure": 1,
-      "currently_needs_cure_dem": 1,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.02381,
-      "post_cure_rej_rate": 0.02381,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": 0.007361
-    },
-    {
-      "locality": "NOTTOWAY COUNTY",
-      "hd": "072",
-      "target_hd": "No",
-      "attempts": 49,
-      "total_vbm": 48,
-      "dem_pct_vbm": 0.5,
-      "ever_not_accepted": 1,
-      "ever_not_accepted_dem": 1,
-      "currently_needs_cure": 1,
-      "currently_needs_cure_dem": 1,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.020408,
-      "post_cure_rej_rate": 0.020408,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": 0.003959
-    },
-    {
-      "locality": "KING GEORGE COUNTY",
-      "hd": "067",
-      "target_hd": "No",
-      "attempts": 120,
-      "total_vbm": 119,
-      "dem_pct_vbm": 0.546218,
-      "ever_not_accepted": 1,
-      "ever_not_accepted_dem": 1,
-      "currently_needs_cure": 1,
-      "currently_needs_cure_dem": 1,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.008333,
-      "post_cure_rej_rate": 0.008333,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": -0.008116
-    },
-    {
-      "locality": "POWHATAN COUNTY",
-      "hd": "072",
-      "target_hd": "No",
-      "attempts": 200,
-      "total_vbm": 199,
-      "dem_pct_vbm": 0.487437,
-      "ever_not_accepted": 1,
-      "ever_not_accepted_dem": 1,
-      "currently_needs_cure": 1,
-      "currently_needs_cure_dem": 1,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.005,
-      "post_cure_rej_rate": 0.005,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": -0.011449
-    },
-    {
-      "locality": "SPOTSYLVANIA COUNTY",
-      "hd": "066",
-      "target_hd": "066",
-      "attempts": 821,
-      "total_vbm": 820,
-      "dem_pct_vbm": 0.663415,
-      "ever_not_accepted": 1,
-      "ever_not_accepted_dem": 1,
-      "currently_needs_cure": 1,
-      "currently_needs_cure_dem": 1,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.001218,
-      "post_cure_rej_rate": 0.001218,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": -0.015231
-    },
-    {
-      "locality": "SURRY COUNTY",
-      "hd": "082",
-      "target_hd": "082",
-      "attempts": 60,
-      "total_vbm": 59,
-      "dem_pct_vbm": 0.694915,
-      "ever_not_accepted": 1,
-      "ever_not_accepted_dem": 1,
-      "currently_needs_cure": 1,
-      "currently_needs_cure_dem": 1,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.016667,
-      "post_cure_rej_rate": 0.016667,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": 0.000218
+      "rej_vs_statewide": -0.002163
     },
     {
       "locality": "ORANGE COUNTY",
@@ -1239,76 +1023,76 @@
       "rej_vs_statewide": -0.007015
     },
     {
-      "locality": "VIRGINIA BEACH CITY",
-      "hd": "097",
+      "locality": "FLUVANNA COUNTY",
+      "hd": "056",
       "target_hd": "No",
-      "attempts": 567,
-      "total_vbm": 566,
-      "dem_pct_vbm": 0.69258,
+      "attempts": 208,
+      "total_vbm": 207,
+      "dem_pct_vbm": 0.714976,
       "ever_not_accepted": 1,
       "ever_not_accepted_dem": 1,
       "currently_needs_cure": 1,
       "currently_needs_cure_dem": 1,
       "cured": 0,
       "cured_dem": 0,
-      "pre_cure_rej_rate": 0.001764,
-      "post_cure_rej_rate": 0.001764,
+      "pre_cure_rej_rate": 0.004808,
+      "post_cure_rej_rate": 0.004808,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.014685
+      "rej_vs_statewide": -0.011641
     },
     {
-      "locality": "NORTON CITY",
-      "hd": "045",
+      "locality": "CHARLOTTE COUNTY",
+      "hd": "050",
       "target_hd": "No",
-      "attempts": 22,
-      "total_vbm": 21,
-      "dem_pct_vbm": 0.571429,
+      "attempts": 9,
+      "total_vbm": 8,
+      "dem_pct_vbm": 0.625,
       "ever_not_accepted": 1,
       "ever_not_accepted_dem": 0,
       "currently_needs_cure": 1,
       "currently_needs_cure_dem": 0,
       "cured": 0,
       "cured_dem": 0,
-      "pre_cure_rej_rate": 0.045455,
-      "post_cure_rej_rate": 0.045455,
+      "pre_cure_rej_rate": 0.111111,
+      "post_cure_rej_rate": 0.111111,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.029006
+      "rej_vs_statewide": 0.094662
     },
     {
-      "locality": "HENRY COUNTY",
-      "hd": "048",
+      "locality": "CLARKE COUNTY",
+      "hd": "031",
       "target_hd": "No",
-      "attempts": 85,
-      "total_vbm": 84,
-      "dem_pct_vbm": 0.511905,
+      "attempts": 42,
+      "total_vbm": 41,
+      "dem_pct_vbm": 0.560976,
       "ever_not_accepted": 1,
       "ever_not_accepted_dem": 1,
       "currently_needs_cure": 1,
       "currently_needs_cure_dem": 1,
       "cured": 0,
       "cured_dem": 0,
-      "pre_cure_rej_rate": 0.011765,
-      "post_cure_rej_rate": 0.011765,
+      "pre_cure_rej_rate": 0.02381,
+      "post_cure_rej_rate": 0.02381,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.004684
+      "rej_vs_statewide": 0.007361
     },
     {
-      "locality": "ROCKINGHAM COUNTY",
-      "hd": "035",
+      "locality": "PRINCE EDWARD COUNTY",
+      "hd": "056",
       "target_hd": "No",
-      "attempts": 486,
-      "total_vbm": 485,
-      "dem_pct_vbm": 0.490722,
+      "attempts": 38,
+      "total_vbm": 37,
+      "dem_pct_vbm": 0.648649,
       "ever_not_accepted": 1,
       "ever_not_accepted_dem": 0,
       "currently_needs_cure": 1,
       "currently_needs_cure_dem": 0,
       "cured": 0,
       "cured_dem": 0,
-      "pre_cure_rej_rate": 0.002058,
-      "post_cure_rej_rate": 0.002058,
+      "pre_cure_rej_rate": 0.026316,
+      "post_cure_rej_rate": 0.026316,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.014391
+      "rej_vs_statewide": 0.009867
     },
     {
       "locality": "ARLINGTON COUNTY",
@@ -1329,22 +1113,184 @@
       "rej_vs_statewide": -0.012351
     },
     {
-      "locality": "PAGE COUNTY",
-      "hd": "033",
+      "locality": "ESSEX COUNTY",
+      "hd": "068",
       "target_hd": "No",
-      "attempts": 132,
-      "total_vbm": 131,
-      "dem_pct_vbm": 0.458015,
+      "attempts": 19,
+      "total_vbm": 18,
+      "dem_pct_vbm": 0.722222,
+      "ever_not_accepted": 1,
+      "ever_not_accepted_dem": 1,
+      "currently_needs_cure": 1,
+      "currently_needs_cure_dem": 1,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.052632,
+      "post_cure_rej_rate": 0.052632,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": 0.036183
+    },
+    {
+      "locality": "PRINCE WILLIAM COUNTY",
+      "hd": "019",
+      "target_hd": "No",
+      "attempts": 1288,
+      "total_vbm": 1287,
+      "dem_pct_vbm": 0.695416,
+      "ever_not_accepted": 1,
+      "ever_not_accepted_dem": 1,
+      "currently_needs_cure": 1,
+      "currently_needs_cure_dem": 1,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.000776,
+      "post_cure_rej_rate": 0.000776,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": -0.015673
+    },
+    {
+      "locality": "ROCKINGHAM COUNTY",
+      "hd": "035",
+      "target_hd": "No",
+      "attempts": 486,
+      "total_vbm": 485,
+      "dem_pct_vbm": 0.490722,
       "ever_not_accepted": 1,
       "ever_not_accepted_dem": 0,
       "currently_needs_cure": 1,
       "currently_needs_cure_dem": 0,
       "cured": 0,
       "cured_dem": 0,
-      "pre_cure_rej_rate": 0.007576,
-      "post_cure_rej_rate": 0.007576,
+      "pre_cure_rej_rate": 0.002058,
+      "post_cure_rej_rate": 0.002058,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.008873
+      "rej_vs_statewide": -0.014391
+    },
+    {
+      "locality": "BOTETOURT COUNTY",
+      "hd": "037",
+      "target_hd": "No",
+      "attempts": 125,
+      "total_vbm": 124,
+      "dem_pct_vbm": 0.435484,
+      "ever_not_accepted": 1,
+      "ever_not_accepted_dem": 1,
+      "currently_needs_cure": 1,
+      "currently_needs_cure_dem": 1,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.008,
+      "post_cure_rej_rate": 0.008,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": -0.008449
+    },
+    {
+      "locality": "NORFOLK CITY",
+      "hd": "092",
+      "target_hd": "No",
+      "attempts": 90,
+      "total_vbm": 89,
+      "dem_pct_vbm": 0.898876,
+      "ever_not_accepted": 1,
+      "ever_not_accepted_dem": 1,
+      "currently_needs_cure": 1,
+      "currently_needs_cure_dem": 1,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.011111,
+      "post_cure_rej_rate": 0.011111,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": -0.005338
+    },
+    {
+      "locality": "VIRGINIA BEACH CITY",
+      "hd": "097",
+      "target_hd": "No",
+      "attempts": 567,
+      "total_vbm": 566,
+      "dem_pct_vbm": 0.69258,
+      "ever_not_accepted": 1,
+      "ever_not_accepted_dem": 1,
+      "currently_needs_cure": 1,
+      "currently_needs_cure_dem": 1,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.001764,
+      "post_cure_rej_rate": 0.001764,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": -0.014685
+    },
+    {
+      "locality": "HENRY COUNTY",
+      "hd": "048",
+      "target_hd": "No",
+      "attempts": 85,
+      "total_vbm": 84,
+      "dem_pct_vbm": 0.511905,
+      "ever_not_accepted": 1,
+      "ever_not_accepted_dem": 1,
+      "currently_needs_cure": 1,
+      "currently_needs_cure_dem": 1,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.011765,
+      "post_cure_rej_rate": 0.011765,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": -0.004684
+    },
+    {
+      "locality": "SURRY COUNTY",
+      "hd": "082",
+      "target_hd": "082",
+      "attempts": 60,
+      "total_vbm": 59,
+      "dem_pct_vbm": 0.694915,
+      "ever_not_accepted": 1,
+      "ever_not_accepted_dem": 1,
+      "currently_needs_cure": 1,
+      "currently_needs_cure_dem": 1,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.016667,
+      "post_cure_rej_rate": 0.016667,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": 0.000218
+    },
+    {
+      "locality": "NOTTOWAY COUNTY",
+      "hd": "072",
+      "target_hd": "No",
+      "attempts": 49,
+      "total_vbm": 48,
+      "dem_pct_vbm": 0.5,
+      "ever_not_accepted": 1,
+      "ever_not_accepted_dem": 1,
+      "currently_needs_cure": 1,
+      "currently_needs_cure_dem": 1,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.020408,
+      "post_cure_rej_rate": 0.020408,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": 0.003959
+    },
+    {
+      "locality": "POWHATAN COUNTY",
+      "hd": "072",
+      "target_hd": "No",
+      "attempts": 200,
+      "total_vbm": 199,
+      "dem_pct_vbm": 0.487437,
+      "ever_not_accepted": 1,
+      "ever_not_accepted_dem": 1,
+      "currently_needs_cure": 1,
+      "currently_needs_cure_dem": 1,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.005,
+      "post_cure_rej_rate": 0.005,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": -0.011449
     },
     {
       "locality": "GALAX CITY",
@@ -1365,22 +1311,490 @@
       "rej_vs_statewide": 0.033551
     },
     {
-      "locality": "FLUVANNA COUNTY",
-      "hd": "056",
+      "locality": "KING GEORGE COUNTY",
+      "hd": "067",
       "target_hd": "No",
-      "attempts": 208,
-      "total_vbm": 207,
-      "dem_pct_vbm": 0.714976,
+      "attempts": 120,
+      "total_vbm": 119,
+      "dem_pct_vbm": 0.546218,
       "ever_not_accepted": 1,
       "ever_not_accepted_dem": 1,
       "currently_needs_cure": 1,
       "currently_needs_cure_dem": 1,
       "cured": 0,
       "cured_dem": 0,
-      "pre_cure_rej_rate": 0.004808,
-      "post_cure_rej_rate": 0.004808,
+      "pre_cure_rej_rate": 0.008333,
+      "post_cure_rej_rate": 0.008333,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.011641
+      "rej_vs_statewide": -0.008116
+    },
+    {
+      "locality": "NORTON CITY",
+      "hd": "045",
+      "target_hd": "No",
+      "attempts": 22,
+      "total_vbm": 21,
+      "dem_pct_vbm": 0.571429,
+      "ever_not_accepted": 1,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 1,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.045455,
+      "post_cure_rej_rate": 0.045455,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": 0.029006
+    },
+    {
+      "locality": "SPOTSYLVANIA COUNTY",
+      "hd": "066",
+      "target_hd": "066",
+      "attempts": 821,
+      "total_vbm": 820,
+      "dem_pct_vbm": 0.663415,
+      "ever_not_accepted": 1,
+      "ever_not_accepted_dem": 1,
+      "currently_needs_cure": 1,
+      "currently_needs_cure_dem": 1,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.001218,
+      "post_cure_rej_rate": 0.001218,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": -0.015231
+    },
+    {
+      "locality": "PAGE COUNTY",
+      "hd": "033",
+      "target_hd": "No",
+      "attempts": 132,
+      "total_vbm": 131,
+      "dem_pct_vbm": 0.458015,
+      "ever_not_accepted": 1,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 1,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.007576,
+      "post_cure_rej_rate": 0.007576,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": -0.008873
+    },
+    {
+      "locality": "MIDDLESEX COUNTY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 48,
+      "total_vbm": 48,
+      "dem_pct_vbm": 0.583333,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
+      "locality": "WYTHE COUNTY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 22,
+      "total_vbm": 22,
+      "dem_pct_vbm": 0.727273,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
+      "locality": "ALLEGHANY COUNTY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 46,
+      "total_vbm": 46,
+      "dem_pct_vbm": 0.478261,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
+      "locality": "GOOCHLAND COUNTY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 24,
+      "total_vbm": 24,
+      "dem_pct_vbm": 0.625,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
+      "locality": "FREDERICKSBURG CITY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 17,
+      "total_vbm": 17,
+      "dem_pct_vbm": 0.941176,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
+      "locality": "LANCASTER COUNTY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 53,
+      "total_vbm": 53,
+      "dem_pct_vbm": 0.566038,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
+      "locality": "CUMBERLAND COUNTY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 24,
+      "total_vbm": 24,
+      "dem_pct_vbm": 0.833333,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
+      "locality": "COLONIAL HEIGHTS CITY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 97,
+      "total_vbm": 97,
+      "dem_pct_vbm": 0.412371,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
+      "locality": "CULPEPER COUNTY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 213,
+      "total_vbm": 213,
+      "dem_pct_vbm": 0.521127,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
+      "locality": "ALBEMARLE COUNTY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 46,
+      "total_vbm": 46,
+      "dem_pct_vbm": 0.847826,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
+      "locality": "HIGHLAND COUNTY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 19,
+      "total_vbm": 19,
+      "dem_pct_vbm": 0.684211,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
+      "locality": "CRAIG COUNTY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 11,
+      "total_vbm": 11,
+      "dem_pct_vbm": 0.454545,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
+      "locality": "BUCKINGHAM COUNTY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 39,
+      "total_vbm": 39,
+      "dem_pct_vbm": 0.717949,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
+      "locality": "RAPPAHANNOCK COUNTY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 102,
+      "total_vbm": 102,
+      "dem_pct_vbm": 0.745098,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
+      "locality": "CHESAPEAKE CITY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 251,
+      "total_vbm": 251,
+      "dem_pct_vbm": 0.657371,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
+      "locality": "WESTMORELAND COUNTY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 35,
+      "total_vbm": 35,
+      "dem_pct_vbm": 0.6,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
+      "locality": "FRANKLIN CITY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 4,
+      "total_vbm": 4,
+      "dem_pct_vbm": 1.0,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
+      "locality": "BUENA VISTA CITY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 9,
+      "total_vbm": 9,
+      "dem_pct_vbm": 0.666667,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
+      "locality": "SUFFOLK CITY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 48,
+      "total_vbm": 48,
+      "dem_pct_vbm": 0.833333,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
+      "locality": "BRUNSWICK COUNTY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 27,
+      "total_vbm": 27,
+      "dem_pct_vbm": 0.814815,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
+      "locality": "MADISON COUNTY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 58,
+      "total_vbm": 58,
+      "dem_pct_vbm": 0.5,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
+      "locality": "POQUOSON CITY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 3,
+      "total_vbm": 3,
+      "dem_pct_vbm": 0.333333,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
+      "locality": "KING & QUEEN COUNTY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 4,
+      "total_vbm": 4,
+      "dem_pct_vbm": 0.25,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
     },
     {
       "locality": "BLAND COUNTY",
@@ -1401,12 +1815,12 @@
       "rej_vs_statewide": -0.016449
     },
     {
-      "locality": "DINWIDDIE COUNTY",
+      "locality": "DANVILLE CITY",
       "hd": "000",
       "target_hd": "No",
-      "attempts": 26,
-      "total_vbm": 26,
-      "dem_pct_vbm": 0.730769,
+      "attempts": 209,
+      "total_vbm": 209,
+      "dem_pct_vbm": 0.645933,
       "ever_not_accepted": 0,
       "ever_not_accepted_dem": 0,
       "currently_needs_cure": 0,
@@ -1419,12 +1833,12 @@
       "rej_vs_statewide": -0.016449
     },
     {
-      "locality": "PETERSBURG CITY",
+      "locality": "SCOTT COUNTY",
       "hd": "000",
       "target_hd": "No",
-      "attempts": 141,
-      "total_vbm": 141,
-      "dem_pct_vbm": 0.93617,
+      "attempts": 9,
+      "total_vbm": 9,
+      "dem_pct_vbm": 0.444444,
       "ever_not_accepted": 0,
       "ever_not_accepted_dem": 0,
       "currently_needs_cure": 0,
@@ -1437,12 +1851,48 @@
       "rej_vs_statewide": -0.016449
     },
     {
-      "locality": "ROCKBRIDGE COUNTY",
+      "locality": "LEE COUNTY",
       "hd": "000",
       "target_hd": "No",
-      "attempts": 13,
-      "total_vbm": 13,
-      "dem_pct_vbm": 0.769231,
+      "attempts": 16,
+      "total_vbm": 16,
+      "dem_pct_vbm": 0.375,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
+      "locality": "HOPEWELL CITY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 174,
+      "total_vbm": 174,
+      "dem_pct_vbm": 0.735632,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
+      "locality": "SALEM CITY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 169,
+      "total_vbm": 169,
+      "dem_pct_vbm": 0.609467,
       "ever_not_accepted": 0,
       "ever_not_accepted_dem": 0,
       "currently_needs_cure": 0,
@@ -1491,12 +1941,66 @@
       "rej_vs_statewide": -0.016449
     },
     {
+      "locality": "ROCKBRIDGE COUNTY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 13,
+      "total_vbm": 13,
+      "dem_pct_vbm": 0.769231,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
       "locality": "LEXINGTON CITY",
       "hd": "000",
       "target_hd": "No",
       "attempts": 64,
       "total_vbm": 64,
       "dem_pct_vbm": 0.890625,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
+      "locality": "DINWIDDIE COUNTY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 26,
+      "total_vbm": 26,
+      "dem_pct_vbm": 0.730769,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.016449
+    },
+    {
+      "locality": "PETERSBURG CITY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 141,
+      "total_vbm": 141,
+      "dem_pct_vbm": 0.93617,
       "ever_not_accepted": 0,
       "ever_not_accepted_dem": 0,
       "currently_needs_cure": 0,
@@ -1527,210 +2031,12 @@
       "rej_vs_statewide": -0.016449
     },
     {
-      "locality": "BRUNSWICK COUNTY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 27,
-      "total_vbm": 27,
-      "dem_pct_vbm": 0.814815,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "SUFFOLK CITY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 48,
-      "total_vbm": 48,
-      "dem_pct_vbm": 0.833333,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "HOPEWELL CITY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 174,
-      "total_vbm": 174,
-      "dem_pct_vbm": 0.735632,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "CAMPBELL COUNTY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 42,
-      "total_vbm": 42,
-      "dem_pct_vbm": 0.428571,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "WESTMORELAND COUNTY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 35,
-      "total_vbm": 35,
-      "dem_pct_vbm": 0.6,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "HANOVER COUNTY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 54,
-      "total_vbm": 54,
-      "dem_pct_vbm": 0.574074,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "LEE COUNTY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 16,
-      "total_vbm": 16,
-      "dem_pct_vbm": 0.375,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "CHESAPEAKE CITY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 251,
-      "total_vbm": 251,
-      "dem_pct_vbm": 0.657371,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "MATHEWS COUNTY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 26,
-      "total_vbm": 26,
-      "dem_pct_vbm": 0.5,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
       "locality": "NELSON COUNTY",
       "hd": "000",
       "target_hd": "No",
       "attempts": 4,
       "total_vbm": 4,
       "dem_pct_vbm": 1.0,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "FLOYD COUNTY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 60,
-      "total_vbm": 60,
-      "dem_pct_vbm": 0.5,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "SCOTT COUNTY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 9,
-      "total_vbm": 9,
-      "dem_pct_vbm": 0.444444,
       "ever_not_accepted": 0,
       "ever_not_accepted_dem": 0,
       "currently_needs_cure": 0,
@@ -1761,192 +2067,12 @@
       "rej_vs_statewide": -0.016449
     },
     {
-      "locality": "CRAIG COUNTY",
+      "locality": "GLOUCESTER COUNTY",
       "hd": "000",
       "target_hd": "No",
-      "attempts": 11,
-      "total_vbm": 11,
-      "dem_pct_vbm": 0.454545,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "CHESTERFIELD COUNTY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 5,
-      "total_vbm": 5,
-      "dem_pct_vbm": 1.0,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "MIDDLESEX COUNTY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 48,
-      "total_vbm": 48,
-      "dem_pct_vbm": 0.583333,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "ALLEGHANY COUNTY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 46,
-      "total_vbm": 46,
-      "dem_pct_vbm": 0.478261,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "KING WILLIAM COUNTY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 37,
-      "total_vbm": 37,
-      "dem_pct_vbm": 0.621622,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "ALBEMARLE COUNTY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 46,
-      "total_vbm": 46,
-      "dem_pct_vbm": 0.847826,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "CULPEPER COUNTY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 213,
-      "total_vbm": 213,
-      "dem_pct_vbm": 0.521127,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "POQUOSON CITY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 3,
-      "total_vbm": 3,
-      "dem_pct_vbm": 0.333333,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "COLONIAL HEIGHTS CITY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 97,
-      "total_vbm": 97,
-      "dem_pct_vbm": 0.412371,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "ISLE OF WIGHT COUNTY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 1,
-      "total_vbm": 1,
-      "dem_pct_vbm": 1.0,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "SOUTHAMPTON COUNTY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 15,
-      "total_vbm": 15,
-      "dem_pct_vbm": 0.6,
+      "attempts": 174,
+      "total_vbm": 174,
+      "dem_pct_vbm": 0.45977,
       "ever_not_accepted": 0,
       "ever_not_accepted_dem": 0,
       "currently_needs_cure": 0,
@@ -1977,12 +2103,12 @@
       "rej_vs_statewide": -0.016449
     },
     {
-      "locality": "BUENA VISTA CITY",
+      "locality": "SOUTHAMPTON COUNTY",
       "hd": "000",
       "target_hd": "No",
-      "attempts": 9,
-      "total_vbm": 9,
-      "dem_pct_vbm": 0.666667,
+      "attempts": 15,
+      "total_vbm": 15,
+      "dem_pct_vbm": 0.6,
       "ever_not_accepted": 0,
       "ever_not_accepted_dem": 0,
       "currently_needs_cure": 0,
@@ -1995,66 +2121,12 @@
       "rej_vs_statewide": -0.016449
     },
     {
-      "locality": "GLOUCESTER COUNTY",
+      "locality": "KING WILLIAM COUNTY",
       "hd": "000",
       "target_hd": "No",
-      "attempts": 174,
-      "total_vbm": 174,
-      "dem_pct_vbm": 0.45977,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "FRANKLIN CITY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 4,
-      "total_vbm": 4,
-      "dem_pct_vbm": 1.0,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "SALEM CITY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 169,
-      "total_vbm": 169,
-      "dem_pct_vbm": 0.609467,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "MADISON COUNTY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 58,
-      "total_vbm": 58,
-      "dem_pct_vbm": 0.5,
+      "attempts": 37,
+      "total_vbm": 37,
+      "dem_pct_vbm": 0.621622,
       "ever_not_accepted": 0,
       "ever_not_accepted_dem": 0,
       "currently_needs_cure": 0,
@@ -2085,12 +2157,12 @@
       "rej_vs_statewide": -0.016449
     },
     {
-      "locality": "RAPPAHANNOCK COUNTY",
+      "locality": "CAMPBELL COUNTY",
       "hd": "000",
       "target_hd": "No",
-      "attempts": 102,
-      "total_vbm": 102,
-      "dem_pct_vbm": 0.745098,
+      "attempts": 42,
+      "total_vbm": 42,
+      "dem_pct_vbm": 0.428571,
       "ever_not_accepted": 0,
       "ever_not_accepted_dem": 0,
       "currently_needs_cure": 0,
@@ -2103,12 +2175,12 @@
       "rej_vs_statewide": -0.016449
     },
     {
-      "locality": "BUCKINGHAM COUNTY",
+      "locality": "WAYNESBORO CITY",
       "hd": "000",
       "target_hd": "No",
-      "attempts": 39,
-      "total_vbm": 39,
-      "dem_pct_vbm": 0.717949,
+      "attempts": 96,
+      "total_vbm": 96,
+      "dem_pct_vbm": 0.59375,
       "ever_not_accepted": 0,
       "ever_not_accepted_dem": 0,
       "currently_needs_cure": 0,
@@ -2121,12 +2193,12 @@
       "rej_vs_statewide": -0.016449
     },
     {
-      "locality": "DANVILLE CITY",
+      "locality": "HANOVER COUNTY",
       "hd": "000",
       "target_hd": "No",
-      "attempts": 209,
-      "total_vbm": 209,
-      "dem_pct_vbm": 0.645933,
+      "attempts": 54,
+      "total_vbm": 54,
+      "dem_pct_vbm": 0.574074,
       "ever_not_accepted": 0,
       "ever_not_accepted_dem": 0,
       "currently_needs_cure": 0,
@@ -2157,12 +2229,12 @@
       "rej_vs_statewide": -0.016449
     },
     {
-      "locality": "HIGHLAND COUNTY",
+      "locality": "FLOYD COUNTY",
       "hd": "000",
       "target_hd": "No",
-      "attempts": 19,
-      "total_vbm": 19,
-      "dem_pct_vbm": 0.684211,
+      "attempts": 60,
+      "total_vbm": 60,
+      "dem_pct_vbm": 0.5,
       "ever_not_accepted": 0,
       "ever_not_accepted_dem": 0,
       "currently_needs_cure": 0,
@@ -2175,12 +2247,12 @@
       "rej_vs_statewide": -0.016449
     },
     {
-      "locality": "GOOCHLAND COUNTY",
+      "locality": "CHESTERFIELD COUNTY",
       "hd": "000",
       "target_hd": "No",
-      "attempts": 24,
-      "total_vbm": 24,
-      "dem_pct_vbm": 0.625,
+      "attempts": 5,
+      "total_vbm": 5,
+      "dem_pct_vbm": 1.0,
       "ever_not_accepted": 0,
       "ever_not_accepted_dem": 0,
       "currently_needs_cure": 0,
@@ -2193,12 +2265,12 @@
       "rej_vs_statewide": -0.016449
     },
     {
-      "locality": "KING & QUEEN COUNTY",
+      "locality": "MATHEWS COUNTY",
       "hd": "000",
       "target_hd": "No",
-      "attempts": 4,
-      "total_vbm": 4,
-      "dem_pct_vbm": 0.25,
+      "attempts": 26,
+      "total_vbm": 26,
+      "dem_pct_vbm": 0.5,
       "ever_not_accepted": 0,
       "ever_not_accepted_dem": 0,
       "currently_needs_cure": 0,
@@ -2211,84 +2283,12 @@
       "rej_vs_statewide": -0.016449
     },
     {
-      "locality": "FREDERICKSBURG CITY",
+      "locality": "ISLE OF WIGHT COUNTY",
       "hd": "000",
       "target_hd": "No",
-      "attempts": 17,
-      "total_vbm": 17,
-      "dem_pct_vbm": 0.941176,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "CUMBERLAND COUNTY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 24,
-      "total_vbm": 24,
-      "dem_pct_vbm": 0.833333,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "WYTHE COUNTY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 22,
-      "total_vbm": 22,
-      "dem_pct_vbm": 0.727273,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "LANCASTER COUNTY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 53,
-      "total_vbm": 53,
-      "dem_pct_vbm": 0.566038,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.016449
-    },
-    {
-      "locality": "WAYNESBORO CITY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 96,
-      "total_vbm": 96,
-      "dem_pct_vbm": 0.59375,
+      "attempts": 1,
+      "total_vbm": 1,
+      "dem_pct_vbm": 1.0,
       "ever_not_accepted": 0,
       "ever_not_accepted_dem": 0,
       "currently_needs_cure": 0,
@@ -3253,6 +3253,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "needs curing",
       "party": "Dem"
     },
     {
@@ -3278,6 +3279,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "needs curing",
       "party": "Dem"
     },
     {
@@ -3303,6 +3305,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "needs curing",
       "party": "Dem"
     },
     {
@@ -3328,6 +3331,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing complete address",
       "party": "Dem"
     },
     {
@@ -3353,6 +3357,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing YOB",
       "party": "Dem"
     },
     {
@@ -3378,6 +3383,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Did not return oath envelope with ballot",
       "party": "Dem"
     },
     {
@@ -3403,6 +3409,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing SSN4 and YOB",
       "party": "Dem"
     },
     {
@@ -3428,6 +3435,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing SSN4 and YOB",
       "party": "Dem"
     },
     {
@@ -3453,6 +3461,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing city and zip",
       "party": "Dem"
     },
     {
@@ -3478,6 +3487,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Incomplete address",
       "party": "Dem"
     },
     {
@@ -3503,6 +3513,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Household swap",
       "party": "Dem"
     },
     {
@@ -3528,6 +3539,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing residence address",
       "party": "Dem"
     },
     {
@@ -3553,6 +3565,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Household swap",
       "party": "Dem"
     },
     {
@@ -3578,6 +3591,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Did not return oath envelope with voter",
       "party": "Dem"
     },
     {
@@ -3603,6 +3617,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Incomplete address",
       "party": "Dem"
     },
     {
@@ -3628,6 +3643,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing complete address",
       "party": "Dem"
     },
     {
@@ -3653,6 +3669,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing oath envelope",
       "party": "Dem"
     },
     {
@@ -3678,6 +3695,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Household swap",
       "party": "Dem"
     },
     {
@@ -3703,6 +3721,7 @@
       "cure_status": "Cured",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -3728,6 +3747,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Env. B",
       "party": "Dem"
     },
     {
@@ -3753,6 +3773,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing SSN4",
       "party": "Dem"
     },
     {
@@ -3778,6 +3799,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "SSN4",
       "party": "Dem"
     },
     {
@@ -3803,6 +3825,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "SSN4",
       "party": "Dem"
     },
     {
@@ -3828,6 +3851,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Address",
       "party": "Dem"
     },
     {
@@ -3853,6 +3877,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No Env B",
       "party": "Rep"
     },
     {
@@ -3878,6 +3903,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Address",
       "party": "Rep"
     },
     {
@@ -3903,6 +3929,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "SSN4",
       "party": "Rep"
     },
     {
@@ -3928,6 +3955,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "SSN4",
       "party": "Rep"
     },
     {
@@ -3953,6 +3981,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Signature Mismatch",
       "party": "Dem"
     },
     {
@@ -3978,6 +4007,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Signature",
       "party": "Rep"
     },
     {
@@ -4003,6 +4033,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "SSN4 not included on Envelope B.",
       "party": "Dem"
     },
     {
@@ -4028,6 +4059,7 @@
       "cure_status": "Cured",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -4053,6 +4085,7 @@
       "cure_status": "Cured",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -4078,6 +4111,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Naked Ballot. Will re-send and try to call her.",
       "party": "Dem"
     },
     {
@@ -4103,6 +4137,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Residence Address Missing on Envelope B.",
       "party": "Rep"
     },
     {
@@ -4128,6 +4163,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Residence Address on Envelope B does not match Residence Address listed on Voter Registration.",
       "party": "Ind"
     },
     {
@@ -4153,6 +4189,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "INCOMPLETE ADDRESS",
       "party": "Dem"
     },
     {
@@ -4178,6 +4215,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "SSN",
       "party": "Dem"
     },
     {
@@ -4203,6 +4241,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Incorrect SSN",
       "party": "Rep"
     },
     {
@@ -4228,6 +4267,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "SSN",
       "party": "Rep"
     },
     {
@@ -4253,6 +4293,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No YOB",
       "party": "Rep"
     },
     {
@@ -4278,6 +4319,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Address & Birth year",
       "party": "Rep"
     },
     {
@@ -4303,6 +4345,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Didn't provide address or SSN",
       "party": "Rep"
     },
     {
@@ -4328,6 +4371,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "SSN",
       "party": "Rep"
     },
     {
@@ -4353,6 +4397,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "SSN",
       "party": "Dem"
     },
     {
@@ -4378,6 +4423,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Voter did not put his address on Env B",
       "party": "Dem"
     },
     {
@@ -4403,6 +4449,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing last 4 SS#",
       "party": "Rep"
     },
     {
@@ -4428,6 +4475,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing last 4 birth year and SS#",
       "party": "Dem"
     },
     {
@@ -4453,6 +4501,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Address",
       "party": "Dem"
     },
     {
@@ -4478,6 +4527,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Rep"
     },
     {
@@ -4503,6 +4553,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -4528,6 +4579,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Ind"
     },
     {
@@ -4553,6 +4605,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -4578,6 +4631,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -4603,6 +4657,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -4628,6 +4683,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Rep"
     },
     {
@@ -4653,6 +4709,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -4678,6 +4735,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -4703,6 +4761,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -4728,6 +4787,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No information provided on Envelope B",
       "party": "Rep"
     },
     {
@@ -4753,6 +4813,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No information provided on Envelope B",
       "party": "Dem"
     },
     {
@@ -4778,6 +4839,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No information provided on Envelope B",
       "party": "Rep"
     },
     {
@@ -4803,6 +4865,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No SSN4 provided on Envelope B",
       "party": "Dem"
     },
     {
@@ -4828,6 +4891,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No information provided on Envelope B",
       "party": "Rep"
     },
     {
@@ -4853,6 +4917,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No Voter Signature provided on Envelope B",
       "party": "Rep"
     },
     {
@@ -4878,6 +4943,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No SSN4 provided on Envelope B",
       "party": "Dem"
     },
     {
@@ -4903,6 +4969,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No Envelope B",
       "party": "Rep"
     },
     {
@@ -4928,6 +4995,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing SSN4 on Envelope B",
       "party": "Dem"
     },
     {
@@ -4953,6 +5021,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Voter Signature",
       "party": "Rep"
     },
     {
@@ -4978,6 +5047,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No SSN4 provided on Envelope B",
       "party": "Rep"
     },
     {
@@ -5003,6 +5073,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No SSN4 provided on Envelope B",
       "party": "Rep"
     },
     {
@@ -5028,6 +5099,7 @@
       "cure_status": "Other",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No Residence Address provided on Envelope B",
       "party": "Rep"
     },
     {
@@ -5053,6 +5125,7 @@
       "cure_status": "Other",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Rep"
     },
     {
@@ -5078,6 +5151,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No information provided on Envelope B",
       "party": "Rep"
     },
     {
@@ -5103,6 +5177,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No information provided on Envelope B",
       "party": "Rep"
     },
     {
@@ -5128,6 +5203,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Envelope B",
       "party": "Dem"
     },
     {
@@ -5153,6 +5229,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Envelope B",
       "party": "Dem"
     },
     {
@@ -5178,6 +5255,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Incomplete Residence Address on Envelope B",
       "party": "Rep"
     },
     {
@@ -5203,6 +5281,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Incorrect SSN4",
       "party": "Dem"
     },
     {
@@ -5228,6 +5307,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Last 4 of SSN",
       "party": "Rep"
     },
     {
@@ -5253,6 +5333,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Envelope B missing ALL information",
       "party": "Dem"
     },
     {
@@ -5278,6 +5359,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Voter  Missing Info on Envelope B -- First & Last Name, Address",
       "party": "Dem"
     },
     {
@@ -5303,6 +5385,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing last four of SSN and YOB.",
       "party": "Rep"
     },
     {
@@ -5328,6 +5411,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -5353,6 +5437,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -5378,6 +5463,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing YOB and Last 4 of SSN on Envelope B",
       "party": "Dem"
     },
     {
@@ -5403,6 +5489,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -5428,6 +5515,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "B envelope left blank",
       "party": "Rep"
     },
     {
@@ -5453,6 +5541,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "DOB on Envelope B does not match VERIS record",
       "party": "Dem"
     },
     {
@@ -5478,6 +5567,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing last 4SSN",
       "party": "Dem"
     },
     {
@@ -5503,6 +5593,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No residence address provided on Envelope B",
       "party": "Dem"
     },
     {
@@ -5528,6 +5619,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "NO B ENVELOPE",
       "party": "Dem"
     },
     {
@@ -5553,6 +5645,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Rep"
     },
     {
@@ -5578,6 +5671,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Envelope B is missing last 4 of SSN.",
       "party": "Rep"
     },
     {
@@ -5603,6 +5697,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Envelope B is missing ballot.",
       "party": "Rep"
     },
     {
@@ -5628,6 +5723,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing info : Physical address",
       "party": "Dem"
     },
     {
@@ -5653,6 +5749,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing SSN4",
       "party": "Dem"
     },
     {
@@ -5678,6 +5775,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing assistance form.",
       "party": "Dem"
     },
     {
@@ -5703,6 +5801,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing YOB information.",
       "party": "Dem"
     },
     {
@@ -5728,6 +5827,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing YOB and SSN4.",
       "party": "Dem"
     },
     {
@@ -5753,6 +5853,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Birth Year",
       "party": "Rep"
     },
     {
@@ -5778,6 +5879,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "SSN",
       "party": "Dem"
     },
     {
@@ -5803,6 +5905,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Blank Voter Statement",
       "party": "Dem"
     },
     {
@@ -5828,6 +5931,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Birth Year",
       "party": "Dem"
     },
     {
@@ -5853,6 +5957,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Birth Year, SSN",
       "party": "Dem"
     },
     {
@@ -5878,6 +5983,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Birth Year, SSN",
       "party": "Dem"
     },
     {
@@ -5903,6 +6009,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Birth Year",
       "party": "Dem"
     },
     {
@@ -5928,6 +6035,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Ind"
     },
     {
@@ -5953,6 +6061,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Birth Year, SSN",
       "party": "Dem"
     },
     {
@@ -5978,6 +6087,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "SSN",
       "party": "Dem"
     },
     {
@@ -6003,6 +6113,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Blank Voter Statement",
       "party": "Dem"
     },
     {
@@ -6028,6 +6139,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Blank Voter Statement",
       "party": "Rep"
     },
     {
@@ -6053,6 +6165,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Birth Year, SSN",
       "party": "Dem"
     },
     {
@@ -6078,6 +6191,7 @@
       "cure_status": "Re-Issued",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -6103,6 +6217,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Address",
       "party": "Dem"
     },
     {
@@ -6128,6 +6243,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Address",
       "party": "Dem"
     },
     {
@@ -6153,6 +6269,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "SSN",
       "party": "Dem"
     },
     {
@@ -6178,6 +6295,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Oath Envelope missing Residence Address, City, and Zip Code",
       "party": "Dem"
     },
     {
@@ -6203,6 +6321,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Needs Cure - Missing Residence Address",
       "party": "Rep"
     },
     {
@@ -6228,6 +6347,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Singature",
       "party": "Dem"
     },
     {
@@ -6253,6 +6373,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing YOB",
       "party": "Dem"
     },
     {
@@ -6278,6 +6399,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Omitted first name",
       "party": "Dem"
     },
     {
@@ -6303,6 +6425,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Omitted YOB, SSN, Signature",
       "party": "Dem"
     },
     {
@@ -6328,6 +6451,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Incorrect SSN",
       "party": "Dem"
     },
     {
@@ -6353,6 +6477,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Omitted SSN",
       "party": "Dem"
     },
     {
@@ -6378,6 +6503,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Omitted Birthdate and SSN",
       "party": "Ind"
     },
     {
@@ -6403,6 +6529,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Incorrect address",
       "party": "Rep"
     },
     {
@@ -6428,6 +6555,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Incorrect address",
       "party": "Dem"
     },
     {
@@ -6453,6 +6581,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Omitted Signature",
       "party": "Dem"
     },
     {
@@ -6478,6 +6607,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Incorrect address",
       "party": "Dem"
     },
     {
@@ -6503,6 +6633,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "no signature, no YOB, Last 4",
       "party": "Dem"
     },
     {
@@ -6528,6 +6659,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "B envelope",
       "party": "Dem"
     },
     {
@@ -6553,6 +6685,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "B envelope",
       "party": "Dem"
     },
     {
@@ -6578,6 +6711,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing envelope  B",
       "party": "Dem"
     },
     {
@@ -6603,6 +6737,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing B envelope",
       "party": "Rep"
     },
     {
@@ -6628,6 +6763,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing apartment number on B envelope",
       "party": "Rep"
     },
     {
@@ -6653,6 +6789,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Mismatched house number on B envelope.",
       "party": "Rep"
     },
     {
@@ -6678,6 +6815,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Mismatched year of birth on envelope B.",
       "party": "Rep"
     },
     {
@@ -6703,6 +6841,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Address on envelope B",
       "party": "Dem"
     },
     {
@@ -6728,6 +6867,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "B envelope not filled out",
       "party": "Dem"
     },
     {
@@ -6753,6 +6893,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No envelope B",
       "party": "Rep"
     },
     {
@@ -6778,6 +6919,7 @@
       "cure_status": "Cured",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Rep"
     },
     {
@@ -6803,6 +6945,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No B envelope",
       "party": "Dem"
     },
     {
@@ -6828,6 +6971,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Voter did not provide SSN4 on Envelope B.   - DP",
       "party": "Rep"
     },
     {
@@ -6853,6 +6997,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Did not return envelope B. Ballot was inside return envelope.",
       "party": "Dem"
     },
     {
@@ -6878,6 +7023,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Envelope B is missing last 4 of SSN",
       "party": "Dem"
     },
     {
@@ -6903,6 +7049,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing address from Envelope B",
       "party": "Dem"
     },
     {
@@ -6928,6 +7075,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Blank \"B\" Envelope",
       "party": "Rep"
     },
     {
@@ -6953,6 +7101,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -6978,6 +7127,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing: Address, YOB, SSN",
       "party": "Rep"
     },
     {
@@ -7003,6 +7153,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "ENVELOPE B IS EMPTY BUT FILLED OUT CORRECTLY",
       "party": "Dem"
     },
     {
@@ -7028,6 +7179,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "MISSING INFO:\r\nYEAR OF BIRTH\r\nLAST 4 OF SSN",
       "party": "Dem"
     },
     {
@@ -7053,6 +7205,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "ENVELOPE B MISSING LAST 4 OF SS#",
       "party": "Dem"
     },
     {
@@ -7078,6 +7231,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "MISSING LAST 4 OF SS# ON ENVELOPE B",
       "party": "Dem"
     },
     {
@@ -7103,6 +7257,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "BALLOT NOT IN ENVELOPE B, ENVELOPE B MISSING",
       "party": "Dem"
     },
     {
@@ -7128,6 +7283,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "LAST 4 OF SSN DOES NOT MATCH RECORDS",
       "party": "Dem"
     },
     {
@@ -7153,6 +7309,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "SSN4 does not match voter's record",
       "party": "Dem"
     },
     {
@@ -7178,6 +7335,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "address does not match voter's record",
       "party": "Dem"
     },
     {
@@ -7203,6 +7361,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "missing YOB",
       "party": "Dem"
     },
     {
@@ -7228,6 +7387,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "YOB does not match voter's record",
       "party": "Dem"
     },
     {
@@ -7253,6 +7413,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Wrong birth year.",
       "party": "Dem"
     },
     {
@@ -7278,6 +7439,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "OMITTED HOUSE NUMBER.",
       "party": "Rep"
     },
     {
@@ -7303,6 +7465,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No information provided on B envelope.",
       "party": "Dem"
     },
     {
@@ -7328,6 +7491,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "VOTER DID NOT COMPLETE ENV B.",
       "party": "Dem"
     },
     {
@@ -7353,6 +7517,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -7378,6 +7543,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No Signature on B Envelope",
       "party": "Dem"
     },
     {
@@ -7403,6 +7569,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Wrong SSN",
       "party": "Dem"
     },
     {
@@ -7428,6 +7595,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "MISSING SSN, BIRTH YEAR AND SIGNATURE",
       "party": "Rep"
     },
     {
@@ -7453,6 +7621,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -7478,6 +7647,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "ENVELOP B IS BLANK",
       "party": "Rep"
     },
     {
@@ -7503,6 +7673,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -7528,6 +7699,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Wrong address",
       "party": "Dem"
     },
     {
@@ -7553,6 +7725,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Address.",
       "party": "Dem"
     },
     {
@@ -7578,6 +7751,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing address.",
       "party": "Dem"
     },
     {
@@ -7603,6 +7777,7 @@
       "cure_status": "Cured",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -7628,6 +7803,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Incorrect Address.",
       "party": "Ind"
     },
     {
@@ -7653,6 +7829,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing YOB. Missing SSN.",
       "party": "Dem"
     },
     {
@@ -7678,6 +7855,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Address.",
       "party": "Dem"
     },
     {
@@ -7703,6 +7881,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing City. Missing zip code.",
       "party": "Rep"
     },
     {
@@ -7728,6 +7907,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing SSN.",
       "party": "Dem"
     },
     {
@@ -7753,6 +7933,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Address.",
       "party": "Dem"
     },
     {
@@ -7778,6 +7959,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Incorrect YOB.",
       "party": "Dem"
     },
     {
@@ -7803,6 +7985,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing address.",
       "party": "Dem"
     },
     {
@@ -7828,6 +8011,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Address.",
       "party": "Rep"
     },
     {
@@ -7853,6 +8037,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Voter did not provide Full Name",
       "party": "Ind"
     },
     {
@@ -7878,6 +8063,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Incorrect YOB. Illegible SSN.",
       "party": "Dem"
     },
     {
@@ -7903,6 +8089,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing address.",
       "party": "Dem"
     },
     {
@@ -7928,6 +8115,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Address.",
       "party": "Dem"
     },
     {
@@ -7953,6 +8141,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Address.",
       "party": "Dem"
     },
     {
@@ -7978,6 +8167,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Incorrect Last Name.",
       "party": "Dem"
     },
     {
@@ -8003,6 +8193,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing address.",
       "party": "Dem"
     },
     {
@@ -8028,6 +8219,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Apartment number.",
       "party": "Dem"
     },
     {
@@ -8053,6 +8245,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing address.",
       "party": "Dem"
     },
     {
@@ -8078,6 +8271,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Illegible last name. Incorrect address. Illegible YOB.",
       "party": "Rep"
     },
     {
@@ -8103,6 +8297,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing YOB. Missing SSN.",
       "party": "Dem"
     },
     {
@@ -8128,6 +8323,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Address.",
       "party": "Rep"
     },
     {
@@ -8153,6 +8349,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing SSN",
       "party": "Dem"
     },
     {
@@ -8178,6 +8375,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing year of birth",
       "party": "Dem"
     },
     {
@@ -8203,6 +8401,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Last (4) of SSN\r\nCure Letter Mailed - 03/10/2026",
       "party": "Rep"
     },
     {
@@ -8228,6 +8427,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing residence address.\r\nCure Letter Mailed - 03/13/2026",
       "party": "Dem"
     },
     {
@@ -8253,6 +8453,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing residence address.\r\nCure Letter Mailed - 03/13/2026",
       "party": "Dem"
     },
     {
@@ -8278,6 +8479,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Envelope B was not completed.\r\nCure Letter Mailed - 03/13/2026",
       "party": "Rep"
     },
     {
@@ -8303,6 +8505,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -8328,6 +8531,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing B envelope",
       "party": "Dem"
     },
     {
@@ -8353,6 +8557,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing YOB & last 4 SSN",
       "party": "Dem"
     },
     {
@@ -8378,6 +8583,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing last 4 of SSN",
       "party": "Ind"
     },
     {
@@ -8403,6 +8609,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "missing SS#",
       "party": "Dem"
     },
     {
@@ -8428,6 +8635,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "missing address",
       "party": "Dem"
     },
     {
@@ -8453,6 +8661,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Did not include env B",
       "party": "Dem"
     },
     {
@@ -8478,6 +8687,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing last 4 SSN",
       "party": "Dem"
     },
     {
@@ -8503,6 +8713,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing last 4 SSN",
       "party": "Dem"
     },
     {
@@ -8528,6 +8739,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Last 4 of SSN",
       "party": "Dem"
     },
     {
@@ -8553,6 +8765,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "last 4 SSN",
       "party": "Dem"
     },
     {
@@ -8578,6 +8791,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Sent letter with affidavit included",
       "party": "Rep"
     },
     {
@@ -8603,6 +8817,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Sent letter with affidavit included",
       "party": "Rep"
     },
     {
@@ -8628,6 +8843,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Sent letter with affidavit included",
       "party": "Dem"
     },
     {
@@ -8653,6 +8869,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "sent letter with affidavit included",
       "party": "Dem"
     },
     {
@@ -8678,6 +8895,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Sent letter with affidavit included",
       "party": "Rep"
     },
     {
@@ -8703,6 +8921,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Sent letter with affidavit included",
       "party": "Dem"
     },
     {
@@ -8728,6 +8947,7 @@
       "cure_status": "Other",
       "rejection_reason": "Other",
       "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Rep"
     },
     {
@@ -8753,6 +8973,7 @@
       "cure_status": "Other",
       "rejection_reason": "Other",
       "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Rep"
     },
     {
@@ -8778,6 +8999,7 @@
       "cure_status": "Other",
       "rejection_reason": "Other",
       "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Rep"
     },
     {
@@ -8803,6 +9025,7 @@
       "cure_status": "Other",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Rep"
     },
     {
@@ -8828,6 +9051,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -8853,6 +9077,7 @@
       "cure_status": "Cured",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -8878,6 +9103,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -8903,6 +9129,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -8928,6 +9155,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "EM 3/13/2026",
       "party": "Rep"
     },
     {
@@ -8953,6 +9181,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Rep"
     },
     {
@@ -8978,6 +9207,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -9003,6 +9233,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -9028,6 +9259,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -9053,6 +9285,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -9078,6 +9311,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Rep"
     },
     {
@@ -9103,6 +9337,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Ind"
     },
     {
@@ -9128,6 +9363,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -9153,6 +9389,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -9178,6 +9415,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing last 4 of SSN",
       "party": "Dem"
     },
     {
@@ -9203,6 +9441,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -9228,6 +9467,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Rep"
     },
     {
@@ -9253,6 +9493,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Rep"
     },
     {
@@ -9278,6 +9519,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Rep"
     },
     {
@@ -9303,6 +9545,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Rep"
     },
     {
@@ -9328,6 +9571,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -9353,6 +9597,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Last 4 SSN",
       "party": "Dem"
     },
     {
@@ -9378,6 +9623,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Address on Envelope B",
       "party": "Dem"
     },
     {
@@ -9403,6 +9649,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "incorrect SSN",
       "party": "Dem"
     },
     {
@@ -9428,6 +9675,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -9453,6 +9701,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Ind"
     },
     {
@@ -9478,6 +9727,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Rep"
     },
     {
@@ -9503,6 +9753,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No residence address on B envelope",
       "party": "Dem"
     },
     {
@@ -9528,6 +9779,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No residence address on B envelope",
       "party": "Dem"
     },
     {
@@ -9553,6 +9805,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No signature on B envelope",
       "party": "Dem"
     },
     {
@@ -9578,6 +9831,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No residence address on B envelope",
       "party": "Dem"
     },
     {
@@ -9603,6 +9857,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No envelope B",
       "party": "Dem"
     },
     {
@@ -9628,31 +9883,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
-      "party": "Dem"
-    },
-    {
-      "voter_file_vanid": "18465609",
-      "state_file_id": "521568692",
-      "last_name": "Wood",
-      "first_name": "Ann",
-      "middle_name": "Payne",
-      "preferred_phone": "7578909212",
-      "cell_phone": "",
-      "address": "1002 Old Denbigh Blvd Apt M309",
-      "city": "Newport News",
-      "state": "VA",
-      "zip5": "23602",
-      "zip4": "2014",
-      "county_name": "Newport News (City)",
-      "precinct_name": "218 - Kiln Creek",
-      "age": "89",
-      "sex": "F",
-      "dob": "07/20/1936",
-      "locality": "NEWPORT NEWS CITY",
-      "hd": "085",
-      "cure_status": "Needs Cure",
-      "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "",
+      "ballot_comment": "No envelope B",
       "party": "Dem"
     },
     {
@@ -9678,6 +9909,33 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "blank envelope B",
+      "party": "Dem"
+    },
+    {
+      "voter_file_vanid": "18465609",
+      "state_file_id": "521568692",
+      "last_name": "Wood",
+      "first_name": "Ann",
+      "middle_name": "Payne",
+      "preferred_phone": "7578909212",
+      "cell_phone": "",
+      "address": "1002 Old Denbigh Blvd Apt M309",
+      "city": "Newport News",
+      "state": "VA",
+      "zip5": "23602",
+      "zip4": "2014",
+      "county_name": "Newport News (City)",
+      "precinct_name": "218 - Kiln Creek",
+      "age": "89",
+      "sex": "F",
+      "dob": "07/20/1936",
+      "locality": "NEWPORT NEWS CITY",
+      "hd": "085",
+      "cure_status": "Needs Cure",
+      "rejection_reason": "Needs Cure",
+      "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -9703,6 +9961,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Need voter's SSN4",
       "party": "Dem"
     },
     {
@@ -9728,6 +9987,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "NEEDS CURE",
       "party": "Dem"
     },
     {
@@ -9753,6 +10013,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "NEEDS CURE",
       "party": "Dem"
     },
     {
@@ -9778,6 +10039,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "NO ADDRESS",
       "party": "Rep"
     },
     {
@@ -9803,6 +10065,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "last 4 of social missing",
       "party": "Dem"
     },
     {
@@ -9828,6 +10091,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "LAST FOUR OF SSN MISSING",
       "party": "Dem"
     },
     {
@@ -9853,6 +10117,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Does not have the birth year and last four of SSN",
       "party": "Ind"
     },
     {
@@ -9878,6 +10143,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Voter returned ballot without being inside envelope B.  Will contact voter for cure.",
       "party": "Dem"
     },
     {
@@ -9903,6 +10169,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "missing signature, year of birth, date, last 4 of ss",
       "party": "Rep"
     },
     {
@@ -9928,6 +10195,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Rep"
     },
     {
@@ -9953,6 +10221,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "missing ssn and dob",
       "party": "Dem"
     },
     {
@@ -9978,6 +10247,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Sig",
       "party": "Rep"
     },
     {
@@ -10003,6 +10273,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Incorrect Residence Address",
       "party": "Rep"
     },
     {
@@ -10028,6 +10299,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Envelope B not completed",
       "party": "Dem"
     },
     {
@@ -10053,6 +10325,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Last 4 SSN missing",
       "party": "Dem"
     },
     {
@@ -10078,6 +10351,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Name does not match VERIS",
       "party": "Dem"
     },
     {
@@ -10103,6 +10377,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Last 4 SSN missing",
       "party": "Dem"
     },
     {
@@ -10128,6 +10403,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -10153,6 +10429,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "no address on envelope B",
       "party": "Rep"
     },
     {
@@ -10178,6 +10455,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing voter signature.",
       "party": "Dem"
     },
     {
@@ -10203,6 +10481,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing last 4 of SS#",
       "party": "Dem"
     },
     {
@@ -10228,6 +10507,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing last 4 of SS#",
       "party": "Dem"
     },
     {
@@ -10253,6 +10533,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing last 4 of SS#",
       "party": "Dem"
     },
     {
@@ -10278,6 +10559,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing last 4 of SS#",
       "party": "Rep"
     },
     {
@@ -10303,6 +10585,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "missing last 4 of SS#",
       "party": "Rep"
     },
     {
@@ -10328,6 +10611,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing address.",
       "party": "Dem"
     },
     {
@@ -10353,6 +10637,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing last 4 of SS#",
       "party": "Dem"
     },
     {
@@ -10378,6 +10663,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Envelope B not completed at all.",
       "party": "Rep"
     },
     {
@@ -10403,6 +10689,7 @@
       "cure_status": "Cured",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -10428,6 +10715,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Different Middle Name",
       "party": "Dem"
     },
     {
@@ -10453,6 +10741,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "incorrect last 4 - SSN (see documents)",
       "party": "Rep"
     },
     {
@@ -10478,6 +10767,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Blank B envelope",
       "party": "Dem"
     },
     {
@@ -10503,6 +10793,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "incomplete address (see documents)",
       "party": "Dem"
     },
     {
@@ -10528,6 +10819,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "voter's name is incorrect",
       "party": "Dem"
     },
     {
@@ -10553,6 +10845,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No Apt #",
       "party": "Dem"
     },
     {
@@ -10578,6 +10871,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "added last name",
       "party": "Dem"
     },
     {
@@ -10603,6 +10897,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "no apt #",
       "party": "Rep"
     },
     {
@@ -10628,6 +10923,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "The voter name order is not the same as the voter name order.",
       "party": "Dem"
     },
     {
@@ -10653,6 +10949,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No Apt #",
       "party": "Dem"
     },
     {
@@ -10678,6 +10975,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No Signature",
       "party": "Dem"
     },
     {
@@ -10703,6 +11001,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "diff ssn",
       "party": "Dem"
     },
     {
@@ -10728,6 +11027,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No Env. B enclosed",
       "party": "Rep"
     },
     {
@@ -10753,6 +11053,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Env. B blank except for signature",
       "party": "Dem"
     },
     {
@@ -10778,6 +11079,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No SSN4 on Env. B",
       "party": "Rep"
     },
     {
@@ -10803,6 +11105,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No SSN4 or YOB on Env. B",
       "party": "Rep"
     },
     {
@@ -10828,6 +11131,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "SSN4 discrepancy on Env. B",
       "party": "Dem"
     },
     {
@@ -10853,6 +11157,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No voter address on Env. B",
       "party": "Rep"
     },
     {
@@ -10878,6 +11183,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing B Envelope",
       "party": "Ind"
     },
     {
@@ -10903,6 +11209,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing last 4 of SSN",
       "party": "Dem"
     },
     {
@@ -10928,6 +11235,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing signature",
       "party": "Dem"
     },
     {
@@ -10953,6 +11261,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "MISSING LAST 4 OF SSN",
       "party": "Rep"
     },
     {
@@ -10978,6 +11287,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "MISSING LAST 4 OF SSN",
       "party": "Rep"
     },
     {
@@ -11003,6 +11313,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "MISSING LAST 4 OF SSN",
       "party": "Rep"
     },
     {
@@ -11028,6 +11339,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "MISSING LAST 4 OF SSN",
       "party": "Rep"
     },
     {
@@ -11053,6 +11365,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "NEEDS LAST 4 OF SSN",
       "party": "Dem"
     },
     {
@@ -11078,6 +11391,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "NO ENVELOPE B",
       "party": "Dem"
     },
     {
@@ -11103,6 +11417,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing full address",
       "party": "Dem"
     },
     {
@@ -11128,6 +11443,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing SSN",
       "party": "Dem"
     },
     {
@@ -11153,6 +11469,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "missing yob & address",
       "party": "Dem"
     },
     {
@@ -11178,6 +11495,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "missing ssn",
       "party": "Dem"
     },
     {
@@ -11203,6 +11521,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "missing ssn",
       "party": "Rep"
     },
     {
@@ -11228,6 +11547,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "missing ssn",
       "party": "Dem"
     },
     {
@@ -11253,6 +11573,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "missing address",
       "party": "Dem"
     },
     {
@@ -11278,6 +11599,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "blank envelope",
       "party": "Rep"
     },
     {
@@ -11303,6 +11625,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "incorrect ssn",
       "party": "Ind"
     },
     {
@@ -11328,6 +11651,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -11353,6 +11677,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Rep"
     },
     {
@@ -11378,6 +11703,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Rep"
     },
     {
@@ -11403,6 +11729,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "MISSING SSN4",
       "party": "Dem"
     },
     {
@@ -11428,6 +11755,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Information",
       "party": "Dem"
     },
     {
@@ -11453,6 +11781,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Information",
       "party": "Dem"
     },
     {
@@ -11478,6 +11807,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Information",
       "party": "Dem"
     },
     {
@@ -11503,6 +11833,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Information",
       "party": "Rep"
     },
     {
@@ -11528,6 +11859,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Information",
       "party": "Dem"
     },
     {
@@ -11553,6 +11885,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Information",
       "party": "Dem"
     },
     {
@@ -11578,6 +11911,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Misisng Information",
       "party": "Dem"
     },
     {
@@ -11603,6 +11937,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Information.",
       "party": "Dem"
     },
     {
@@ -11628,6 +11963,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Information",
       "party": "Dem"
     },
     {
@@ -11653,6 +11989,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Information",
       "party": "Rep"
     },
     {
@@ -11678,6 +12015,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Blank Envelope B",
       "party": "Rep"
     },
     {
@@ -11703,6 +12041,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing SSN4",
       "party": "Rep"
     },
     {
@@ -11728,6 +12067,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing SSN4",
       "party": "Dem"
     },
     {
@@ -11753,6 +12093,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "missing enveolpe b",
       "party": "Ind"
     },
     {
@@ -11778,6 +12119,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "missing address",
       "party": "Dem"
     },
     {
@@ -11803,6 +12145,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "envelope b blank",
       "party": "Dem"
     },
     {
@@ -11828,6 +12171,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "voter left off address",
       "party": "Dem"
     },
     {
@@ -11853,6 +12197,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "B envelope not filled out.",
       "party": "Rep"
     },
     {
@@ -11878,6 +12223,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing year of birth.",
       "party": "Rep"
     },
     {
@@ -11903,6 +12249,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "B envelope not filled out.",
       "party": "Rep"
     },
     {
@@ -11928,6 +12275,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "B envelope not filled out.",
       "party": "Rep"
     },
     {
@@ -11953,6 +12301,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing last 4 of SSN.",
       "party": "Rep"
     },
     {
@@ -11978,6 +12327,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing full name and address.",
       "party": "Rep"
     },
     {
@@ -12003,6 +12353,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing full name and addess.",
       "party": "Rep"
     },
     {
@@ -12028,6 +12379,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Incorrect last 4 of SSN.",
       "party": "Dem"
     },
     {
@@ -12053,6 +12405,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing SSN4",
       "party": "Ind"
     },
     {
@@ -12078,6 +12431,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Env. B",
       "party": "Dem"
     },
     {
@@ -12103,6 +12457,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing signature",
       "party": "Rep"
     },
     {
@@ -12128,6 +12483,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing SSN4",
       "party": "Dem"
     },
     {
@@ -12153,6 +12509,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -12178,6 +12535,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing YoB and SSN4",
       "party": "Dem"
     },
     {
@@ -12203,6 +12561,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing YoB and SSN4",
       "party": "Dem"
     },
     {
@@ -12228,6 +12587,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing SSN4",
       "party": "Dem"
     },
     {
@@ -12253,6 +12613,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Rep"
     },
     {
@@ -12278,6 +12639,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing name, address, YoB, SSN4, signature",
       "party": "Ind"
     },
     {
@@ -12303,6 +12665,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Env B",
       "party": "Ind"
     },
     {
@@ -12328,6 +12691,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing YoB",
       "party": "Rep"
     },
     {
@@ -12353,6 +12717,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing, YoB, SSN4 and signature",
       "party": "Dem"
     },
     {
@@ -12378,6 +12743,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing address, SSN4",
       "party": "Dem"
     },
     {
@@ -12403,6 +12769,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Address on Env B does not match voter reg",
       "party": "Dem"
     },
     {
@@ -12428,6 +12795,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing signature",
       "party": "Rep"
     },
     {
@@ -12453,6 +12821,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "SSN4 does not match voter reg",
       "party": "Rep"
     },
     {
@@ -12478,6 +12847,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Rep"
     },
     {
@@ -12503,6 +12873,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing SSN4",
       "party": "Dem"
     },
     {
@@ -12528,6 +12899,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Other",
       "ballot_status_reason": "Other",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -12553,6 +12925,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing address and SSN4",
       "party": "Dem"
     },
     {
@@ -12578,6 +12951,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing SSN4",
       "party": "Dem"
     },
     {
@@ -12603,6 +12977,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing SSN4",
       "party": "Dem"
     },
     {
@@ -12628,6 +13003,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing name, address, YoB, SSN4, signature",
       "party": "Rep"
     }
   ]
