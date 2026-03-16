@@ -1062,7 +1062,7 @@ function renderNeedsCureList(el) {
   const ind = rows.filter(r => r.party === 'Ind').length;
   const unk = rows.filter(r => r.party === 'Unk').length;
 
-  // Table columns  (w = optional min-width hint on th)
+  // Table columns  (w = min-width on th)
   const cols = [
     { key: 'voter_file_vanid',    label: 'VAN ID',          align: 'left',   w: '80px',
       fmt: r => `<span style="font-family:var(--mono);font-size:11px;color:var(--text-dim)">${r.voter_file_vanid || '—'}</span>` },
@@ -1072,23 +1072,25 @@ function renderNeedsCureList(el) {
       fmt: r => r.middle_name
         ? `${r.first_name || '—'} <span style="color:var(--text-dim)">${r.middle_name}</span>`
         : (r.first_name || '—') },
-    { key: 'preferred_phone',     label: 'Pref. Phone',     align: 'left',   w: '110px',
-      fmt: r => r.preferred_phone ? `<span class="voter-phone">${r.preferred_phone}</span>` : '<span class="dim">—</span>' },
-    { key: 'cell_phone',          label: 'Cell',            align: 'left',   w: '110px',
-      fmt: r => r.cell_phone ? `<span class="voter-phone">${r.cell_phone}</span>` : '<span class="dim">—</span>' },
+    { key: 'preferred_phone',     label: 'Phone',           align: 'left',   w: '115px',
+      fmt: r => {
+        const lines = [];
+        if (r.preferred_phone) lines.push(`<span class="voter-phone">${r.preferred_phone}</span>`);
+        if (r.cell_phone && r.cell_phone !== r.preferred_phone)
+          lines.push(`<span class="voter-phone" style="color:var(--text-dim)">c: ${r.cell_phone}</span>`);
+        return lines.length
+          ? `<span style="white-space:normal;line-height:1.6">${lines.join('<br>')}</span>`
+          : '<span class="dim">—</span>';
+      }},
     { key: 'party',               label: 'Party',           align: 'center', w: '52px',
       fmt: r => partyBadge(r.party) },
-    { key: 'age',                 label: 'Age',             align: 'right',  w: '40px',
+    { key: 'age',                 label: 'Age',             align: 'right',  w: '38px',
       fmt: r => r.age || '<span class="dim">—</span>' },
-    { key: 'sex',                 label: 'Sex',             align: 'center', w: '36px',
-      fmt: r => r.sex || '<span class="dim">—</span>' },
-    { key: 'address',             label: 'Address',         align: 'left',   w: '180px',
+    { key: 'address',             label: 'City / State',    align: 'left',   w: '120px',
       fmt: r => {
-        const parts = [r.address, r.city, r.state].filter(Boolean);
-        const zip   = r.zip5 ? (r.zip4 ? `${r.zip5}-${r.zip4}` : r.zip5) : '';
-        if (zip) parts.push(zip);
+        const parts = [r.city, r.state].filter(Boolean);
         return parts.length
-          ? `<span style="font-size:11px;white-space:normal">${parts.join(', ')}</span>`
+          ? `<span style="font-size:11px">${parts.join(', ')}</span>`
           : '<span class="dim">—</span>';
       }},
     { key: 'county_name',         label: 'County',          align: 'left',   w: '100px',
@@ -1099,9 +1101,9 @@ function renderNeedsCureList(el) {
       fmt: r => r.rejection_reason
         ? `<span style="color:var(--orange);font-size:11px;white-space:normal">${r.rejection_reason}</span>`
         : '<span class="dim">—</span>' },
-    { key: 'ballot_comment',      label: 'Comment',         align: 'left',   w: '240px',
+    { key: 'ballot_comment',      label: 'Comment',         align: 'left',   w: '280px',
       fmt: r => r.ballot_comment
-        ? `<span style="white-space:normal;color:var(--text-hi);font-size:11px">${r.ballot_comment}</span>`
+        ? `<span style="white-space:normal;color:var(--text-hi);font-size:11px;line-height:1.5">${r.ballot_comment}</span>`
         : '<span class="dim">—</span>' },
   ];
 
@@ -1133,11 +1135,11 @@ function renderNeedsCureList(el) {
   </div>`;
 
   // Table
-  html += `<div class="tbl-wrap"><table style="table-layout:fixed;width:100%"><thead><tr>`;
+  html += `<div class="tbl-wrap"><table style="width:100%"><thead><tr>`;
   cols.forEach(c => {
     const sorted = voterSort.col === c.key;
     const arrow  = sorted ? (voterSort.dir === 1 ? '▲' : '▼') : '⇅';
-    const wStyle = c.w ? `min-width:${c.w};width:${c.w};` : '';
+    const wStyle = c.w ? `min-width:${c.w};` : '';
     html += `<th class="${sorted?'sorted':''}" data-col="${c.key}" style="text-align:${c.align};${wStyle}">${c.label} <span class="sort-arrow">${arrow}</span></th>`;
   });
   html += `</tr></thead><tbody>`;
