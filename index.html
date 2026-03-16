@@ -1093,14 +1093,14 @@ function renderNeedsCureList(el) {
       fmt: r => r.county_name || '<span class="dim">—</span>' },
     { key: 'precinct_name',       label: 'Precinct',        align: 'left',
       fmt: r => r.precinct_name || '<span class="dim">—</span>' },
-    { key: 'hd',                  label: 'HD',              align: 'right',
-      fmt: r => `<span style="font-family:var(--mono)">${r.hd || '—'}</span>` },
     { key: 'rejection_reason',    label: 'Rej. Reason',     align: 'left',
       fmt: r => r.rejection_reason
         ? `<span style="color:var(--orange);font-size:11px">${r.rejection_reason}</span>`
         : '<span class="dim">—</span>' },
     { key: 'ballot_comment',      label: 'Comment',         align: 'left',
-      fmt: r => r.ballot_comment || '<span class="dim">—</span>' },
+      fmt: r => r.ballot_comment
+        ? `<span style="white-space:normal;min-width:200px;display:inline-block">${r.ballot_comment}</span>`
+        : '<span class="dim">—</span>' },
   ];
 
   let html = `<div class="section-title">Currently Needs Cure — Voter List</div>`;
