@@ -122,6 +122,8 @@ nav {
 }
 .tab:hover { color: var(--text); }
 .tab.active { color: var(--dem); border-bottom-color: var(--dem); }
+.tab.warn-tab { color: var(--orange); }
+.tab.warn-tab.active { color: var(--orange); border-bottom-color: var(--orange); }
 
 /* ── Main ── */
 main { padding: 20px; max-width: 1400px; }
@@ -219,7 +221,6 @@ main { padding: 20px; max-width: 1400px; }
   gap: 10px;
 }
 .funnel-label {
-  font-family: var(--mono);
   font-size: 10px;
   color: var(--text-dim);
   width: 160px;
@@ -390,6 +391,10 @@ td.dem  { color: var(--dem); }
 .badge-target { background: var(--dem-bg); color: var(--dem); border: 1px solid var(--dem-dim); }
 .badge-yes    { background: var(--green-bg); color: var(--green); }
 .badge-no     { background: transparent; color: var(--text-dim); }
+.badge-dem    { background: var(--dem-bg); color: var(--dem); border: 1px solid var(--dem-dim); }
+.badge-rep    { background: var(--rep-bg); color: var(--rep); border: 1px solid var(--rep-dim); }
+.badge-ind    { background: rgba(255,255,255,0.05); color: var(--text-dim); border: 1px solid var(--border); }
+.badge-unk    { background: rgba(255,255,255,0.03); color: var(--text-dim); border: 1px solid var(--border); }
 
 /* ── Key / legend table ── */
 .key-table { width: 100%; border-collapse: collapse; font-size: 12px; }
@@ -429,6 +434,52 @@ td.dem  { color: var(--dem); }
 .summary-item .dem { color: var(--dem); }
 .summary-item .green { color: var(--green); }
 .summary-item .warn { color: var(--orange); }
+
+/* ── Export buttons ── */
+.export-btn {
+  background: var(--surface);
+  border: 1px solid var(--border-hi);
+  color: var(--text-dim);
+  padding: 6px 14px;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  border-radius: var(--radius);
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+.export-btn:hover { background: var(--surface2); border-color: var(--dem); color: var(--dem); }
+.export-btn-vb {
+  border-color: var(--yellow);
+  color: var(--yellow);
+}
+.export-btn-vb:hover { background: var(--yellow-bg); border-color: var(--yellow); color: var(--yellow); }
+
+/* ── VB code badge ── */
+.vb-code {
+  display: inline-block;
+  background: var(--yellow-bg);
+  border: 1px solid rgba(245,200,66,0.3);
+  color: var(--yellow);
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 600;
+  padding: 1px 7px;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+.voter-name-cell {
+  text-align: left !important;
+  font-family: var(--sans) !important;
+  font-weight: 500;
+  color: var(--text-hi) !important;
+}
+.voter-phone {
+  color: var(--text-dim);
+  font-size: 11px;
+}
 </style>
 </head>
 <body>
@@ -450,6 +501,7 @@ td.dem  { color: var(--dem); }
   <div class="tab" data-tab="locality">By Locality</div>
   <div class="tab" data-tab="byhd">By HD</div>
   <div class="tab" data-tab="reasons">Rej. Reasons</div>
+  <div class="tab warn-tab" data-tab="needscure">Needs Cure List</div>
   <div class="tab" data-tab="key">Key / Definitions</div>
 </nav>
 
@@ -468,6 +520,11 @@ let hdSort = { col: 'ever_not_accepted', dir: -1 };
 let localityFilter = '';
 let hdFilter = '';
 let localityTargetsOnly = false;
+
+// Needs Cure tab state
+let voterSort = { col: 'last_name', dir: 1 };
+let voterFilter = '';
+let voterPartyFilter = 'All';
 
 // ─────────────────────────────────────────────────────────────
 // Boot
@@ -504,6 +561,14 @@ function init() {
   document.getElementById('metaSnap').textContent   = m.snapshot_date  || '—';
   document.getElementById('metaDate').textContent   = m.export_time    || '—';
   document.getElementById('metaRecords').textContent = (m.source_records || 0).toLocaleString();
+
+  // Update Needs Cure tab label with live count
+  if (DATA.statewide && DATA.statewide.currently_needs_cure > 0) {
+    const nc = DATA.statewide.currently_needs_cure;
+    document.querySelector('[data-tab="needscure"]').textContent =
+      `Needs Cure List (${nc.toLocaleString()})`;
+  }
+
   renderCurrentTab();
 }
 
@@ -518,6 +583,7 @@ function renderCurrentTab() {
     case 'locality':  renderLocality(panel);  break;
     case 'byhd':      renderByHD(panel);      break;
     case 'reasons':   renderReasons(panel);   break;
+    case 'needscure': renderNeedsCureList(panel); break;
     case 'key':       renderKey(panel);       break;
   }
   main.appendChild(panel);
@@ -586,6 +652,32 @@ function makeRateRow(label, val, color, max) {
       </div>
       <div class="rate-val" style="color:${color}">${fmtP(val)}</div>
     </div>`;
+}
+
+function partyBadge(party) {
+  const map = {
+    'Dem': `<span class="badge badge-dem">Dem</span>`,
+    'Rep': `<span class="badge badge-rep">Rep</span>`,
+    'Ind': `<span class="badge badge-ind">Ind</span>`,
+    'Unk': `<span class="badge badge-unk">Unk</span>`,
+  };
+  return map[party] || `<span class="badge badge-unk">${party || '?'}</span>`;
+}
+
+// ─────────────────────────────────────────────────────────────
+// CSV / Download helpers
+// ─────────────────────────────────────────────────────────────
+function csvEscape(v) {
+  const s = (v == null ? '' : String(v)).replace(/"/g, '""');
+  return `"${s}"`;
+}
+
+function downloadCsv(content, filename) {
+  const blob = new Blob([content], { type: 'text/csv;charset=utf-8;' });
+  const url  = URL.createObjectURL(blob);
+  const a    = document.createElement('a');
+  a.href = url; a.download = filename; a.click();
+  URL.revokeObjectURL(url);
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -932,9 +1024,9 @@ function renderReasons(el) {
     DATA.status_transitions.forEach(r => {
       html += `<tr>
         <td>${r.rejection_reason}</td>
-        <td class="warn">${fmtN(r.still_unmarked)}</td>
-        <td class="good">${fmtN(r.now_marked)}</td>
-        <td>${fmtN(r.evip)}</td>
+        <td class="warn">${fmtN(r.still_needs_cure)}</td>
+        <td class="good">${fmtN(r.now_cured)}</td>
+        <td>${fmtN(r.switched_evip)}</td>
         <td>${fmtN(r.reissued)}</td>
         <td>${fmtN(r.total)}</td>
         <td class="${cureRateClass(r.cure_rate)}">${fmtP(r.cure_rate)}</td>
@@ -944,6 +1036,240 @@ function renderReasons(el) {
   }
 
   el.innerHTML = html;
+}
+
+// ─────────────────────────────────────────────────────────────
+// NEEDS CURE LIST
+// ─────────────────────────────────────────────────────────────
+function renderNeedsCureList(el) {
+  const all = DATA.cure_voters;
+
+  if (!all || !all.length) {
+    el.innerHTML = `<div class="error-box">
+      No voter list data found in cure_data.json.<br><br>
+      Re-run <code>export_cure_dashboard.py</code> — this section requires the updated
+      version that exports individual voter records.
+    </div>`;
+    return;
+  }
+
+  // Filter to Needs Cure only
+  const rows = all.filter(r => r.cure_status === 'Needs Cure');
+
+  // Party counts for needs-cure subset
+  const dem = rows.filter(r => r.party === 'Dem').length;
+  const rep = rows.filter(r => r.party === 'Rep').length;
+  const ind = rows.filter(r => r.party === 'Ind').length;
+  const unk = rows.filter(r => r.party === 'Unk').length;
+
+  // Table columns
+  const cols = [
+    { key: 'voter_file_vanid',    label: 'VAN ID',          align: 'left',
+      fmt: r => `<span style="font-family:var(--mono);font-size:11px;color:var(--text-dim)">${r.voter_file_vanid || '—'}</span>` },
+    { key: 'last_name',           label: 'Last Name',       align: 'left',
+      fmt: r => `<strong style="color:var(--text-hi)">${r.last_name || '—'}</strong>` },
+    { key: 'first_name',          label: 'First Name',      align: 'left',
+      fmt: r => r.middle_name
+        ? `${r.first_name || '—'} <span style="color:var(--text-dim)">${r.middle_name}</span>`
+        : (r.first_name || '—') },
+    { key: 'preferred_phone',     label: 'Pref. Phone',     align: 'left',
+      fmt: r => r.preferred_phone ? `<span class="voter-phone">${r.preferred_phone}</span>` : '<span class="dim">—</span>' },
+    { key: 'cell_phone',          label: 'Cell',            align: 'left',
+      fmt: r => r.cell_phone ? `<span class="voter-phone">${r.cell_phone}</span>` : '<span class="dim">—</span>' },
+    { key: 'party',               label: 'Party',           align: 'center',
+      fmt: r => partyBadge(r.party) },
+    { key: 'age',                 label: 'Age',             align: 'right',
+      fmt: r => r.age || '<span class="dim">—</span>' },
+    { key: 'sex',                 label: 'Sex',             align: 'center',
+      fmt: r => r.sex || '<span class="dim">—</span>' },
+    { key: 'address',             label: 'Address',         align: 'left',
+      fmt: r => {
+        const parts = [r.address, r.city, r.state].filter(Boolean);
+        const zip   = r.zip5 ? (r.zip4 ? `${r.zip5}-${r.zip4}` : r.zip5) : '';
+        if (zip) parts.push(zip);
+        return parts.length ? `<span style="font-size:11px">${parts.join(', ')}</span>` : '<span class="dim">—</span>';
+      }},
+    { key: 'county_name',         label: 'County',          align: 'left',
+      fmt: r => r.county_name || '<span class="dim">—</span>' },
+    { key: 'precinct_name',       label: 'Precinct',        align: 'left',
+      fmt: r => r.precinct_name || '<span class="dim">—</span>' },
+    { key: 'hd',                  label: 'HD',              align: 'right',
+      fmt: r => `<span style="font-family:var(--mono)">${r.hd || '—'}</span>` },
+    { key: 'rejection_reason',    label: 'Rej. Reason',     align: 'left',
+      fmt: r => r.rejection_reason
+        ? `<span style="color:var(--orange);font-size:11px">${r.rejection_reason}</span>`
+        : '<span class="dim">—</span>' },
+    { key: 'ballot_status_reason', label: 'Notes',          align: 'left',
+      fmt: r => r.ballot_status_reason || '<span class="dim">—</span>' },
+  ];
+
+  let html = `<div class="section-title">Currently Needs Cure — Voter List</div>`;
+
+  // Summary bar
+  html += `<div class="summary-row">
+    <div class="summary-item">Needs Cure: <strong style="color:var(--orange)">${rows.length.toLocaleString()}</strong></div>
+    <div class="summary-item">Dem: <strong class="dem">${dem.toLocaleString()}</strong></div>
+    <div class="summary-item">Rep: <strong style="color:var(--rep)">${rep.toLocaleString()}</strong></div>
+    <div class="summary-item">Ind: <strong>${ind.toLocaleString()}</strong></div>
+    <div class="summary-item">Unk: <strong style="color:var(--text-dim)">${unk.toLocaleString()}</strong></div>
+    <div class="summary-item" style="margin-left:auto;color:var(--text-dim);font-size:10px">
+      Showing voters where Cure_Status = 'Needs Cure'
+    </div>
+  </div>`;
+
+  // Filter bar
+  html += `<div class="filter-bar">
+    <input type="text" id="voterSearch" placeholder="Search name or locality…" value="${voterFilter}">
+    <span class="filter-label">Party:</span>
+    <div class="btn-group" id="partyBtns">
+      ${['All','Dem','Rep','Ind','Unk'].map(p =>
+        `<button class="${voterPartyFilter===p?'active':''}" data-party="${p}">${p}</button>`
+      ).join('')}
+    </div>
+    <button class="export-btn" id="exportCsvBtn">↓ Export CSV</button>
+    <button class="export-btn export-btn-vb" id="exportVbBtn">↓ Export VB Survey</button>
+  </div>`;
+
+  // Table
+  html += `<div class="tbl-wrap"><table><thead><tr>`;
+  cols.forEach(c => {
+    const sorted = voterSort.col === c.key;
+    const arrow  = sorted ? (voterSort.dir === 1 ? '▲' : '▼') : '⇅';
+    html += `<th class="${sorted?'sorted':''}" data-col="${c.key}" style="text-align:${c.align}">${c.label} <span class="sort-arrow">${arrow}</span></th>`;
+  });
+  html += `</tr></thead><tbody>`;
+
+  // Apply filters
+  let filtered = rows.filter(r => {
+    if (voterPartyFilter !== 'All' && r.party !== voterPartyFilter) return false;
+    if (voterFilter) {
+      const q = voterFilter.toLowerCase();
+      const name = `${r.first_name} ${r.last_name}`.toLowerCase();
+      if (!name.includes(q)
+          && !(r.locality      || '').toLowerCase().includes(q)
+          && !(r.county_name   || '').toLowerCase().includes(q)
+          && !(r.precinct_name || '').toLowerCase().includes(q)
+          && !(r.voter_file_vanid || '').includes(q)
+          && !(r.state_file_id    || '').includes(q)
+          && !(r.preferred_phone  || '').includes(q)
+          && !(r.cell_phone       || '').includes(q)) return false;
+    }
+    return true;
+  });
+
+  // Sort
+  filtered.sort((a, b) => {
+    let va = a[voterSort.col]; let vb = b[voterSort.col];
+    if (va == null) va = typeof va === 'number' ? 0 : '';
+    if (vb == null) vb = typeof vb === 'number' ? 0 : '';
+    if (typeof va === 'string') return voterSort.dir * va.localeCompare(vb);
+    return voterSort.dir * (va - vb);
+  });
+
+  if (filtered.length === 0) {
+    html += `<tr><td colspan="${cols.length}" style="text-align:center;color:var(--text-dim);padding:24px">No voters match current filters.</td></tr>`;
+  } else {
+    filtered.forEach(r => {
+      html += `<tr>`;
+      cols.forEach(c => {
+        html += `<td style="text-align:${c.align}">${c.fmt(r)}</td>`;
+      });
+      html += `</tr>`;
+    });
+  }
+  html += `</tbody></table></div>`;
+
+  if (filtered.length < rows.length) {
+    html += `<div style="font-family:var(--mono);font-size:10px;color:var(--text-dim);margin-top:8px">
+      Showing ${filtered.length.toLocaleString()} of ${rows.length.toLocaleString()} voters
+    </div>`;
+  }
+
+  el.innerHTML = html;
+
+  // Wire events
+  el.querySelector('#voterSearch').addEventListener('input', e => {
+    voterFilter = e.target.value; renderCurrentTab();
+  });
+  el.querySelectorAll('#partyBtns button[data-party]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      voterPartyFilter = btn.dataset.party; renderCurrentTab();
+    });
+  });
+  el.querySelector('#exportCsvBtn').addEventListener('click', () => exportNeedsCureCsv(filtered));
+  el.querySelector('#exportVbBtn').addEventListener('click', () => exportVbSurvey(all));
+
+  el.querySelectorAll('thead th[data-col]').forEach(th => {
+    th.addEventListener('click', () => {
+      const col = th.dataset.col;
+      if (voterSort.col === col) voterSort.dir *= -1;
+      else { voterSort.col = col; voterSort.dir = 1; }
+      renderCurrentTab();
+    });
+  });
+}
+
+// ─────────────────────────────────────────────────────────────
+// Export 1 — Needs Cure CSV (filtered/visible rows, VoterFileVANID first)
+// ─────────────────────────────────────────────────────────────
+function exportNeedsCureCsv(filteredRows) {
+  const snap = (DATA.meta && DATA.meta.snapshot_date) ? DATA.meta.snapshot_date : new Date().toISOString().slice(0,10);
+  const headers = [
+    'VoterFileVANID', 'StateFileID',
+    'LastName', 'FirstName', 'MiddleName',
+    'PreferredPhone', 'CellPhone',
+    'Address', 'City', 'State', 'Zip5', 'Zip4',
+    'CountyName', 'PrecinctName',
+    'Age', 'Sex', 'DOB',
+    'Party', 'HD', 'Locality', 'CountyName_Cure',
+    'RejectionReason', 'Notes', 'CureStatus'
+  ];
+  const csvRows = filteredRows.map(r => [
+    r.voter_file_vanid, r.state_file_id,
+    r.last_name, r.first_name, r.middle_name,
+    r.preferred_phone, r.cell_phone,
+    r.address, r.city, r.state, r.zip5, r.zip4,
+    r.county_name, r.precinct_name,
+    r.age, r.sex, r.dob,
+    r.party, r.hd, r.locality, r.county_name,
+    r.rejection_reason, r.ballot_status_reason, r.cure_status
+  ].map(csvEscape).join(','));
+  const csv = [headers.join(','), ...csvRows].join('\r\n');
+  downloadCsv(csv, `needs_cure_${snap}.csv`);
+}
+
+// ─────────────────────────────────────────────────────────────
+// Export 2 — VB Survey CSV (ALL cure history voters, status → code)
+//
+// Response codes:
+//   1 = Needs Cure        (Cure_Status = 'Needs Cure')
+//   2 = Undeliverable     (Cure_Status = 'Undeliverable')
+//   3 = Chose EVIP/EDay   (Cure_Status = 'EVIP')
+//   4 = Other             (Cure_Status = 'Re-Issued' or other unmapped)
+//   5 = Not Listed        (catch-all for unrecognized statuses)
+//   6 = No Longer Unmarked (Cure_Status = 'Cured' — ballot accepted)
+//
+// Adjust the mapping below if your VB survey question uses
+// different code numbers or you want to split additional statuses.
+// ─────────────────────────────────────────────────────────────
+function exportVbSurvey(allVoters) {
+  const snap = (DATA.meta && DATA.meta.snapshot_date) ? DATA.meta.snapshot_date : new Date().toISOString().slice(0,10);
+
+  const codeMap = {
+    'Needs Cure':    1,
+    'Undeliverable': 2,
+    'EVIP':          3,
+    'Cured':         6,
+    'Re-Issued':     4,
+  };
+
+  const headers = ['VoterFileVANID', 'Response Code', 'Cure Status'];
+  const csvRows = allVoters.map(r => {
+    const code = codeMap.hasOwnProperty(r.cure_status) ? codeMap[r.cure_status] : 5;
+    return [r.voter_file_vanid, code, r.cure_status].map(csvEscape).join(',');
+  });
+  const csv = [headers.join(','), ...csvRows].join('\r\n');
+  downloadCsv(csv, `vb_survey_cure_${snap}.csv`);
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -995,6 +1321,20 @@ function renderKey(el) {
       <tr><td>Cure Rate</td><td>Cured / Ever Not Accepted</td><td>Of all voters who had a rejection, how many have been resolved</td></tr>
       <tr><td>△ vs Statewide</td><td>Locality Post-Cure Rate − Statewide Post-Cure Rate</td><td>Positive = worse than state avg; negative = better than state avg</td></tr>
       <tr><td>Dem Rejection Rate</td><td>Dem Ever Not Accepted / Total Dem Attempts</td><td>Rejection rate among Dem voters specifically</td></tr>
+    </tbody>
+    </table>
+  </div>
+  <div class="card" style="margin-top:16px">
+    <div class="card-title">VB Survey Response Code Mapping</div>
+    <table class="key-table">
+    <thead><tr><th>Code</th><th>Label</th><th>Mapped From (Cure_Status)</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>Needs Cure</td><td>Needs Cure</td></tr>
+      <tr><td>2</td><td>Undeliverable</td><td>Undeliverable</td></tr>
+      <tr><td>3</td><td>Chose EVIP/EDay</td><td>EVIP</td></tr>
+      <tr><td>4</td><td>Other</td><td>Re-Issued (and any other unmapped status)</td></tr>
+      <tr><td>5</td><td>Not Listed</td><td>Any unrecognized Cure_Status value</td></tr>
+      <tr><td>6</td><td>No Longer Unmarked</td><td>Cured (ballot now marked/accepted)</td></tr>
     </tbody>
     </table>
   </div>
