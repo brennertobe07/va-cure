@@ -730,6 +730,11 @@ function renderStatewide(el) {
       <div class="kpi-value">${fmtN(s.reissued)}</div>
       <div class="kpi-sub">New ballot issued after rejection · <span class="dem">${fmtP(s.dem_pct_reissued)} Dem</span></div>
     </div>
+    <div class="kpi">
+      <div class="kpi-label">Other Status</div>
+      <div class="kpi-value">${fmtN(s.other_status)}</div>
+      <div class="kpi-sub">Resolved — status outside main categories</div>
+    </div>
   </div>`;
 
   // Two column: funnel + rates
@@ -745,6 +750,7 @@ function renderStatewide(el) {
   html += makeFunnelRow('↳ Currently Rejected', s.currently_needs_cure, s.total_attempts, 'var(--rep)');
   html += makeFunnelRow('↳ Switched to EVIP',   s.switched_to_evip,     s.total_attempts, '#8855ff');
   html += makeFunnelRow('↳ Re-Issued',          s.reissued,             s.total_attempts, 'var(--yellow)');
+  html += makeFunnelRow('↳ Other Status',       s.other_status,         s.total_attempts, 'var(--text-dim)');
   html += `</div>`;
 
   // Rates
@@ -1018,6 +1024,7 @@ function renderReasons(el) {
         <th>Now Marked (Cured)</th>
         <th>EVIP</th>
         <th>Re-Issued</th>
+        <th>Other</th>
         <th>Total</th>
         <th>Cure Rate</th>
       </tr></thead><tbody>`;
@@ -1028,6 +1035,7 @@ function renderReasons(el) {
         <td class="good">${fmtN(r.now_cured)}</td>
         <td>${fmtN(r.switched_evip)}</td>
         <td>${fmtN(r.reissued)}</td>
+        <td>${fmtN(r.other_status)}</td>
         <td>${fmtN(r.total)}</td>
         <td class="${cureRateClass(r.cure_rate)}">${fmtP(r.cure_rate)}</td>
       </tr>`;
@@ -1266,6 +1274,7 @@ function exportVbSurvey(allVoters) {
     'EVIP':          3,
     'Cured':         6,
     'Re-Issued':     4,
+    'Other':         4,
   };
 
   const headers = ['VoterFileVANID', 'Response Code', 'Cure Status'];
@@ -1337,7 +1346,7 @@ function renderKey(el) {
       <tr><td>1</td><td>Needs Cure</td><td>Needs Cure</td></tr>
       <tr><td>2</td><td>Undeliverable</td><td>Undeliverable</td></tr>
       <tr><td>3</td><td>Chose EVIP/EDay</td><td>EVIP</td></tr>
-      <tr><td>4</td><td>Other</td><td>Re-Issued (and any other unmapped status)</td></tr>
+      <tr><td>4</td><td>Other</td><td>Re-Issued, Other (and any other unmapped status)</td></tr>
       <tr><td>5</td><td>Not Listed</td><td>Any unrecognized Cure_Status value</td></tr>
       <tr><td>6</td><td>No Longer Unmarked</td><td>Cured (ballot now marked/accepted)</td></tr>
     </tbody>
