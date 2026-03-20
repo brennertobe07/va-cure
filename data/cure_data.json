@@ -2,7 +2,7 @@
   "meta": {
     "election_name": "2026 April 21 Special",
     "snapshot_date": "2026-03-20",
-    "export_time": "2026-03-20 11:44",
+    "export_time": "2026-03-20 12:29",
     "source_records": 1952,
     "target_hds": [
       "021",
@@ -1042,6 +1042,24 @@
       "rej_vs_statewide": 0.040936
     },
     {
+      "locality": "TAZEWELL COUNTY",
+      "hd": "043",
+      "target_hd": "No",
+      "attempts": 303,
+      "total_vbm": 295,
+      "dem_pct_vbm": 0.491525,
+      "ever_not_accepted": 8,
+      "ever_not_accepted_dem": 4,
+      "currently_needs_cure": 8,
+      "currently_needs_cure_dem": 4,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.026403,
+      "post_cure_rej_rate": 0.026403,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": 0.00808
+    },
+    {
       "locality": "PAGE COUNTY",
       "hd": "033",
       "target_hd": "No",
@@ -1076,24 +1094,6 @@
       "post_cure_rej_rate": 0.044248,
       "cure_rate": 0.25,
       "rej_vs_statewide": 0.025925
-    },
-    {
-      "locality": "TAZEWELL COUNTY",
-      "hd": "043",
-      "target_hd": "No",
-      "attempts": 303,
-      "total_vbm": 295,
-      "dem_pct_vbm": 0.491525,
-      "ever_not_accepted": 8,
-      "ever_not_accepted_dem": 4,
-      "currently_needs_cure": 8,
-      "currently_needs_cure_dem": 4,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.026403,
-      "post_cure_rej_rate": 0.026403,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": 0.00808
     },
     {
       "locality": "GRAYSON COUNTY",
@@ -1258,24 +1258,6 @@
       "rej_vs_statewide": -0.010433
     },
     {
-      "locality": "FREDERICKSBURG CITY",
-      "hd": "065",
-      "target_hd": "065",
-      "attempts": 209,
-      "total_vbm": 204,
-      "dem_pct_vbm": 0.754902,
-      "ever_not_accepted": 5,
-      "ever_not_accepted_dem": 3,
-      "currently_needs_cure": 5,
-      "currently_needs_cure_dem": 3,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.023923,
-      "post_cure_rej_rate": 0.023923,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": 0.0056
-    },
-    {
       "locality": "PRINCE EDWARD COUNTY",
       "hd": "056",
       "target_hd": "No",
@@ -1286,6 +1268,24 @@
       "ever_not_accepted_dem": 4,
       "currently_needs_cure": 5,
       "currently_needs_cure_dem": 4,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.023923,
+      "post_cure_rej_rate": 0.023923,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": 0.0056
+    },
+    {
+      "locality": "FREDERICKSBURG CITY",
+      "hd": "065",
+      "target_hd": "065",
+      "attempts": 209,
+      "total_vbm": 204,
+      "dem_pct_vbm": 0.754902,
+      "ever_not_accepted": 5,
+      "ever_not_accepted_dem": 3,
+      "currently_needs_cure": 5,
+      "currently_needs_cure_dem": 3,
       "cured": 0,
       "cured_dem": 0,
       "pre_cure_rej_rate": 0.023923,
@@ -1528,24 +1528,6 @@
       "rej_vs_statewide": 0.007101
     },
     {
-      "locality": "CLARKE COUNTY",
-      "hd": "031",
-      "target_hd": "No",
-      "attempts": 209,
-      "total_vbm": 205,
-      "dem_pct_vbm": 0.62439,
-      "ever_not_accepted": 4,
-      "ever_not_accepted_dem": 3,
-      "currently_needs_cure": 4,
-      "currently_needs_cure_dem": 3,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.019139,
-      "post_cure_rej_rate": 0.019139,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": 0.000816
-    },
-    {
       "locality": "KING GEORGE COUNTY",
       "hd": "067",
       "target_hd": "No",
@@ -1562,6 +1544,24 @@
       "post_cure_rej_rate": 0.01227,
       "cure_rate": 0.0,
       "rej_vs_statewide": -0.006053
+    },
+    {
+      "locality": "CLARKE COUNTY",
+      "hd": "031",
+      "target_hd": "No",
+      "attempts": 209,
+      "total_vbm": 205,
+      "dem_pct_vbm": 0.62439,
+      "ever_not_accepted": 4,
+      "ever_not_accepted_dem": 3,
+      "currently_needs_cure": 4,
+      "currently_needs_cure_dem": 3,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.019139,
+      "post_cure_rej_rate": 0.019139,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": 0.000816
     },
     {
       "locality": "ROCKINGHAM COUNTY",
@@ -1852,24 +1852,6 @@
       "rej_vs_statewide": -0.017874
     },
     {
-      "locality": "SOUTHAMPTON COUNTY",
-      "hd": "083",
-      "target_hd": "No",
-      "attempts": 140,
-      "total_vbm": 139,
-      "dem_pct_vbm": 0.553957,
-      "ever_not_accepted": 1,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 1,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.007143,
-      "post_cure_rej_rate": 0.007143,
-      "cure_rate": 0.0,
-      "rej_vs_statewide": -0.01118
-    },
-    {
       "locality": "SURRY COUNTY",
       "hd": "082",
       "target_hd": "082",
@@ -1886,6 +1868,24 @@
       "post_cure_rej_rate": 0.008696,
       "cure_rate": 0.0,
       "rej_vs_statewide": -0.009627
+    },
+    {
+      "locality": "SOUTHAMPTON COUNTY",
+      "hd": "083",
+      "target_hd": "No",
+      "attempts": 140,
+      "total_vbm": 139,
+      "dem_pct_vbm": 0.553957,
+      "ever_not_accepted": 1,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 1,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.007143,
+      "post_cure_rej_rate": 0.007143,
+      "cure_rate": 0.0,
+      "rej_vs_statewide": -0.01118
     },
     {
       "locality": "KING & QUEEN COUNTY",
@@ -2050,6 +2050,24 @@
       "rej_vs_statewide": -0.018323
     },
     {
+      "locality": "BUENA VISTA CITY",
+      "hd": "000",
+      "target_hd": "No",
+      "attempts": 60,
+      "total_vbm": 60,
+      "dem_pct_vbm": 0.583333,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.018323
+    },
+    {
       "locality": "BLAND COUNTY",
       "hd": "000",
       "target_hd": "No",
@@ -2074,24 +2092,6 @@
       "attempts": 123,
       "total_vbm": 123,
       "dem_pct_vbm": 0.536585,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.018323
-    },
-    {
-      "locality": "BUENA VISTA CITY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 60,
-      "total_vbm": 60,
-      "dem_pct_vbm": 0.583333,
       "ever_not_accepted": 0,
       "ever_not_accepted_dem": 0,
       "currently_needs_cure": 0,
@@ -2248,12 +2248,12 @@
       "rej_vs_statewide": -0.018323
     },
     {
-      "locality": "GLOUCESTER COUNTY",
+      "locality": "MADISON COUNTY",
       "hd": "000",
       "target_hd": "No",
-      "attempts": 410,
-      "total_vbm": 410,
-      "dem_pct_vbm": 0.456098,
+      "attempts": 116,
+      "total_vbm": 116,
+      "dem_pct_vbm": 0.551724,
       "ever_not_accepted": 0,
       "ever_not_accepted_dem": 0,
       "currently_needs_cure": 0,
@@ -2266,12 +2266,12 @@
       "rej_vs_statewide": -0.018323
     },
     {
-      "locality": "MADISON COUNTY",
+      "locality": "GLOUCESTER COUNTY",
       "hd": "000",
       "target_hd": "No",
-      "attempts": 116,
-      "total_vbm": 116,
-      "dem_pct_vbm": 0.551724,
+      "attempts": 410,
+      "total_vbm": 410,
+      "dem_pct_vbm": 0.456098,
       "ever_not_accepted": 0,
       "ever_not_accepted_dem": 0,
       "currently_needs_cure": 0,
@@ -9972,8 +9972,8 @@
       "hd": "047",
       "cure_status": "Other",
       "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "",
-      "ballot_comment": "",
+      "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No Residence Address provided on Envelope B",
       "party": "Rep"
     },
     {
@@ -9998,8 +9998,8 @@
       "hd": "047",
       "cure_status": "Other",
       "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "No Residence Address provided on Envelope B",
+      "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Rep"
     },
     {
@@ -18110,8 +18110,8 @@
       "hd": "011",
       "cure_status": "Other",
       "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "SSN",
+      "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -18136,8 +18136,8 @@
       "hd": "011",
       "cure_status": "Other",
       "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "",
-      "ballot_comment": "",
+      "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "SSN",
       "party": "Dem"
     },
     {
@@ -37090,8 +37090,8 @@
       "hd": "085",
       "cure_status": "Other",
       "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "",
-      "ballot_comment": "",
+      "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "blank B envelope",
       "party": "Rep"
     },
     {
@@ -37116,8 +37116,8 @@
       "hd": "085",
       "cure_status": "Other",
       "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "blank B envelope",
+      "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Rep"
     },
     {
@@ -50610,8 +50610,8 @@
       "hd": "033",
       "cure_status": "Other",
       "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "",
-      "ballot_comment": "",
+      "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Did not fill out Envelope B",
       "party": "Rep"
     },
     {
@@ -50636,8 +50636,8 @@
       "hd": "033",
       "cure_status": "Other",
       "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "Did not fill out Envelope B",
+      "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Rep"
     },
     {
@@ -50844,8 +50844,8 @@
       "hd": "033",
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "",
-      "ballot_comment": "",
+      "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing last 4 SSN",
       "party": "Rep"
     },
     {
@@ -50870,8 +50870,8 @@
       "hd": "033",
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "Missing last 4 SSN",
+      "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Rep"
     },
     {
