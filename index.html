@@ -1302,7 +1302,7 @@ function renderLocality(el) {
     localityFilter = e.target.value;
     const pos = e.target.selectionStart;
     renderCurrentTab();
-    const inp = el.querySelector('#localitySearch');
+    const inp = document.getElementById('localitySearch');
     if (inp) { inp.focus(); inp.setSelectionRange(pos, pos); }
   });
   el.querySelector('#targetsOnly').addEventListener('change', e => {
@@ -1380,7 +1380,7 @@ function renderByHD(el) {
     hdFilter = e.target.value;
     const pos = e.target.selectionStart;
     renderCurrentTab();
-    const inp = el.querySelector('#hdSearch');
+    const inp = document.getElementById('hdSearch');
     if (inp) { inp.focus(); inp.setSelectionRange(pos, pos); }
   });
   el.querySelectorAll('thead th').forEach(th => {
@@ -1643,7 +1643,7 @@ function renderNeedsCureList(el) {
     voterFilter = e.target.value;
     const pos = e.target.selectionStart;
     renderCurrentTab();
-    const inp = el.querySelector('#voterSearch');
+    const inp = document.getElementById('voterSearch');
     if (inp) { inp.focus(); inp.setSelectionRange(pos, pos); }
   });
   el.querySelectorAll('#partyBtns button[data-party]').forEach(btn => {
