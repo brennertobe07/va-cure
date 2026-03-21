@@ -1299,7 +1299,11 @@ function renderLocality(el) {
 
   // Wire up events
   el.querySelector('#localitySearch').addEventListener('input', e => {
-    localityFilter = e.target.value; renderCurrentTab();
+    localityFilter = e.target.value;
+    const pos = e.target.selectionStart;
+    renderCurrentTab();
+    const inp = el.querySelector('#localitySearch');
+    if (inp) { inp.focus(); inp.setSelectionRange(pos, pos); }
   });
   el.querySelector('#targetsOnly').addEventListener('change', e => {
     localityTargetsOnly = e.target.checked; renderCurrentTab();
@@ -1373,7 +1377,11 @@ function renderByHD(el) {
 
   el.innerHTML = html;
   el.querySelector('#hdSearch').addEventListener('input', e => {
-    hdFilter = e.target.value; renderCurrentTab();
+    hdFilter = e.target.value;
+    const pos = e.target.selectionStart;
+    renderCurrentTab();
+    const inp = el.querySelector('#hdSearch');
+    if (inp) { inp.focus(); inp.setSelectionRange(pos, pos); }
   });
   el.querySelectorAll('thead th').forEach(th => {
     th.addEventListener('click', () => {
@@ -1632,7 +1640,11 @@ function renderNeedsCureList(el) {
 
   // Wire events
   el.querySelector('#voterSearch').addEventListener('input', e => {
-    voterFilter = e.target.value; renderCurrentTab();
+    voterFilter = e.target.value;
+    const pos = e.target.selectionStart;
+    renderCurrentTab();
+    const inp = el.querySelector('#voterSearch');
+    if (inp) { inp.focus(); inp.setSelectionRange(pos, pos); }
   });
   el.querySelectorAll('#partyBtns button[data-party]').forEach(btn => {
     btn.addEventListener('click', () => {
