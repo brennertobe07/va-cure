@@ -1576,8 +1576,7 @@ function renderNeedsCureList(el) {
         `<button class="${voterPartyFilter===p?'active':''}" data-party="${p}">${p}</button>`
       ).join('')}
     </div>
-    <button class="export-btn" id="exportCsvBtn">↓ Export CSV</button>
-    <button class="export-btn export-btn-vb" id="exportVbBtn">↓ Export VB Survey</button>
+
   </div>`;
 
   // Table
@@ -1651,8 +1650,6 @@ function renderNeedsCureList(el) {
       voterPartyFilter = btn.dataset.party; renderCurrentTab();
     });
   });
-  el.querySelector('#exportCsvBtn').addEventListener('click', () => exportNeedsCureCsv(filtered));
-  el.querySelector('#exportVbBtn').addEventListener('click', () => exportVbSurvey(all));
 
   el.querySelectorAll('thead th[data-col]').forEach(th => {
     th.addEventListener('click', () => {
