@@ -945,7 +945,7 @@ UDk/hX7zfCL/AINOPhd4dngm8YePfFPiXy23SW1pDFYwy/8AAhlx+dfcf7MH/BLT4F/sg+VJ4K+H
 // ─────────────────────────────────────────────────────────────
 let DATA = null;
 let currentTab = 'statewide';
-let localitySort = { col: 'ever_not_accepted', dir: -1 };
+let localitySort = { col: 'locality', dir: 1 };
 let hdSort = { col: 'ever_not_accepted', dir: -1 };
 let localityFilter = '';
 let hdFilter = '';
@@ -1010,7 +1010,7 @@ function renderCurrentTab() {
 
   switch (currentTab) {
     case 'statewide': renderStatewide(panel); break;
-    case 'locality':  renderLocality(panel);  break;
+    case 'locality':  localitySort = { col: 'locality', dir: 1 }; renderLocality(panel);  break;
     case 'byhd':      renderByHD(panel);      break;
     case 'reasons':   renderReasons(panel);   break;
     case 'needscure': renderNeedsCureList(panel); break;
