@@ -977,7 +977,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.querySelectorAll('.tab').forEach(t => {
     t.addEventListener('click', () => {
+      const prev = currentTab;
       currentTab = t.dataset.tab;
+      // Reset locality sort to A-Z when entering the tab
+      if (currentTab === 'locality' && prev !== 'locality') {
+        localitySort = { col: 'locality', dir: 1 };
+      }
       document.querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
       t.classList.add('active');
       renderCurrentTab();
@@ -1010,7 +1015,7 @@ function renderCurrentTab() {
 
   switch (currentTab) {
     case 'statewide': renderStatewide(panel); break;
-    case 'locality':  localitySort = { col: 'locality', dir: 1 }; renderLocality(panel);  break;
+    case 'locality':  renderLocality(panel);  break;
     case 'byhd':      renderByHD(panel);      break;
     case 'reasons':   renderReasons(panel);   break;
     case 'needscure': renderNeedsCureList(panel); break;
