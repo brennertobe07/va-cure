@@ -1218,8 +1218,14 @@ function renderLocality(el) {
   const rows = DATA.by_locality;
   if (!rows || !rows.length) { el.innerHTML = '<div class="loading">No locality data.</div>'; return; }
 
+  // Rows are locality x CD. Small non-target CD slivers are suppressed at
+  // build time, so these rows total slightly less than the statewide figure.
+  const supp = DATA.meta && DATA.meta.suppressed_rows;
+  const minR = DATA.meta && DATA.meta.min_cd_rows;
+
   const cols = [
     { key: 'locality',            label: 'Locality',              fmt: r => r.locality },
+    { key: 'cd',                  label: 'CD',                    fmt: r => r.cd || '<span class="dim">—</span>' },
     { key: 'target_cd',           label: 'Target',                fmt: r => r.target_cd && r.target_cd !== 'No' ? `<span class="badge badge-target">${r.target_cd}</span>` : '' },
     { key: 'attempts',            label: 'Attempts',              fmt: r => fmtN(r.attempts) },
     { key: 'total_vbm',           label: 'VBM Acc.',              fmt: r => fmtN(r.total_vbm) },
@@ -1249,7 +1255,7 @@ function renderLocality(el) {
   const totalCureLocalities = rows.filter(r => r.ever_not_accepted > 0).length;
   let html = `
   <div class="summary-row">
-    <div class="summary-item">Localities: <strong>${rows.length}</strong></div>
+    <div class="summary-item">Locality &times; CD rows: <strong>${rows.length}</strong></div>
     <div class="summary-item">With cure activity: <strong>${totalCureLocalities}</strong></div>
     <div class="summary-item">State pre-cure rate: <strong class="warn">${fmtP(statewide?.pre_cure_rej_rate)}</strong></div>
     <div class="summary-item">State post-cure rate: <strong class="warn">${fmtP(statewide?.post_cure_rej_rate)}</strong></div>
@@ -1262,8 +1268,11 @@ function renderLocality(el) {
     <input type="text" id="localitySearch" placeholder="Search locality…" value="${localityFilter}">
     <label class="toggle-wrap">
       <input type="checkbox" id="targetsOnly" ${localityTargetsOnly ? 'checked' : ''}>
-      <span>Target HDs only</span>
+      <span>Target CDs only</span>
     </label>
+    ${supp ? `<span class="dim" style="margin-left:auto;font-size:11px">
+      ${supp} small non-target CD row${supp === 1 ? '' : 's'} suppressed (&lt;${minR} cure records)
+    </span>` : ''}
   </div>`;
 
   // Table
@@ -1284,8 +1293,15 @@ function renderLocality(el) {
     let va = a[localitySort.col]; let vb = b[localitySort.col];
     if (va == null) va = localitySort.dir < 0 ? -Infinity : Infinity;
     if (vb == null) vb = localitySort.dir < 0 ? -Infinity : Infinity;
-    if (typeof va === 'string') return localitySort.dir * va.localeCompare(vb);
-    return localitySort.dir * (vb - va);
+    let cmp;
+    if (typeof va === 'string') cmp = localitySort.dir * va.localeCompare(vb);
+    else                        cmp = localitySort.dir * (vb - va);
+    // Rows are locality x CD. When sorting by locality, keep a locality's CD
+    // rows together and ordered by size so the dominant CD reads first.
+    if (cmp === 0 && localitySort.col === 'locality') {
+      return (b.ever_not_accepted || 0) - (a.ever_not_accepted || 0);
+    }
+    return cmp;
   });
 
   filtered.forEach(r => {
