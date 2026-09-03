@@ -393,7 +393,6 @@ td.dem  { color: var(--dem); }
 .badge-no     { background: transparent; color: var(--text-dim); }
 .badge-dem    { background: var(--dem-bg); color: var(--dem); border: 1px solid var(--dem-dim); }
 .badge-rep    { background: var(--rep-bg); color: var(--rep); border: 1px solid var(--rep-dim); }
-.badge-ind    { background: rgba(255,255,255,0.05); color: var(--text-dim); border: 1px solid var(--border); }
 .badge-unk    { background: rgba(255,255,255,0.03); color: var(--text-dim); border: 1px solid var(--border); }
 
 /* ── Key / legend table ── */
@@ -929,7 +928,7 @@ UDk/hX7zfCL/AINOPhd4dngm8YePfFPiXy23SW1pDFYwy/8AAhlx+dfcf7MH/BLT4F/sg+VJ4K+H
 <nav>
   <div class="tab active" data-tab="statewide">Statewide</div>
   <div class="tab" data-tab="locality">By Locality</div>
-  <div class="tab" data-tab="byhd">By HD</div>
+  <div class="tab" data-tab="bycd">By CD</div>
   <div class="tab" data-tab="reasons">Rej. Reasons</div>
   <div class="tab warn-tab" data-tab="needscure">Needs Cure List</div>
   <div class="tab" data-tab="key">Key / Definitions</div>
@@ -948,7 +947,7 @@ let currentTab = 'statewide';
 let localitySort = { col: 'locality', dir: 1 };
 let hdSort = { col: 'ever_not_accepted', dir: -1 };
 let localityFilter = '';
-let hdFilter = '';
+let cdFilter = '';
 let localityTargetsOnly = false;
 
 // Needs Cure tab state
@@ -1016,7 +1015,7 @@ function renderCurrentTab() {
   switch (currentTab) {
     case 'statewide': renderStatewide(panel); break;
     case 'locality':  renderLocality(panel);  break;
-    case 'byhd':      renderByHD(panel);      break;
+    case 'bycd':      renderByCD(panel);      break;
     case 'reasons':   renderReasons(panel);   break;
     case 'needscure': renderNeedsCureList(panel); break;
     case 'key':       renderKey(panel);       break;
@@ -1093,7 +1092,6 @@ function partyBadge(party) {
   const map = {
     'Dem': `<span class="badge badge-dem">Dem</span>`,
     'Rep': `<span class="badge badge-rep">Rep</span>`,
-    'Ind': `<span class="badge badge-ind">Ind</span>`,
     'Unk': `<span class="badge badge-unk">Unk</span>`,
   };
   return map[party] || `<span class="badge badge-unk">${party || '?'}</span>`;
@@ -1222,7 +1220,7 @@ function renderLocality(el) {
 
   const cols = [
     { key: 'locality',            label: 'Locality',              fmt: r => r.locality },
-    { key: 'target_hd',           label: 'Target',                fmt: r => r.target_hd && r.target_hd !== 'No' ? `<span class="badge badge-target">${r.target_hd}</span>` : '' },
+    { key: 'target_cd',           label: 'Target',                fmt: r => r.target_cd && r.target_cd !== 'No' ? `<span class="badge badge-target">${r.target_cd}</span>` : '' },
     { key: 'attempts',            label: 'Attempts',              fmt: r => fmtN(r.attempts) },
     { key: 'total_vbm',           label: 'VBM Acc.',              fmt: r => fmtN(r.total_vbm) },
     { key: 'dem_pct_vbm',         label: '% Dem',                 fmt: r => `<span class="dem">${fmtP(r.dem_pct_vbm)}</span>` },
@@ -1279,7 +1277,7 @@ function renderLocality(el) {
 
   let filtered = rows.filter(r => {
     if (localityFilter && !r.locality.toLowerCase().includes(localityFilter.toLowerCase())) return false;
-    if (localityTargetsOnly && (!r.target_hd || r.target_hd === 'No')) return false;
+    if (localityTargetsOnly && (!r.target_cd || r.target_cd === 'No')) return false;
     return true;
   });
   filtered.sort((a, b) => {
@@ -1291,7 +1289,7 @@ function renderLocality(el) {
   });
 
   filtered.forEach(r => {
-    const isTarget = r.target_hd && r.target_hd !== 'No';
+    const isTarget = r.target_cd && r.target_cd !== 'No';
     html += `<tr class="${isTarget ? 'target-row' : ''}">`;
     cols.forEach(c => {
       html += `<td>${c.fmt(r)}</td>`;
@@ -1325,14 +1323,14 @@ function renderLocality(el) {
 }
 
 // ─────────────────────────────────────────────────────────────
-// BY HD
+// BY CD
 // ─────────────────────────────────────────────────────────────
-function renderByHD(el) {
-  const rows = DATA.by_hd;
-  if (!rows || !rows.length) { el.innerHTML = '<div class="loading">No HD data.</div>'; return; }
+function renderByCD(el) {
+  const rows = DATA.by_cd;
+  if (!rows || !rows.length) { el.innerHTML = '<div class="loading">No CD data.</div>'; return; }
 
   const cols = [
-    { key: 'hd',                  label: 'HD',               fmt: r => r.hd },
+    { key: 'cd',                  label: 'CD',               fmt: r => r.cd },
     { key: 'target',              label: 'Target',           fmt: r => r.target ? `<span class="badge badge-target">TARGET</span>` : '' },
     { key: 'localities',          label: 'Localities',       fmt: r => r.localities || '—' },
     { key: 'attempts',            label: 'Attempts',         fmt: r => fmtN(r.attempts) },
@@ -1349,7 +1347,7 @@ function renderByHD(el) {
 
   let html = `
   <div class="filter-bar">
-    <input type="text" id="hdSearch" placeholder="Filter by HD or locality…" value="${hdFilter}">
+    <input type="text" id="cdSearch" placeholder="Filter by CD or locality…" value="${cdFilter}">
   </div>`;
 
   html += `<div class="tbl-wrap"><table><thead><tr>`;
@@ -1361,9 +1359,9 @@ function renderByHD(el) {
   html += `</tr></thead><tbody>`;
 
   let filtered = rows.filter(r => {
-    if (!hdFilter) return true;
-    const q = hdFilter.toLowerCase();
-    return (r.hd || '').includes(q) || (r.localities || '').toLowerCase().includes(q);
+    if (!cdFilter) return true;
+    const q = cdFilter.toLowerCase();
+    return (r.cd || '').includes(q) || (r.localities || '').toLowerCase().includes(q);
   });
   filtered.sort((a, b) => {
     let va = a[hdSort.col]; let vb = b[hdSort.col];
@@ -1381,11 +1379,11 @@ function renderByHD(el) {
   html += `</tbody></table></div>`;
 
   el.innerHTML = html;
-  el.querySelector('#hdSearch').addEventListener('input', e => {
-    hdFilter = e.target.value;
+  el.querySelector('#cdSearch').addEventListener('input', e => {
+    cdFilter = e.target.value;
     const pos = e.target.selectionStart;
     renderCurrentTab();
-    const inp = document.getElementById('hdSearch');
+    const inp = document.getElementById('cdSearch');
     if (inp) { inp.focus(); inp.setSelectionRange(pos, pos); }
   });
   el.querySelectorAll('thead th').forEach(th => {
@@ -1510,7 +1508,6 @@ function renderNeedsCureList(el) {
   // Party counts for needs-cure subset
   const dem = rows.filter(r => r.party === 'Dem').length;
   const rep = rows.filter(r => r.party === 'Rep').length;
-  const ind = rows.filter(r => r.party === 'Ind').length;
   const unk = rows.filter(r => r.party === 'Unk').length;
 
   // Table columns  (w = min-width on th)
@@ -1565,7 +1562,6 @@ function renderNeedsCureList(el) {
     <div class="summary-item">Needs Cure: <strong style="color:var(--orange)">${rows.length.toLocaleString()}</strong></div>
     <div class="summary-item">Dem: <strong class="dem">${dem.toLocaleString()}</strong></div>
     <div class="summary-item">Rep: <strong style="color:var(--rep)">${rep.toLocaleString()}</strong></div>
-    <div class="summary-item">Ind: <strong>${ind.toLocaleString()}</strong></div>
     <div class="summary-item">Unk: <strong style="color:var(--text-dim)">${unk.toLocaleString()}</strong></div>
     <div class="summary-item" style="margin-left:auto;color:var(--text-dim);font-size:10px">
       Showing voters where Cure_Status = 'Needs Cure'
@@ -1577,7 +1573,7 @@ function renderNeedsCureList(el) {
     <input type="text" id="voterSearch" placeholder="Search name or locality…" value="${voterFilter}">
     <span class="filter-label">Party:</span>
     <div class="btn-group" id="partyBtns">
-      ${['All','Dem','Rep','Ind','Unk'].map(p =>
+      ${['All','Dem','Rep','Unk'].map(p =>
         `<button class="${voterPartyFilter===p?'active':''}" data-party="${p}">${p}</button>`
       ).join('')}
     </div>
@@ -1678,7 +1674,7 @@ function exportNeedsCureCsv(filteredRows) {
     'Address', 'City', 'State', 'Zip5', 'Zip4',
     'CountyName', 'PrecinctName',
     'Age', 'Sex', 'DOB',
-    'Party', 'HD', 'Locality', 'CountyName_Cure',
+    'Party', 'CD', 'Locality', 'CountyName_Cure',
     'RejectionReason', 'Ballot_Comment', 'CureStatus'
   ];
   const csvRows = filteredRows.map(r => [
@@ -1688,7 +1684,7 @@ function exportNeedsCureCsv(filteredRows) {
     r.address, r.city, r.state, r.zip5, r.zip4,
     r.county_name, r.precinct_name,
     r.age, r.sex, r.dob,
-    r.party, r.hd, r.locality, r.county_name,
+    r.party, r.cd, r.locality, r.county_name,
     r.rejection_reason, r.ballot_comment, r.cure_status
   ].map(csvEscape).join(','));
   const csv = [headers.join(','), ...csvRows].join('\r\n');
@@ -1803,8 +1799,8 @@ function renderKey(el) {
     <tbody>
       <tr><td>Daily_Absentee_List</td><td>Current-day snapshot — one row per ballot, today's status</td></tr>
       <tr><td>Cure_History</td><td>Cumulative cure log — all rejection events across all snapshots</td></tr>
-      <tr><td>dbo.van</td><td>Voter demographics bridge — party, age, HD, locality</td></tr>
-      <tr><td>Targets</td><td>Target HD list for the current election cycle</td></tr>
+      <tr><td>dbo.van</td><td>Voter demographics bridge — party, age, CD, locality</td></tr>
+      <tr><td>Targets</td><td>Target CD list for the current election cycle</td></tr>
     </tbody>
     </table>
   </div>`;

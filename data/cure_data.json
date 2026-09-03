@@ -2,26 +2,12 @@
   "meta": {
     "election_name": "2026 November General",
     "snapshot_date": "2026-09-02",
-    "export_time": "2026-09-02 21:15",
+    "export_time": "2026-09-02 21:20",
     "source_records": 1,
-    "target_hds": [
-      "021",
-      "022",
-      "030",
-      "034",
-      "041",
-      "057",
-      "064",
-      "065",
-      "066",
-      "069",
-      "071",
-      "073",
-      "075",
-      "082",
-      "084",
-      "086",
-      "089"
+    "target_cds": [
+      "01",
+      "02",
+      "05"
     ]
   },
   "statewide": {
@@ -53,8 +39,8 @@
   "by_locality": [
     {
       "locality": "RICHMOND CITY",
-      "hd": "077",
-      "target_hd": "No",
+      "cd": "04",
+      "target_cd": "No",
       "attempts": 3,
       "total_vbm": 2,
       "dem_pct_vbm": 1.0,
@@ -70,9 +56,9 @@
       "rej_vs_statewide": 0.270833
     },
     {
-      "locality": "MECKLENBURG COUNTY",
-      "hd": "000",
-      "target_hd": "No",
+      "locality": "HANOVER COUNTY",
+      "cd": "00",
+      "target_cd": "No",
       "attempts": 1,
       "total_vbm": 1,
       "dem_pct_vbm": 1.0,
@@ -88,27 +74,9 @@
       "rej_vs_statewide": -0.0625
     },
     {
-      "locality": "LYNCHBURG CITY",
-      "hd": "000",
-      "target_hd": "No",
-      "attempts": 6,
-      "total_vbm": 6,
-      "dem_pct_vbm": 0.333333,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.0625
-    },
-    {
       "locality": "ALBEMARLE COUNTY",
-      "hd": "000",
-      "target_hd": "No",
+      "cd": "00",
+      "target_cd": "No",
       "attempts": 1,
       "total_vbm": 1,
       "dem_pct_vbm": 0.0,
@@ -125,8 +93,8 @@
     },
     {
       "locality": "ACCOMACK COUNTY",
-      "hd": "000",
-      "target_hd": "No",
+      "cd": "00",
+      "target_cd": "No",
       "attempts": 3,
       "total_vbm": 3,
       "dem_pct_vbm": 0.333333,
@@ -143,8 +111,8 @@
     },
     {
       "locality": "HENRY COUNTY",
-      "hd": "000",
-      "target_hd": "No",
+      "cd": "00",
+      "target_cd": "No",
       "attempts": 1,
       "total_vbm": 1,
       "dem_pct_vbm": 1.0,
@@ -160,9 +128,9 @@
       "rej_vs_statewide": -0.0625
     },
     {
-      "locality": "HANOVER COUNTY",
-      "hd": "000",
-      "target_hd": "No",
+      "locality": "MECKLENBURG COUNTY",
+      "cd": "00",
+      "target_cd": "No",
       "attempts": 1,
       "total_vbm": 1,
       "dem_pct_vbm": 1.0,
@@ -176,11 +144,29 @@
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
       "rej_vs_statewide": -0.0625
+    },
+    {
+      "locality": "LYNCHBURG CITY",
+      "cd": "00",
+      "target_cd": "No",
+      "attempts": 6,
+      "total_vbm": 6,
+      "dem_pct_vbm": 0.333333,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.0625
     }
   ],
-  "by_hd": [
+  "by_cd": [
     {
-      "hd": "077",
+      "cd": "04",
       "target": false,
       "localities": 1,
       "total_in_history": 1,
@@ -237,7 +223,7 @@
       "sex": "F",
       "dob": "09/22/1976",
       "locality": "RICHMOND CITY",
-      "hd": "077",
+      "cd": "04",
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
