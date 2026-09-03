@@ -2,7 +2,7 @@
   "meta": {
     "election_name": "2026 November General",
     "snapshot_date": "2026-09-02",
-    "export_time": "2026-09-02 17:28",
+    "export_time": "2026-09-02 21:15",
     "source_records": 1,
     "target_hds": [
       "021",
@@ -28,7 +28,7 @@
     "total_attempts": 16,
     "total_vbm": 15,
     "vbm_dem": 8,
-    "vbm_rep": 4,
+    "vbm_rep": 6,
     "dem_pct_vbm": 0.533333,
     "never_needs_cure": 15,
     "ever_not_accepted": 1,
