@@ -1,8 +1,8 @@
 {
   "meta": {
     "election_name": "2026 November General",
-    "snapshot_date": "2026-09-08",
-    "export_time": "2026-09-08 12:11",
+    "snapshot_date": "2026-09-14",
+    "export_time": "2026-09-14 10:12",
     "source_records": 1,
     "target_cds": [
       "01",
@@ -13,12 +13,12 @@
     "suppressed_rows": 0
   },
   "statewide": {
-    "total_attempts": 16,
-    "total_vbm": 15,
+    "total_attempts": 14,
+    "total_vbm": 13,
     "vbm_dem": 8,
-    "vbm_rep": 6,
-    "dem_pct_vbm": 0.533333,
-    "never_needs_cure": 15,
+    "vbm_rep": 4,
+    "dem_pct_vbm": 0.615385,
+    "never_needs_cure": 13,
     "ever_not_accepted": 1,
     "ever_not_accepted_dem": 1,
     "ever_not_accepted_rep": 0,
@@ -32,31 +32,13 @@
     "reissued": 0,
     "undeliverable": 0,
     "other_status": 0,
-    "pre_cure_rej_rate": 0.0625,
-    "post_cure_rej_rate": 0.0625,
+    "pre_cure_rej_rate": 0.071429,
+    "post_cure_rej_rate": 0.071429,
     "cure_rate": 0.0,
     "dem_pre_cure_rate": 0.111111,
     "dem_post_cure_rate": 0.111111
   },
   "by_locality": [
-    {
-      "locality": "ACCOMACK COUNTY",
-      "cd": "02",
-      "target_cd": "02",
-      "attempts": 3,
-      "total_vbm": 3,
-      "dem_pct_vbm": 0.333333,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.0625
-    },
     {
       "locality": "ALBEMARLE COUNTY",
       "cd": "05",
@@ -73,7 +55,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.0625
+      "rej_vs_statewide": -0.071429
     },
     {
       "locality": "HANOVER COUNTY",
@@ -91,7 +73,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.0625
+      "rej_vs_statewide": -0.071429
     },
     {
       "locality": "HENRY COUNTY",
@@ -109,7 +91,25 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.0625
+      "rej_vs_statewide": -0.071429
+    },
+    {
+      "locality": "JAMES CITY COUNTY",
+      "cd": "01",
+      "target_cd": "01",
+      "attempts": 1,
+      "total_vbm": 1,
+      "dem_pct_vbm": 1.0,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.071429
     },
     {
       "locality": "LYNCHBURG CITY",
@@ -127,25 +127,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.0625
-    },
-    {
-      "locality": "MECKLENBURG COUNTY",
-      "cd": "05",
-      "target_cd": "05",
-      "attempts": 1,
-      "total_vbm": 1,
-      "dem_pct_vbm": 1.0,
-      "ever_not_accepted": 0,
-      "ever_not_accepted_dem": 0,
-      "currently_needs_cure": 0,
-      "currently_needs_cure_dem": 0,
-      "cured": 0,
-      "cured_dem": 0,
-      "pre_cure_rej_rate": 0.0,
-      "post_cure_rej_rate": 0.0,
-      "cure_rate": null,
-      "rej_vs_statewide": -0.0625
+      "rej_vs_statewide": -0.071429
     },
     {
       "locality": "RICHMOND CITY",
@@ -163,7 +145,25 @@
       "pre_cure_rej_rate": 0.333333,
       "post_cure_rej_rate": 0.333333,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.270833
+      "rej_vs_statewide": 0.261904
+    },
+    {
+      "locality": "ROANOKE CITY",
+      "cd": "06",
+      "target_cd": "No",
+      "attempts": 1,
+      "total_vbm": 1,
+      "dem_pct_vbm": 1.0,
+      "ever_not_accepted": 0,
+      "ever_not_accepted_dem": 0,
+      "currently_needs_cure": 0,
+      "currently_needs_cure_dem": 0,
+      "cured": 0,
+      "cured_dem": 0,
+      "pre_cure_rej_rate": 0.0,
+      "post_cure_rej_rate": 0.0,
+      "cure_rate": null,
+      "rej_vs_statewide": -0.071429
     }
   ],
   "by_cd": [
