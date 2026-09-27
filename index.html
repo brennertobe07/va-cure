@@ -60,7 +60,7 @@ header {
   top: 0;
   z-index: 100;
 }
-.header-left { display: flex; align-items: center; gap: 14px; }
+.header-left { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 14px; min-width: 0; }
 .logo {
   font-family: var(--mono);
   font-size: 13px;
@@ -214,6 +214,8 @@ main { padding: 20px; max-width: 1400px; }
   margin-bottom: 20px;
 }
 @media (max-width: 900px) { .two-col { grid-template-columns: 1fr; } }
+/* Grid items default to their content's width - let cards shrink to the column */
+.two-col > * { min-width: 0; }
 
 /* ── Card ── */
 .card {
@@ -423,6 +425,10 @@ td.dem  { color: var(--dem); }
 .key-table td { padding: 8px 12px; border-bottom: 1px solid var(--border); color: var(--text); vertical-align: top; }
 .key-table td:first-child { font-family: var(--mono); color: var(--dem); font-size: 11px; white-space: nowrap; }
 .key-table tr:hover td { background: var(--surface2); }
+@media (max-width: 700px) {
+  .key-table td:first-child { white-space: normal; }
+  .key-table th, .key-table td { padding: 6px 8px; overflow-wrap: anywhere; }
+}
 
 /* ── Rate gauge ── */
 .rate-row { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
