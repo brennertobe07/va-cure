@@ -1,9 +1,9 @@
 {
   "meta": {
     "election_name": "2026 November General",
-    "snapshot_date": "2026-10-04",
-    "export_time": "2026-10-04 07:01",
-    "source_records": 2696,
+    "snapshot_date": "2026-10-05",
+    "export_time": "2026-10-05 07:01",
+    "source_records": 2697,
     "target_cds": [
       "01",
       "02",
@@ -13,30 +13,30 @@
     "suppressed_rows": 4
   },
   "statewide": {
-    "total_attempts": 128267,
-    "total_vbm": 126118,
-    "vbm_dem": 93030,
-    "vbm_rep": 32718,
-    "dem_pct_vbm": 0.737643,
-    "never_needs_cure": 125636,
-    "ever_not_accepted": 2696,
-    "ever_not_accepted_dem": 1910,
+    "total_attempts": 128366,
+    "total_vbm": 126216,
+    "vbm_dem": 93116,
+    "vbm_rep": 32729,
+    "dem_pct_vbm": 0.737751,
+    "never_needs_cure": 125734,
+    "ever_not_accepted": 2697,
+    "ever_not_accepted_dem": 1911,
     "ever_not_accepted_rep": 780,
-    "ever_not_accepted_dem_pct": 0.708457,
+    "ever_not_accepted_dem_pct": 0.708565,
     "cured_total": 482,
     "cured_dem": 348,
-    "currently_needs_cure": 2149,
-    "currently_needs_cure_dem": 1512,
+    "currently_needs_cure": 2150,
+    "currently_needs_cure_dem": 1513,
     "currently_needs_cure_rep": 631,
     "switched_to_evip": 0,
     "reissued": 12,
     "undeliverable": 0,
     "other_status": 53,
-    "pre_cure_rej_rate": 0.021019,
-    "post_cure_rej_rate": 0.016754,
-    "cure_rate": 0.178783,
-    "dem_pre_cure_rate": 0.020118,
-    "dem_post_cure_rate": 0.015926
+    "pre_cure_rej_rate": 0.02101,
+    "post_cure_rej_rate": 0.016749,
+    "cure_rate": 0.178717,
+    "dem_pre_cure_rate": 0.02011,
+    "dem_post_cure_rate": 0.015922
   },
   "by_locality": [
     {
@@ -55,7 +55,7 @@
       "pre_cure_rej_rate": 0.013123,
       "post_cure_rej_rate": 0.013123,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.003631
+      "rej_vs_statewide": -0.003626
     },
     {
       "locality": "ALBEMARLE COUNTY",
@@ -73,25 +73,25 @@
       "pre_cure_rej_rate": 0.024314,
       "post_cure_rej_rate": 0.023067,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.006313
+      "rej_vs_statewide": 0.006318
     },
     {
       "locality": "ALEXANDRIA CITY",
       "cd": "08",
       "target_cd": "No",
-      "attempts": 3381,
-      "total_vbm": 3342,
-      "dem_pct_vbm": 0.891682,
+      "attempts": 3426,
+      "total_vbm": 3387,
+      "dem_pct_vbm": 0.892826,
       "ever_not_accepted": 52,
       "ever_not_accepted_dem": 46,
       "currently_needs_cure": 39,
       "currently_needs_cure_dem": 34,
       "cured": 11,
       "cured_dem": 10,
-      "pre_cure_rej_rate": 0.01538,
-      "post_cure_rej_rate": 0.011535,
+      "pre_cure_rej_rate": 0.015178,
+      "post_cure_rej_rate": 0.011384,
       "cure_rate": 0.211538,
-      "rej_vs_statewide": -0.005219
+      "rej_vs_statewide": -0.005365
     },
     {
       "locality": "ALLEGHANY COUNTY",
@@ -109,7 +109,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.016754
+      "rej_vs_statewide": -0.016749
     },
     {
       "locality": "AMELIA COUNTY",
@@ -127,7 +127,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.016754
+      "rej_vs_statewide": -0.016749
     },
     {
       "locality": "AMHERST COUNTY",
@@ -145,7 +145,7 @@
       "pre_cure_rej_rate": 0.035623,
       "post_cure_rej_rate": 0.025445,
       "cure_rate": 0.285714,
-      "rej_vs_statewide": 0.008691
+      "rej_vs_statewide": 0.008696
     },
     {
       "locality": "APPOMATTOX COUNTY",
@@ -163,7 +163,7 @@
       "pre_cure_rej_rate": 0.038462,
       "post_cure_rej_rate": 0.030769,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.014015
+      "rej_vs_statewide": 0.01402
     },
     {
       "locality": "ARLINGTON COUNTY",
@@ -181,7 +181,7 @@
       "pre_cure_rej_rate": 0.015834,
       "post_cure_rej_rate": 0.014426,
       "cure_rate": 0.066667,
-      "rej_vs_statewide": -0.002328
+      "rej_vs_statewide": -0.002323
     },
     {
       "locality": "AUGUSTA COUNTY",
@@ -199,7 +199,7 @@
       "pre_cure_rej_rate": 0.021544,
       "post_cure_rej_rate": 0.021544,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.00479
+      "rej_vs_statewide": 0.004795
     },
     {
       "locality": "BATH COUNTY",
@@ -217,7 +217,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.016754
+      "rej_vs_statewide": -0.016749
     },
     {
       "locality": "BEDFORD COUNTY",
@@ -235,7 +235,7 @@
       "pre_cure_rej_rate": 0.067518,
       "post_cure_rej_rate": 0.067518,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.050764
+      "rej_vs_statewide": 0.050769
     },
     {
       "locality": "BEDFORD COUNTY",
@@ -253,7 +253,7 @@
       "pre_cure_rej_rate": 0.036496,
       "post_cure_rej_rate": 0.036496,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.019742
+      "rej_vs_statewide": 0.019747
     },
     {
       "locality": "BLAND COUNTY",
@@ -271,7 +271,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.016754
+      "rej_vs_statewide": -0.016749
     },
     {
       "locality": "BOTETOURT COUNTY",
@@ -289,7 +289,7 @@
       "pre_cure_rej_rate": 0.002857,
       "post_cure_rej_rate": 0.002857,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.013897
+      "rej_vs_statewide": -0.013892
     },
     {
       "locality": "BRISTOL CITY",
@@ -307,7 +307,7 @@
       "pre_cure_rej_rate": 0.037975,
       "post_cure_rej_rate": 0.025316,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.008562
+      "rej_vs_statewide": 0.008567
     },
     {
       "locality": "BRUNSWICK COUNTY",
@@ -325,7 +325,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.016754
+      "rej_vs_statewide": -0.016749
     },
     {
       "locality": "BUCHANAN COUNTY",
@@ -343,7 +343,7 @@
       "pre_cure_rej_rate": 0.024096,
       "post_cure_rej_rate": 0.024096,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.007342
+      "rej_vs_statewide": 0.007347
     },
     {
       "locality": "BUCKINGHAM COUNTY",
@@ -361,7 +361,7 @@
       "pre_cure_rej_rate": 0.022556,
       "post_cure_rej_rate": 0.022556,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.005802
+      "rej_vs_statewide": 0.005807
     },
     {
       "locality": "BUENA VISTA CITY",
@@ -379,7 +379,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.016754
+      "rej_vs_statewide": -0.016749
     },
     {
       "locality": "CAMPBELL COUNTY",
@@ -397,7 +397,7 @@
       "pre_cure_rej_rate": 0.019481,
       "post_cure_rej_rate": 0.019481,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.002727
+      "rej_vs_statewide": 0.002732
     },
     {
       "locality": "CAROLINE COUNTY",
@@ -415,7 +415,7 @@
       "pre_cure_rej_rate": 0.023981,
       "post_cure_rej_rate": 0.016787,
       "cure_rate": 0.3,
-      "rej_vs_statewide": 3.3e-05
+      "rej_vs_statewide": 3.8e-05
     },
     {
       "locality": "CARROLL COUNTY",
@@ -433,7 +433,7 @@
       "pre_cure_rej_rate": 0.056122,
       "post_cure_rej_rate": 0.048469,
       "cure_rate": 0.136364,
-      "rej_vs_statewide": 0.031715
+      "rej_vs_statewide": 0.03172
     },
     {
       "locality": "CHARLES CITY COUNTY",
@@ -451,7 +451,7 @@
       "pre_cure_rej_rate": 0.026144,
       "post_cure_rej_rate": 0.026144,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.00939
+      "rej_vs_statewide": 0.009395
     },
     {
       "locality": "CHARLOTTE COUNTY",
@@ -469,7 +469,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.016754
+      "rej_vs_statewide": -0.016749
     },
     {
       "locality": "CHARLOTTESVILLE CITY",
@@ -487,7 +487,7 @@
       "pre_cure_rej_rate": 0.022556,
       "post_cure_rej_rate": 0.015038,
       "cure_rate": 0.166667,
-      "rej_vs_statewide": -0.001716
+      "rej_vs_statewide": -0.001711
     },
     {
       "locality": "CHESAPEAKE CITY",
@@ -505,7 +505,7 @@
       "pre_cure_rej_rate": 0.006832,
       "post_cure_rej_rate": 0.004969,
       "cure_rate": 0.181818,
-      "rej_vs_statewide": -0.011785
+      "rej_vs_statewide": -0.01178
     },
     {
       "locality": "CHESTERFIELD COUNTY",
@@ -523,7 +523,7 @@
       "pre_cure_rej_rate": 0.009032,
       "post_cure_rej_rate": 0.008028,
       "cure_rate": 0.111111,
-      "rej_vs_statewide": -0.008726
+      "rej_vs_statewide": -0.008721
     },
     {
       "locality": "CHESTERFIELD COUNTY",
@@ -541,7 +541,7 @@
       "pre_cure_rej_rate": 0.010629,
       "post_cure_rej_rate": 0.007972,
       "cure_rate": 0.25,
-      "rej_vs_statewide": -0.008782
+      "rej_vs_statewide": -0.008777
     },
     {
       "locality": "CLARKE COUNTY",
@@ -559,7 +559,7 @@
       "pre_cure_rej_rate": 0.033557,
       "post_cure_rej_rate": 0.033557,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.016803
+      "rej_vs_statewide": 0.016808
     },
     {
       "locality": "COLONIAL HEIGHTS CITY",
@@ -577,7 +577,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.016754
+      "rej_vs_statewide": -0.016749
     },
     {
       "locality": "COVINGTON CITY",
@@ -595,7 +595,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.016754
+      "rej_vs_statewide": -0.016749
     },
     {
       "locality": "CRAIG COUNTY",
@@ -613,7 +613,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.016754
+      "rej_vs_statewide": -0.016749
     },
     {
       "locality": "CULPEPER COUNTY",
@@ -631,7 +631,7 @@
       "pre_cure_rej_rate": 0.006993,
       "post_cure_rej_rate": 0.004196,
       "cure_rate": 0.2,
-      "rej_vs_statewide": -0.012558
+      "rej_vs_statewide": -0.012553
     },
     {
       "locality": "CUMBERLAND COUNTY",
@@ -649,7 +649,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.016754
+      "rej_vs_statewide": -0.016749
     },
     {
       "locality": "DANVILLE CITY",
@@ -667,7 +667,7 @@
       "pre_cure_rej_rate": 0.03811,
       "post_cure_rej_rate": 0.035061,
       "cure_rate": 0.08,
-      "rej_vs_statewide": 0.018307
+      "rej_vs_statewide": 0.018312
     },
     {
       "locality": "DICKENSON COUNTY",
@@ -685,7 +685,7 @@
       "pre_cure_rej_rate": 0.026549,
       "post_cure_rej_rate": 0.017699,
       "cure_rate": 0.333333,
-      "rej_vs_statewide": 0.000945
+      "rej_vs_statewide": 0.00095
     },
     {
       "locality": "DINWIDDIE COUNTY",
@@ -703,7 +703,7 @@
       "pre_cure_rej_rate": 0.085714,
       "post_cure_rej_rate": 0.078571,
       "cure_rate": 0.083333,
-      "rej_vs_statewide": 0.061817
+      "rej_vs_statewide": 0.061822
     },
     {
       "locality": "EMPORIA CITY",
@@ -721,7 +721,7 @@
       "pre_cure_rej_rate": 0.039474,
       "post_cure_rej_rate": 0.026316,
       "cure_rate": 0.333333,
-      "rej_vs_statewide": 0.009562
+      "rej_vs_statewide": 0.009567
     },
     {
       "locality": "ESSEX COUNTY",
@@ -739,7 +739,7 @@
       "pre_cure_rej_rate": 0.030612,
       "post_cure_rej_rate": 0.030612,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.013858
+      "rej_vs_statewide": 0.013863
     },
     {
       "locality": "FAIRFAX CITY",
@@ -757,7 +757,7 @@
       "pre_cure_rej_rate": 0.027701,
       "post_cure_rej_rate": 0.022161,
       "cure_rate": 0.2,
-      "rej_vs_statewide": 0.005407
+      "rej_vs_statewide": 0.005412
     },
     {
       "locality": "FAIRFAX COUNTY",
@@ -775,7 +775,7 @@
       "pre_cure_rej_rate": 0.010624,
       "post_cure_rej_rate": 0.008092,
       "cure_rate": 0.226744,
-      "rej_vs_statewide": -0.008662
+      "rej_vs_statewide": -0.008657
     },
     {
       "locality": "FAIRFAX COUNTY",
@@ -793,7 +793,7 @@
       "pre_cure_rej_rate": 0.011734,
       "post_cure_rej_rate": 0.008382,
       "cure_rate": 0.285714,
-      "rej_vs_statewide": -0.008372
+      "rej_vs_statewide": -0.008367
     },
     {
       "locality": "FALLS CHURCH CITY",
@@ -811,7 +811,7 @@
       "pre_cure_rej_rate": 0.011236,
       "post_cure_rej_rate": 0.007491,
       "cure_rate": 0.333333,
-      "rej_vs_statewide": -0.009263
+      "rej_vs_statewide": -0.009258
     },
     {
       "locality": "FAUQUIER COUNTY",
@@ -829,7 +829,7 @@
       "pre_cure_rej_rate": 0.025641,
       "post_cure_rej_rate": 0.020147,
       "cure_rate": 0.142857,
-      "rej_vs_statewide": 0.003393
+      "rej_vs_statewide": 0.003398
     },
     {
       "locality": "FLOYD COUNTY",
@@ -847,7 +847,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.016754
+      "rej_vs_statewide": -0.016749
     },
     {
       "locality": "FLUVANNA COUNTY",
@@ -865,7 +865,7 @@
       "pre_cure_rej_rate": 0.007474,
       "post_cure_rej_rate": 0.001495,
       "cure_rate": 0.8,
-      "rej_vs_statewide": -0.015259
+      "rej_vs_statewide": -0.015254
     },
     {
       "locality": "FRANKLIN CITY",
@@ -883,7 +883,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.016754
+      "rej_vs_statewide": -0.016749
     },
     {
       "locality": "FRANKLIN COUNTY",
@@ -901,7 +901,7 @@
       "pre_cure_rej_rate": 0.030063,
       "post_cure_rej_rate": 0.025316,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.008562
+      "rej_vs_statewide": 0.008567
     },
     {
       "locality": "FREDERICK COUNTY",
@@ -919,7 +919,7 @@
       "pre_cure_rej_rate": 0.036403,
       "post_cure_rej_rate": 0.031049,
       "cure_rate": 0.117647,
-      "rej_vs_statewide": 0.014295
+      "rej_vs_statewide": 0.0143
     },
     {
       "locality": "FREDERICKSBURG CITY",
@@ -937,7 +937,7 @@
       "pre_cure_rej_rate": 0.067039,
       "post_cure_rej_rate": 0.064246,
       "cure_rate": 0.041667,
-      "rej_vs_statewide": 0.047492
+      "rej_vs_statewide": 0.047497
     },
     {
       "locality": "GALAX CITY",
@@ -955,7 +955,7 @@
       "pre_cure_rej_rate": 0.017241,
       "post_cure_rej_rate": 0.017241,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.000487
+      "rej_vs_statewide": 0.000492
     },
     {
       "locality": "GILES COUNTY",
@@ -973,7 +973,7 @@
       "pre_cure_rej_rate": 0.063063,
       "post_cure_rej_rate": 0.018018,
       "cure_rate": 0.714286,
-      "rej_vs_statewide": 0.001264
+      "rej_vs_statewide": 0.001269
     },
     {
       "locality": "GLOUCESTER COUNTY",
@@ -991,7 +991,7 @@
       "pre_cure_rej_rate": 0.002506,
       "post_cure_rej_rate": 0.002506,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.014248
+      "rej_vs_statewide": -0.014243
     },
     {
       "locality": "GOOCHLAND COUNTY",
@@ -1009,7 +1009,7 @@
       "pre_cure_rej_rate": 0.04386,
       "post_cure_rej_rate": 0.040351,
       "cure_rate": 0.08,
-      "rej_vs_statewide": 0.023597
+      "rej_vs_statewide": 0.023602
     },
     {
       "locality": "GRAYSON COUNTY",
@@ -1027,7 +1027,7 @@
       "pre_cure_rej_rate": 0.027523,
       "post_cure_rej_rate": 0.027523,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.010769
+      "rej_vs_statewide": 0.010774
     },
     {
       "locality": "GREENE COUNTY",
@@ -1045,7 +1045,7 @@
       "pre_cure_rej_rate": 0.011952,
       "post_cure_rej_rate": 0.011952,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.004802
+      "rej_vs_statewide": -0.004797
     },
     {
       "locality": "GREENSVILLE COUNTY",
@@ -1063,7 +1063,7 @@
       "pre_cure_rej_rate": 0.007634,
       "post_cure_rej_rate": 0.007634,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.00912
+      "rej_vs_statewide": -0.009115
     },
     {
       "locality": "HALIFAX COUNTY",
@@ -1081,7 +1081,7 @@
       "pre_cure_rej_rate": 0.058642,
       "post_cure_rej_rate": 0.052469,
       "cure_rate": 0.105263,
-      "rej_vs_statewide": 0.035715
+      "rej_vs_statewide": 0.03572
     },
     {
       "locality": "HAMPTON CITY",
@@ -1099,7 +1099,7 @@
       "pre_cure_rej_rate": 0.024269,
       "post_cure_rej_rate": 0.022402,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.005648
+      "rej_vs_statewide": 0.005653
     },
     {
       "locality": "HANOVER COUNTY",
@@ -1117,7 +1117,7 @@
       "pre_cure_rej_rate": 0.014652,
       "post_cure_rej_rate": 0.010989,
       "cure_rate": 0.25,
-      "rej_vs_statewide": -0.005765
+      "rej_vs_statewide": -0.00576
     },
     {
       "locality": "HANOVER COUNTY",
@@ -1135,7 +1135,7 @@
       "pre_cure_rej_rate": 0.017483,
       "post_cure_rej_rate": 0.013986,
       "cure_rate": 0.2,
-      "rej_vs_statewide": -0.002768
+      "rej_vs_statewide": -0.002763
     },
     {
       "locality": "HARRISONBURG CITY",
@@ -1153,7 +1153,7 @@
       "pre_cure_rej_rate": 0.021898,
       "post_cure_rej_rate": 0.018248,
       "cure_rate": 0.166667,
-      "rej_vs_statewide": 0.001494
+      "rej_vs_statewide": 0.001499
     },
     {
       "locality": "HENRICO COUNTY",
@@ -1171,7 +1171,7 @@
       "pre_cure_rej_rate": 0.018531,
       "post_cure_rej_rate": 0.015786,
       "cure_rate": 0.148148,
-      "rej_vs_statewide": -0.000968
+      "rej_vs_statewide": -0.000963
     },
     {
       "locality": "HENRICO COUNTY",
@@ -1189,7 +1189,7 @@
       "pre_cure_rej_rate": 0.026997,
       "post_cure_rej_rate": 0.020795,
       "cure_rate": 0.202703,
-      "rej_vs_statewide": 0.004041
+      "rej_vs_statewide": 0.004046
     },
     {
       "locality": "HENRICO COUNTY",
@@ -1207,7 +1207,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.016754
+      "rej_vs_statewide": -0.016749
     },
     {
       "locality": "HENRY COUNTY",
@@ -1225,7 +1225,7 @@
       "pre_cure_rej_rate": 0.004608,
       "post_cure_rej_rate": 0.002304,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.01445
+      "rej_vs_statewide": -0.014445
     },
     {
       "locality": "HIGHLAND COUNTY",
@@ -1243,7 +1243,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.016754
+      "rej_vs_statewide": -0.016749
     },
     {
       "locality": "HOPEWELL CITY",
@@ -1261,7 +1261,7 @@
       "pre_cure_rej_rate": 0.094545,
       "post_cure_rej_rate": 0.087273,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.070519
+      "rej_vs_statewide": 0.070524
     },
     {
       "locality": "ISLE OF WIGHT COUNTY",
@@ -1279,7 +1279,7 @@
       "pre_cure_rej_rate": 0.022556,
       "post_cure_rej_rate": 0.022556,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.005802
+      "rej_vs_statewide": 0.005807
     },
     {
       "locality": "JAMES CITY COUNTY",
@@ -1297,7 +1297,7 @@
       "pre_cure_rej_rate": 0.010074,
       "post_cure_rej_rate": 0.00438,
       "cure_rate": 0.347826,
-      "rej_vs_statewide": -0.012374
+      "rej_vs_statewide": -0.012369
     },
     {
       "locality": "KING & QUEEN COUNTY",
@@ -1315,7 +1315,7 @@
       "pre_cure_rej_rate": 0.014085,
       "post_cure_rej_rate": 0.014085,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.002669
+      "rej_vs_statewide": -0.002664
     },
     {
       "locality": "KING GEORGE COUNTY",
@@ -1333,7 +1333,7 @@
       "pre_cure_rej_rate": 0.006667,
       "post_cure_rej_rate": 0.0,
       "cure_rate": 1.0,
-      "rej_vs_statewide": -0.016754
+      "rej_vs_statewide": -0.016749
     },
     {
       "locality": "KING WILLIAM COUNTY",
@@ -1351,7 +1351,7 @@
       "pre_cure_rej_rate": 0.042105,
       "post_cure_rej_rate": 0.015789,
       "cure_rate": 0.625,
-      "rej_vs_statewide": -0.000965
+      "rej_vs_statewide": -0.00096
     },
     {
       "locality": "LANCASTER COUNTY",
@@ -1369,7 +1369,7 @@
       "pre_cure_rej_rate": 0.040541,
       "post_cure_rej_rate": 0.040541,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.023787
+      "rej_vs_statewide": 0.023792
     },
     {
       "locality": "LEE COUNTY",
@@ -1387,7 +1387,7 @@
       "pre_cure_rej_rate": 0.009804,
       "post_cure_rej_rate": 0.009804,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.00695
+      "rej_vs_statewide": -0.006945
     },
     {
       "locality": "LEXINGTON CITY",
@@ -1405,25 +1405,25 @@
       "pre_cure_rej_rate": 0.077922,
       "post_cure_rej_rate": 0.077922,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.061168
+      "rej_vs_statewide": 0.061173
     },
     {
       "locality": "LOUDOUN COUNTY",
       "cd": "10",
       "target_cd": "No",
-      "attempts": 6621,
-      "total_vbm": 6343,
-      "dem_pct_vbm": 0.737348,
-      "ever_not_accepted": 359,
-      "ever_not_accepted_dem": 256,
-      "currently_needs_cure": 278,
-      "currently_needs_cure_dem": 195,
+      "attempts": 6646,
+      "total_vbm": 6367,
+      "dem_pct_vbm": 0.73771,
+      "ever_not_accepted": 360,
+      "ever_not_accepted_dem": 257,
+      "currently_needs_cure": 279,
+      "currently_needs_cure_dem": 196,
       "cured": 81,
       "cured_dem": 61,
-      "pre_cure_rej_rate": 0.054221,
-      "post_cure_rej_rate": 0.041988,
-      "cure_rate": 0.225627,
-      "rej_vs_statewide": 0.025234
+      "pre_cure_rej_rate": 0.054168,
+      "post_cure_rej_rate": 0.04198,
+      "cure_rate": 0.225,
+      "rej_vs_statewide": 0.025231
     },
     {
       "locality": "LOUISA COUNTY",
@@ -1441,7 +1441,7 @@
       "pre_cure_rej_rate": 0.02861,
       "post_cure_rej_rate": 0.014986,
       "cure_rate": 0.47619,
-      "rej_vs_statewide": -0.001768
+      "rej_vs_statewide": -0.001763
     },
     {
       "locality": "LUNENBURG COUNTY",
@@ -1459,7 +1459,7 @@
       "pre_cure_rej_rate": 0.062016,
       "post_cure_rej_rate": 0.062016,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.045262
+      "rej_vs_statewide": 0.045267
     },
     {
       "locality": "LYNCHBURG CITY",
@@ -1477,7 +1477,7 @@
       "pre_cure_rej_rate": 0.049098,
       "post_cure_rej_rate": 0.049098,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.032344
+      "rej_vs_statewide": 0.032349
     },
     {
       "locality": "MADISON COUNTY",
@@ -1495,7 +1495,7 @@
       "pre_cure_rej_rate": 0.046875,
       "post_cure_rej_rate": 0.03125,
       "cure_rate": 0.166667,
-      "rej_vs_statewide": 0.014496
+      "rej_vs_statewide": 0.014501
     },
     {
       "locality": "MANASSAS CITY",
@@ -1513,7 +1513,7 @@
       "pre_cure_rej_rate": 0.021611,
       "post_cure_rej_rate": 0.013752,
       "cure_rate": 0.363636,
-      "rej_vs_statewide": -0.003002
+      "rej_vs_statewide": -0.002997
     },
     {
       "locality": "MANASSAS PARK CITY",
@@ -1531,7 +1531,7 @@
       "pre_cure_rej_rate": 0.024155,
       "post_cure_rej_rate": 0.019324,
       "cure_rate": 0.2,
-      "rej_vs_statewide": 0.00257
+      "rej_vs_statewide": 0.002575
     },
     {
       "locality": "MARTINSVILLE CITY",
@@ -1549,7 +1549,7 @@
       "pre_cure_rej_rate": 0.027027,
       "post_cure_rej_rate": 0.016216,
       "cure_rate": 0.2,
-      "rej_vs_statewide": -0.000538
+      "rej_vs_statewide": -0.000533
     },
     {
       "locality": "MATHEWS COUNTY",
@@ -1567,7 +1567,7 @@
       "pre_cure_rej_rate": 0.026667,
       "post_cure_rej_rate": 0.026667,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.009913
+      "rej_vs_statewide": 0.009918
     },
     {
       "locality": "MECKLENBURG COUNTY",
@@ -1585,7 +1585,7 @@
       "pre_cure_rej_rate": 0.046569,
       "post_cure_rej_rate": 0.041667,
       "cure_rate": 0.105263,
-      "rej_vs_statewide": 0.024913
+      "rej_vs_statewide": 0.024918
     },
     {
       "locality": "MIDDLESEX COUNTY",
@@ -1603,7 +1603,7 @@
       "pre_cure_rej_rate": 0.023077,
       "post_cure_rej_rate": 0.015385,
       "cure_rate": 0.333333,
-      "rej_vs_statewide": -0.001369
+      "rej_vs_statewide": -0.001364
     },
     {
       "locality": "MONTGOMERY COUNTY",
@@ -1621,7 +1621,7 @@
       "pre_cure_rej_rate": 0.01537,
       "post_cure_rej_rate": 0.013449,
       "cure_rate": 0.125,
-      "rej_vs_statewide": -0.003305
+      "rej_vs_statewide": -0.0033
     },
     {
       "locality": "NELSON COUNTY",
@@ -1639,7 +1639,7 @@
       "pre_cure_rej_rate": 0.012931,
       "post_cure_rej_rate": 0.012931,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.003823
+      "rej_vs_statewide": -0.003818
     },
     {
       "locality": "NEW KENT COUNTY",
@@ -1657,7 +1657,7 @@
       "pre_cure_rej_rate": 0.049763,
       "post_cure_rej_rate": 0.026066,
       "cure_rate": 0.333333,
-      "rej_vs_statewide": 0.009312
+      "rej_vs_statewide": 0.009317
     },
     {
       "locality": "NEWPORT NEWS CITY",
@@ -1675,7 +1675,7 @@
       "pre_cure_rej_rate": 0.011124,
       "post_cure_rej_rate": 0.008197,
       "cure_rate": 0.210526,
-      "rej_vs_statewide": -0.008557
+      "rej_vs_statewide": -0.008552
     },
     {
       "locality": "NORFOLK CITY",
@@ -1693,7 +1693,7 @@
       "pre_cure_rej_rate": 0.018998,
       "post_cure_rej_rate": 0.014393,
       "cure_rate": 0.242424,
-      "rej_vs_statewide": -0.002361
+      "rej_vs_statewide": -0.002356
     },
     {
       "locality": "NORTHAMPTON COUNTY",
@@ -1711,7 +1711,7 @@
       "pre_cure_rej_rate": 0.009091,
       "post_cure_rej_rate": 0.009091,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.007663
+      "rej_vs_statewide": -0.007658
     },
     {
       "locality": "NORTHUMBERLAND COUNTY",
@@ -1729,7 +1729,7 @@
       "pre_cure_rej_rate": 0.03125,
       "post_cure_rej_rate": 0.03125,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.014496
+      "rej_vs_statewide": 0.014501
     },
     {
       "locality": "NORTON CITY",
@@ -1747,7 +1747,7 @@
       "pre_cure_rej_rate": 0.086957,
       "post_cure_rej_rate": 0.086957,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.070203
+      "rej_vs_statewide": 0.070208
     },
     {
       "locality": "NOTTOWAY COUNTY",
@@ -1765,7 +1765,7 @@
       "pre_cure_rej_rate": 0.071429,
       "post_cure_rej_rate": 0.055556,
       "cure_rate": 0.111111,
-      "rej_vs_statewide": 0.038802
+      "rej_vs_statewide": 0.038807
     },
     {
       "locality": "ORANGE COUNTY",
@@ -1783,7 +1783,7 @@
       "pre_cure_rej_rate": 0.016012,
       "post_cure_rej_rate": 0.004367,
       "cure_rate": 0.727273,
-      "rej_vs_statewide": -0.012387
+      "rej_vs_statewide": -0.012382
     },
     {
       "locality": "PAGE COUNTY",
@@ -1801,7 +1801,7 @@
       "pre_cure_rej_rate": 0.005208,
       "post_cure_rej_rate": 0.005208,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.011546
+      "rej_vs_statewide": -0.011541
     },
     {
       "locality": "PATRICK COUNTY",
@@ -1819,7 +1819,7 @@
       "pre_cure_rej_rate": 0.036842,
       "post_cure_rej_rate": 0.036842,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.020088
+      "rej_vs_statewide": 0.020093
     },
     {
       "locality": "PETERSBURG CITY",
@@ -1837,7 +1837,7 @@
       "pre_cure_rej_rate": 0.016701,
       "post_cure_rej_rate": 0.016701,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -5.3e-05
+      "rej_vs_statewide": -4.8e-05
     },
     {
       "locality": "PITTSYLVANIA COUNTY",
@@ -1855,7 +1855,7 @@
       "pre_cure_rej_rate": 0.026034,
       "post_cure_rej_rate": 0.024502,
       "cure_rate": 0.058824,
-      "rej_vs_statewide": 0.007748
+      "rej_vs_statewide": 0.007753
     },
     {
       "locality": "POQUOSON CITY",
@@ -1873,7 +1873,7 @@
       "pre_cure_rej_rate": 0.030303,
       "post_cure_rej_rate": 0.020202,
       "cure_rate": 0.333333,
-      "rej_vs_statewide": 0.003448
+      "rej_vs_statewide": 0.003453
     },
     {
       "locality": "PORTSMOUTH CITY",
@@ -1891,7 +1891,7 @@
       "pre_cure_rej_rate": 0.016186,
       "post_cure_rej_rate": 0.012667,
       "cure_rate": 0.130435,
-      "rej_vs_statewide": -0.004087
+      "rej_vs_statewide": -0.004082
     },
     {
       "locality": "POWHATAN COUNTY",
@@ -1909,7 +1909,7 @@
       "pre_cure_rej_rate": 0.004926,
       "post_cure_rej_rate": 0.002463,
       "cure_rate": 0.5,
-      "rej_vs_statewide": -0.014291
+      "rej_vs_statewide": -0.014286
     },
     {
       "locality": "PRINCE EDWARD COUNTY",
@@ -1927,15 +1927,15 @@
       "pre_cure_rej_rate": 0.030568,
       "post_cure_rej_rate": 0.030568,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.013814
+      "rej_vs_statewide": 0.013819
     },
     {
       "locality": "PRINCE GEORGE COUNTY",
       "cd": "04",
       "target_cd": "No",
-      "attempts": 363,
-      "total_vbm": 363,
-      "dem_pct_vbm": 0.595041,
+      "attempts": 392,
+      "total_vbm": 392,
+      "dem_pct_vbm": 0.607143,
       "ever_not_accepted": 0,
       "ever_not_accepted_dem": 0,
       "currently_needs_cure": 0,
@@ -1945,7 +1945,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.016754
+      "rej_vs_statewide": -0.016749
     },
     {
       "locality": "PRINCE WILLIAM COUNTY",
@@ -1963,7 +1963,7 @@
       "pre_cure_rej_rate": 0.031956,
       "post_cure_rej_rate": 0.017895,
       "cure_rate": 0.413333,
-      "rej_vs_statewide": 0.001141
+      "rej_vs_statewide": 0.001146
     },
     {
       "locality": "PRINCE WILLIAM COUNTY",
@@ -1981,7 +1981,7 @@
       "pre_cure_rej_rate": 0.030916,
       "post_cure_rej_rate": 0.018781,
       "cure_rate": 0.364486,
-      "rej_vs_statewide": 0.002027
+      "rej_vs_statewide": 0.002032
     },
     {
       "locality": "PULASKI COUNTY",
@@ -1999,7 +1999,7 @@
       "pre_cure_rej_rate": 0.025641,
       "post_cure_rej_rate": 0.020979,
       "cure_rate": 0.181818,
-      "rej_vs_statewide": 0.004225
+      "rej_vs_statewide": 0.00423
     },
     {
       "locality": "RADFORD CITY",
@@ -2017,7 +2017,7 @@
       "pre_cure_rej_rate": 0.027778,
       "post_cure_rej_rate": 0.013889,
       "cure_rate": 0.5,
-      "rej_vs_statewide": -0.002865
+      "rej_vs_statewide": -0.00286
     },
     {
       "locality": "RAPPAHANNOCK COUNTY",
@@ -2035,7 +2035,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.016754
+      "rej_vs_statewide": -0.016749
     },
     {
       "locality": "RICHMOND CITY",
@@ -2053,7 +2053,7 @@
       "pre_cure_rej_rate": 0.04258,
       "post_cure_rej_rate": 0.040926,
       "cure_rate": 0.038835,
-      "rej_vs_statewide": 0.024172
+      "rej_vs_statewide": 0.024177
     },
     {
       "locality": "RICHMOND COUNTY",
@@ -2071,7 +2071,7 @@
       "pre_cure_rej_rate": 0.05,
       "post_cure_rej_rate": 0.05,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.033246
+      "rej_vs_statewide": 0.033251
     },
     {
       "locality": "ROANOKE CITY",
@@ -2089,7 +2089,7 @@
       "pre_cure_rej_rate": 0.029028,
       "post_cure_rej_rate": 0.029028,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.012274
+      "rej_vs_statewide": 0.012279
     },
     {
       "locality": "ROANOKE COUNTY",
@@ -2107,7 +2107,7 @@
       "pre_cure_rej_rate": 0.011152,
       "post_cure_rej_rate": 0.011152,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.005602
+      "rej_vs_statewide": -0.005597
     },
     {
       "locality": "ROCKBRIDGE COUNTY",
@@ -2125,7 +2125,7 @@
       "pre_cure_rej_rate": 0.010101,
       "post_cure_rej_rate": 0.010101,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.006653
+      "rej_vs_statewide": -0.006648
     },
     {
       "locality": "ROCKINGHAM COUNTY",
@@ -2143,7 +2143,7 @@
       "pre_cure_rej_rate": 0.016694,
       "post_cure_rej_rate": 0.013356,
       "cure_rate": 0.2,
-      "rej_vs_statewide": -0.003398
+      "rej_vs_statewide": -0.003393
     },
     {
       "locality": "RUSSELL COUNTY",
@@ -2161,7 +2161,7 @@
       "pre_cure_rej_rate": 0.046296,
       "post_cure_rej_rate": 0.046296,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.029542
+      "rej_vs_statewide": 0.029547
     },
     {
       "locality": "SALEM CITY",
@@ -2179,7 +2179,7 @@
       "pre_cure_rej_rate": 0.03207,
       "post_cure_rej_rate": 0.023324,
       "cure_rate": 0.272727,
-      "rej_vs_statewide": 0.00657
+      "rej_vs_statewide": 0.006575
     },
     {
       "locality": "SCOTT COUNTY",
@@ -2197,7 +2197,7 @@
       "pre_cure_rej_rate": 0.028302,
       "post_cure_rej_rate": 0.018868,
       "cure_rate": 0.333333,
-      "rej_vs_statewide": 0.002114
+      "rej_vs_statewide": 0.002119
     },
     {
       "locality": "SHENANDOAH COUNTY",
@@ -2215,7 +2215,7 @@
       "pre_cure_rej_rate": 0.021277,
       "post_cure_rej_rate": 0.018617,
       "cure_rate": 0.125,
-      "rej_vs_statewide": 0.001863
+      "rej_vs_statewide": 0.001868
     },
     {
       "locality": "SMYTH COUNTY",
@@ -2233,7 +2233,7 @@
       "pre_cure_rej_rate": 0.043478,
       "post_cure_rej_rate": 0.038043,
       "cure_rate": 0.125,
-      "rej_vs_statewide": 0.021289
+      "rej_vs_statewide": 0.021294
     },
     {
       "locality": "SOUTHAMPTON COUNTY",
@@ -2251,7 +2251,7 @@
       "pre_cure_rej_rate": 0.068966,
       "post_cure_rej_rate": 0.068966,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.052212
+      "rej_vs_statewide": 0.052217
     },
     {
       "locality": "SOUTHAMPTON COUNTY",
@@ -2269,7 +2269,7 @@
       "pre_cure_rej_rate": 0.053571,
       "post_cure_rej_rate": 0.053571,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.036817
+      "rej_vs_statewide": 0.036822
     },
     {
       "locality": "SPOTSYLVANIA COUNTY",
@@ -2287,7 +2287,7 @@
       "pre_cure_rej_rate": 0.007111,
       "post_cure_rej_rate": 0.004444,
       "cure_rate": 0.3125,
-      "rej_vs_statewide": -0.01231
+      "rej_vs_statewide": -0.012305
     },
     {
       "locality": "STAFFORD COUNTY",
@@ -2305,7 +2305,7 @@
       "pre_cure_rej_rate": 0.012351,
       "post_cure_rej_rate": 0.010146,
       "cure_rate": 0.178571,
-      "rej_vs_statewide": -0.006608
+      "rej_vs_statewide": -0.006603
     },
     {
       "locality": "STAUNTON CITY",
@@ -2323,7 +2323,7 @@
       "pre_cure_rej_rate": 0.023256,
       "post_cure_rej_rate": 0.011628,
       "cure_rate": 0.5,
-      "rej_vs_statewide": -0.005126
+      "rej_vs_statewide": -0.005121
     },
     {
       "locality": "SUFFOLK CITY",
@@ -2341,7 +2341,7 @@
       "pre_cure_rej_rate": 0.01569,
       "post_cure_rej_rate": 0.01569,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.001064
+      "rej_vs_statewide": -0.001059
     },
     {
       "locality": "SURRY COUNTY",
@@ -2359,7 +2359,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.016754
+      "rej_vs_statewide": -0.016749
     },
     {
       "locality": "SUSSEX COUNTY",
@@ -2377,7 +2377,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.016754
+      "rej_vs_statewide": -0.016749
     },
     {
       "locality": "TAZEWELL COUNTY",
@@ -2395,7 +2395,7 @@
       "pre_cure_rej_rate": 0.027304,
       "post_cure_rej_rate": 0.027304,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.01055
+      "rej_vs_statewide": 0.010555
     },
     {
       "locality": "VIRGINIA BEACH CITY",
@@ -2413,7 +2413,7 @@
       "pre_cure_rej_rate": 0.011498,
       "post_cure_rej_rate": 0.011385,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.005369
+      "rej_vs_statewide": -0.005364
     },
     {
       "locality": "WARREN COUNTY",
@@ -2431,7 +2431,7 @@
       "pre_cure_rej_rate": 0.045455,
       "post_cure_rej_rate": 0.035885,
       "cure_rate": 0.105263,
-      "rej_vs_statewide": 0.019131
+      "rej_vs_statewide": 0.019136
     },
     {
       "locality": "WASHINGTON COUNTY",
@@ -2449,7 +2449,7 @@
       "pre_cure_rej_rate": 0.026936,
       "post_cure_rej_rate": 0.006734,
       "cure_rate": 0.125,
-      "rej_vs_statewide": -0.01002
+      "rej_vs_statewide": -0.010015
     },
     {
       "locality": "WAYNESBORO CITY",
@@ -2467,7 +2467,7 @@
       "pre_cure_rej_rate": 0.036269,
       "post_cure_rej_rate": 0.025907,
       "cure_rate": 0.214286,
-      "rej_vs_statewide": 0.009153
+      "rej_vs_statewide": 0.009158
     },
     {
       "locality": "WESTMORELAND COUNTY",
@@ -2485,7 +2485,7 @@
       "pre_cure_rej_rate": 0.014019,
       "post_cure_rej_rate": 0.014019,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.002735
+      "rej_vs_statewide": -0.00273
     },
     {
       "locality": "WILLIAMSBURG CITY",
@@ -2503,7 +2503,7 @@
       "pre_cure_rej_rate": 0.034247,
       "post_cure_rej_rate": 0.023973,
       "cure_rate": 0.3,
-      "rej_vs_statewide": 0.007219
+      "rej_vs_statewide": 0.007224
     },
     {
       "locality": "WINCHESTER CITY",
@@ -2521,7 +2521,7 @@
       "pre_cure_rej_rate": 0.008163,
       "post_cure_rej_rate": 0.008163,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.008591
+      "rej_vs_statewide": -0.008586
     },
     {
       "locality": "WISE COUNTY",
@@ -2539,7 +2539,7 @@
       "pre_cure_rej_rate": 0.047619,
       "post_cure_rej_rate": 0.039683,
       "cure_rate": 0.166667,
-      "rej_vs_statewide": 0.022929
+      "rej_vs_statewide": 0.022934
     },
     {
       "locality": "WYTHE COUNTY",
@@ -2557,7 +2557,7 @@
       "pre_cure_rej_rate": 0.052381,
       "post_cure_rej_rate": 0.047619,
       "cure_rate": 0.090909,
-      "rej_vs_statewide": 0.030865
+      "rej_vs_statewide": 0.03087
     },
     {
       "locality": "YORK COUNTY",
@@ -2575,7 +2575,7 @@
       "pre_cure_rej_rate": 0.030576,
       "post_cure_rej_rate": 0.022482,
       "cure_rate": 0.264706,
-      "rej_vs_statewide": 0.005728
+      "rej_vs_statewide": 0.005733
     }
   ],
   "by_cd": [
@@ -2700,13 +2700,13 @@
       "cd": "10",
       "target": false,
       "localities": 6,
-      "total_in_history": 513,
-      "ever_rej_dem": 361,
-      "currently_needs_cure": 377,
-      "currently_needs_cure_dem": 265,
+      "total_in_history": 514,
+      "ever_rej_dem": 362,
+      "currently_needs_cure": 378,
+      "currently_needs_cure_dem": 266,
       "cured": 130,
-      "post_cure_rej_rate": 0.734893,
-      "cure_rate": 0.253411,
+      "post_cure_rej_rate": 0.735409,
+      "cure_rate": 0.252918,
       "first_rejection": "2026-09-22"
     },
     {
@@ -2726,12 +2726,12 @@
   "rejection_reasons": [
     {
       "reason": "Needs Cure",
-      "total": 2580,
-      "dem": 1825,
+      "total": 2581,
+      "dem": 1826,
       "rep": 749,
       "cured": 479,
-      "still_needs_cure": 2047,
-      "cure_rate": 0.185659
+      "still_needs_cure": 2048,
+      "cure_rate": 0.185587
     },
     {
       "reason": "Other",
@@ -2746,14 +2746,14 @@
   "status_transitions": [
     {
       "rejection_reason": "Needs Cure",
-      "still_needs_cure": 2047,
+      "still_needs_cure": 2048,
       "now_cured": 479,
       "switched_evip": 0,
       "reissued": 11,
       "undeliverable": 0,
       "other_status": 43,
-      "total": 2580,
-      "cure_rate": 0.185659
+      "total": 2581,
+      "cure_rate": 0.185587
     },
     {
       "rejection_reason": "Other",
@@ -29445,32 +29445,6 @@
       "party": "Dem"
     },
     {
-      "voter_file_vanid": "997417",
-      "state_file_id": "402023451",
-      "last_name": "Jones",
-      "first_name": "Clara",
-      "middle_name": "Ross",
-      "preferred_phone": "8044329541",
-      "cell_phone": "8044329541",
-      "address": "1418 Young St",
-      "city": "Richmond",
-      "state": "VA",
-      "zip5": "23222",
-      "zip4": "2346",
-      "county_name": "Henrico",
-      "precinct_name": "223 - Ratcliffe",
-      "age": "83",
-      "sex": "F",
-      "dob": "11/05/1942",
-      "locality": "HENRICO COUNTY",
-      "cd": "04",
-      "cure_status": "Needs Cure",
-      "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "Year of Birth not provided",
-      "party": "Dem"
-    },
-    {
       "voter_file_vanid": "19808890",
       "state_file_id": "093041939",
       "last_name": "Jones",
@@ -29494,6 +29468,32 @@
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
       "ballot_comment": "Id Requested",
+      "party": "Dem"
+    },
+    {
+      "voter_file_vanid": "997417",
+      "state_file_id": "402023451",
+      "last_name": "Jones",
+      "first_name": "Clara",
+      "middle_name": "Ross",
+      "preferred_phone": "8044329541",
+      "cell_phone": "8044329541",
+      "address": "1418 Young St",
+      "city": "Richmond",
+      "state": "VA",
+      "zip5": "23222",
+      "zip4": "2346",
+      "county_name": "Henrico",
+      "precinct_name": "223 - Ratcliffe",
+      "age": "83",
+      "sex": "F",
+      "dob": "11/05/1942",
+      "locality": "HENRICO COUNTY",
+      "cd": "04",
+      "cure_status": "Needs Cure",
+      "rejection_reason": "Needs Cure",
+      "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Year of Birth not provided",
       "party": "Dem"
     },
     {
@@ -43067,6 +43067,32 @@
       "ballot_status_reason": "Needs Cure",
       "ballot_comment": "Incorrect address.",
       "party": "Rep"
+    },
+    {
+      "voter_file_vanid": "14983397",
+      "state_file_id": "062832259",
+      "last_name": "Young",
+      "first_name": "Joy",
+      "middle_name": "Hannah",
+      "preferred_phone": "7575134155",
+      "cell_phone": "7575134155",
+      "address": "43571 World Woods Ct",
+      "city": "Ashburn",
+      "state": "VA",
+      "zip5": "20147",
+      "zip4": "4178",
+      "county_name": "Loudoun",
+      "precinct_name": "814 - Newton - Lee",
+      "age": "70",
+      "sex": "F",
+      "dob": "07/02/1956",
+      "locality": "LOUDOUN COUNTY",
+      "cd": "10",
+      "cure_status": "Needs Cure",
+      "rejection_reason": "Needs Cure",
+      "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Envelope B - Statement of UOCAVA Voter.",
+      "party": "Dem"
     },
     {
       "voter_file_vanid": "3920961",
