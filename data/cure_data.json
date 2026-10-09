@@ -2,7 +2,7 @@
   "meta": {
     "election_name": "2026 November General",
     "snapshot_date": "2026-10-08",
-    "export_time": "2026-10-08 07:01",
+    "export_time": "2026-10-09 07:01",
     "source_records": 3614,
     "target_cds": [
       "01",
@@ -18471,7 +18471,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "Blank",
+      "ballot_comment": "ID Required",
       "party": "Unk"
     },
     {
@@ -18497,7 +18497,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "ID Required",
+      "ballot_comment": "Blank",
       "party": "Unk"
     },
     {
