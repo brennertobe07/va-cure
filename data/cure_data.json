@@ -2,7 +2,7 @@
   "meta": {
     "election_name": "2026 November General",
     "snapshot_date": "2026-10-13",
-    "export_time": "2026-10-13 14:53",
+    "export_time": "2026-10-13 15:02",
     "source_records": 4047,
     "target_cds": [
       "01",
@@ -6752,10 +6752,10 @@
       "dob": "",
       "locality": "ARLINGTON COUNTY",
       "cd": "08",
-      "cure_status": "Cured",
+      "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "",
-      "ballot_comment": "",
+      "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "B ENVELOPE BLANK",
       "party": "Unk"
     },
     {
@@ -6778,10 +6778,10 @@
       "dob": "",
       "locality": "ARLINGTON COUNTY",
       "cd": "08",
-      "cure_status": "Needs Cure",
+      "cure_status": "Cured",
       "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "B ENVELOPE BLANK",
+      "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Unk"
     },
     {
@@ -21003,7 +21003,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "ID Required",
+      "ballot_comment": "Blank",
       "party": "Unk"
     },
     {
@@ -21029,7 +21029,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "Blank",
+      "ballot_comment": "ID Required",
       "party": "Unk"
     },
     {
@@ -39798,10 +39798,10 @@
       "dob": "",
       "locality": "HENRICO COUNTY",
       "cd": "01",
-      "cure_status": "Other",
+      "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "last name different on B envelope",
+      "ballot_comment": "Address is incomplete",
       "party": "Unk"
     },
     {
@@ -39824,10 +39824,10 @@
       "dob": "",
       "locality": "HENRICO COUNTY",
       "cd": "01",
-      "cure_status": "Needs Cure",
+      "cure_status": "Other",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "Address is incomplete",
+      "ballot_comment": "last name different on B envelope",
       "party": "Unk"
     },
     {
