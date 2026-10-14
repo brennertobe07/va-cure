@@ -2,7 +2,7 @@
   "meta": {
     "election_name": "2026 November General",
     "snapshot_date": "2026-10-13",
-    "export_time": "2026-10-14 07:01",
+    "export_time": "2026-10-14 10:52",
     "source_records": 4047,
     "target_cds": [
       "01",
@@ -21003,7 +21003,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "Blank",
+      "ballot_comment": "ID Required",
       "party": "Unk"
     },
     {
@@ -21029,7 +21029,7 @@
       "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "ID Required",
+      "ballot_comment": "Blank",
       "party": "Unk"
     },
     {
@@ -39798,10 +39798,10 @@
       "dob": "",
       "locality": "HENRICO COUNTY",
       "cd": "01",
-      "cure_status": "Other",
+      "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "last name different on B envelope",
+      "ballot_comment": "Address is incomplete",
       "party": "Unk"
     },
     {
@@ -39824,10 +39824,10 @@
       "dob": "",
       "locality": "HENRICO COUNTY",
       "cd": "01",
-      "cure_status": "Needs Cure",
+      "cure_status": "Other",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "Address is incomplete",
+      "ballot_comment": "last name different on B envelope",
       "party": "Unk"
     },
     {
@@ -42431,32 +42431,6 @@
       "party": "Dem"
     },
     {
-      "voter_file_vanid": "997417",
-      "state_file_id": "402023451",
-      "last_name": "Jones",
-      "first_name": "Clara",
-      "middle_name": "Ross",
-      "preferred_phone": "8044329541",
-      "cell_phone": "8044329541",
-      "address": "1418 Young St",
-      "city": "Richmond",
-      "state": "VA",
-      "zip5": "23222",
-      "zip4": "2346",
-      "county_name": "Henrico",
-      "precinct_name": "223 - Ratcliffe",
-      "age": "83",
-      "sex": "F",
-      "dob": "11/05/1942",
-      "locality": "HENRICO COUNTY",
-      "cd": "04",
-      "cure_status": "Needs Cure",
-      "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "Year of Birth not provided",
-      "party": "Dem"
-    },
-    {
       "voter_file_vanid": "19808890",
       "state_file_id": "093041939",
       "last_name": "Jones",
@@ -42480,6 +42454,32 @@
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
       "ballot_comment": "Id Requested",
+      "party": "Dem"
+    },
+    {
+      "voter_file_vanid": "997417",
+      "state_file_id": "402023451",
+      "last_name": "Jones",
+      "first_name": "Clara",
+      "middle_name": "Ross",
+      "preferred_phone": "8044329541",
+      "cell_phone": "8044329541",
+      "address": "1418 Young St",
+      "city": "Richmond",
+      "state": "VA",
+      "zip5": "23222",
+      "zip4": "2346",
+      "county_name": "Henrico",
+      "precinct_name": "223 - Ratcliffe",
+      "age": "83",
+      "sex": "F",
+      "dob": "11/05/1942",
+      "locality": "HENRICO COUNTY",
+      "cd": "04",
+      "cure_status": "Needs Cure",
+      "rejection_reason": "Needs Cure",
+      "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Year of Birth not provided",
       "party": "Dem"
     },
     {
