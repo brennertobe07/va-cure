@@ -99,22 +99,22 @@ header {
 }
 
 /* ── Morning report (data/pipeline_status.json) ── */
-#statusItem { cursor: help; }
+/* Small "Status" item in the header; click for step detail */
+#statusItem { position: relative; }
 #statusItem[hidden] { display: none; }
-#statusItem span { color: var(--green); }
-#pipelineBanner {
-  background: rgba(255,107,91,.14);
-  border-bottom: 2px solid var(--rep);
-  color: var(--text);
-  font-size: 13px;
-  padding: 8px 20px;
-  display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 18px;
+#statusItem summary { list-style: none; cursor: pointer; }
+#statusItem summary::-webkit-details-marker { display: none; }
+#statusItem summary:hover #statusText { color: var(--text); }
+#statusItem .ok  { color: var(--green); }
+#statusItem .bad { color: var(--rep); }
+#statusItem .pop {
+  position: absolute; right: 0; top: calc(100% + 6px); z-index: 50;
+  width: max-content; max-width: min(380px, calc(100vw - 32px));
+  background: var(--surface); border: 1px solid var(--border); border-radius: 4px;
+  box-shadow: 0 6px 18px rgba(0,0,0,.45);
+  padding: 8px 12px; font-size: 11px; color: var(--text); line-height: 1.6;
 }
-#pipelineBanner[hidden] { display: none; }
-#pipelineBanner strong { color: var(--rep); }
-#pipelineBanner .steps { font-family: var(--mono); font-size: 11px; color: var(--text-dim); }
-#pipelineBanner .steps .bad { color: var(--rep); }
-@media (max-width: 600px) { #pipelineBanner { padding: 8px 16px; } }
+#statusItem .pop .when { color: var(--text-dim); margin-top: 4px; }
 
 /* ── Nav ── */
 nav {
@@ -946,11 +946,9 @@ UDk/hX7zfCL/AINOPhd4dngm8YePfFPiXy23SW1pDFYwy/8AAhlx+dfcf7MH/BLT4F/sg+VJ4K+H
     <div class="meta-item">Snapshot<span id="metaSnap">—</span></div>
     <div class="meta-item">Exported<span id="metaDate">—</span></div>
     <div class="meta-item">Records<span id="metaRecords">—</span></div>
-    <div class="meta-item" id="statusItem" hidden>Status<span>✓ All ran</span></div>
+    <details class="meta-item" id="statusItem" hidden><summary>Status<span id="statusText"></span></summary><div class="pop"></div></details>
   </div>
 </header>
-
-<div id="pipelineBanner" role="alert" hidden></div>
 
 <nav>
   <div class="tab active" data-tab="statewide">Statewide</div>
@@ -1020,8 +1018,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // ─────────────────────────────────────────────────────────────
 // Morning report — written by export_dashboards.py at 07:00.
-// Quiet "Status ✓" when every step ran today; red banner when one
-// failed or the status itself is stale. Same logic as va-absentee.
+// Small "Status" header item - "✓ All ran", or the failed step / stale
+// notice - click for step detail. Same logic as va-absentee.
 // ─────────────────────────────────────────────────────────────
 const STALE_AFTER_HOUR = 8;   // before this, yesterday's status is expected
 
@@ -1042,27 +1040,22 @@ async function loadPipelineStatus() {
   const pad      = n => String(n).padStart(2, '0');
   const todayStr = `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
   const stale    = !st.checked_at.startsWith(todayStr) && now.getHours() >= STALE_AFTER_HOUR;
-  const flag     = ok => ok === true ? '✓' : ok === false ? '✗' : '?';
-  const lines    = st.steps.map(s => `${flag(s.ok)} ${s.name} ${s.time || '--:--'}  ${s.detail}`);
+  const flag     = ok => ok === true ? '<b class="ok">✓</b>'
+                       : ok === false ? '<b class="bad">✗</b>' : '?';
+  const failed   = st.steps.find(s => s.ok === false);
 
-  if (st.ok && !stale) {
-    const item = document.getElementById('statusItem');
-    item.title = [`All processes ran — checked ${st.checked_at}`, ...lines].join('\n');
-    item.hidden = false;
-    return;
-  }
+  const summary = stale
+    ? `<b class="bad">✗</b> Not updated today`
+    : st.ok
+      ? `<b class="ok">✓</b> All ran ${escStatus(st.checked_at.slice(11))}`
+      : `<b class="bad">✗</b> ${escStatus(failed.name)} failed ${escStatus(failed.time || '')}`;
+  const rows = st.steps.map(s =>
+    `<div>${flag(s.ok)} ${escStatus(s.name)} ${escStatus(s.time || '--:--')} — ${escStatus(s.detail)}</div>`).join('');
 
-  const failed = st.steps.find(s => s.ok === false);
-  const headline = stale
-    ? `Dashboards have not updated today — showing data from ${escStatus(st.checked_at)}.`
-    : `${escStatus(failed.name)} FAILED ${escStatus(failed.time || '')} — ${escStatus(failed.detail)}`;
-  const steps = st.steps.map(s =>
-    `<span class="${s.ok === false ? 'bad' : ''}">${flag(s.ok)} ${escStatus(s.name)}</span>`).join(' · ');
-
-  const banner = document.getElementById('pipelineBanner');
-  banner.innerHTML = `<span>⚠ <strong>${headline}</strong></span><span class="steps">${steps}</span>`;
-  banner.title = lines.join('\n');
-  banner.hidden = false;
+  const item = document.getElementById('statusItem');
+  document.getElementById('statusText').innerHTML = summary;
+  item.querySelector('.pop').innerHTML = rows + `<div class="when">Checked ${escStatus(st.checked_at)}</div>`;
+  item.hidden = false;
 }
 
 function init() {
