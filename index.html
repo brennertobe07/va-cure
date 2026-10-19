@@ -98,6 +98,11 @@ header {
   margin-top: 1px;
 }
 
+/* Cure deadline in the header: yellow, orange in the last 48h, dim once passed */
+.meta-item.deadline span      { color: var(--yellow); }
+.meta-item.deadline.soon span { color: var(--orange); }
+.meta-item.deadline.passed span { color: var(--text-dim); }
+
 /* ── Morning report (data/pipeline_status.json) ── */
 /* Small "Status" item in the header; click for step detail */
 #statusItem { position: relative; }
@@ -943,6 +948,7 @@ UDk/hX7zfCL/AINOPhd4dngm8YePfFPiXy23SW1pDFYwy/8AAhlx+dfcf7MH/BLT4F/sg+VJ4K+H
     <div class="election-badge" id="electionBadge">Loading…</div>
   </div>
   <div class="header-right">
+    <div class="meta-item deadline" id="cureDeadline" hidden title="Last day for voters to cure a flagged absentee envelope (ELECT). Mail ballots must also be received by then.">Cure deadline<span id="cureDeadlineText"></span></div>
     <div class="meta-item">Snapshot<span id="metaSnap">—</span></div>
     <div class="meta-item">Exported<span id="metaDate">—</span></div>
     <div class="meta-item">Records<span id="metaRecords">—</span></div>
@@ -1058,9 +1064,33 @@ async function loadPipelineStatus() {
   item.hidden = false;
 }
 
+// Cure deadline per election (keyed on meta.election_name). Source: ELECT memos,
+// see C:\repos\elections\ELECT_GUIDANCE_2026.md. HB 82 / HB 774 change the rules from Jan 1, 2027.
+const CURE_DEADLINES = {
+  '2026 November General': { at: '2026-11-06T12:00:00-05:00', label: 'Fri Nov 6, noon' },
+};
+
+function renderCureDeadline(electionName) {
+  const d = CURE_DEADLINES[electionName];
+  const item = document.getElementById('cureDeadline');
+  if (!d) return;   // unknown election - leave the item hidden
+  const msLeft = new Date(d.at) - Date.now();
+  const hours = msLeft / 3.6e6;
+  let left;
+  if (msLeft <= 0)    left = 'passed';
+  else if (hours < 48) left = `${Math.floor(hours)}h ${Math.floor((hours % 1) * 60)}m left`;
+  else                 left = `${Math.floor(hours / 24)}d left`;
+  document.getElementById('cureDeadlineText').textContent = `${d.label} · ${left}`;
+  item.classList.toggle('soon', msLeft > 0 && hours < 48);
+  item.classList.toggle('passed', msLeft <= 0);
+  item.hidden = false;
+}
+
 function init() {
   const m = DATA.meta;
   document.getElementById('electionBadge').textContent = m.election_name || 'Election';
+  renderCureDeadline(m.election_name);
+  setInterval(() => renderCureDeadline(m.election_name), 60000);
   document.getElementById('metaSnap').textContent   = m.snapshot_date  || '—';
   document.getElementById('metaDate').textContent   = m.export_time    || '—';
   document.getElementById('metaRecords').textContent = (m.source_records || 0).toLocaleString();
