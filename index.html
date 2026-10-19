@@ -432,7 +432,10 @@ td.dem  { color: var(--dem); }
 .key-table tr:hover td { background: var(--surface2); }
 @media (max-width: 700px) {
   .key-table td:first-child { white-space: normal; }
-  .key-table th, .key-table td { padding: 6px 8px; overflow-wrap: anywhere; }
+  .key-table th, .key-table td { padding: 6px 6px; overflow-wrap: anywhere; }
+  /* The 3-column status table was ~10px wider than a 375px phone; trim the card
+     padding, and if a table still can't fit, scroll it inside the card, not the page. */
+  .card:has(> .key-table) { padding: 12px; overflow-x: auto; }
 }
 
 /* ── Rate gauge ── */
