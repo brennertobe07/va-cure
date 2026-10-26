@@ -1,9 +1,9 @@
 {
   "meta": {
     "election_name": "2026 November General",
-    "snapshot_date": "2026-10-25",
-    "export_time": "2026-10-25 07:02",
-    "source_records": 6221,
+    "snapshot_date": "2026-10-26",
+    "export_time": "2026-10-26 07:02",
+    "source_records": 6237,
     "target_cds": [
       "01",
       "02",
@@ -13,49 +13,49 @@
     "suppressed_rows": 10
   },
   "statewide": {
-    "total_attempts": 264687,
-    "total_vbm": 261756,
-    "vbm_dem": 191365,
-    "vbm_rep": 69613,
-    "dem_pct_vbm": 0.731082,
-    "never_needs_cure": 258692,
-    "ever_not_accepted": 6221,
-    "ever_not_accepted_dem": 4438,
-    "ever_not_accepted_rep": 1744,
-    "ever_not_accepted_dem_pct": 0.71339,
-    "cured_total": 3064,
-    "cured_dem": 2232,
-    "currently_needs_cure": 2931,
-    "currently_needs_cure_dem": 2034,
-    "currently_needs_cure_rep": 871,
+    "total_attempts": 265585,
+    "total_vbm": 262655,
+    "vbm_dem": 192086,
+    "vbm_rep": 69784,
+    "dem_pct_vbm": 0.731324,
+    "never_needs_cure": 259577,
+    "ever_not_accepted": 6237,
+    "ever_not_accepted_dem": 4451,
+    "ever_not_accepted_rep": 1747,
+    "ever_not_accepted_dem_pct": 0.713644,
+    "cured_total": 3078,
+    "cured_dem": 2244,
+    "currently_needs_cure": 2930,
+    "currently_needs_cure_dem": 2032,
+    "currently_needs_cure_rep": 872,
     "switched_to_evip": 0,
-    "reissued": 16,
+    "reissued": 14,
     "undeliverable": 0,
-    "other_status": 210,
-    "pre_cure_rej_rate": 0.023503,
-    "post_cure_rej_rate": 0.011073,
-    "cure_rate": 0.492525,
-    "dem_pre_cure_rate": 0.022666,
-    "dem_post_cure_rate": 0.010388
+    "other_status": 215,
+    "pre_cure_rej_rate": 0.023484,
+    "post_cure_rej_rate": 0.011032,
+    "cure_rate": 0.493506,
+    "dem_pre_cure_rate": 0.022647,
+    "dem_post_cure_rate": 0.010339
   },
   "by_locality": [
     {
       "locality": "ACCOMACK COUNTY",
       "cd": "02",
       "target_cd": "02",
-      "attempts": 804,
-      "total_vbm": 799,
-      "dem_pct_vbm": 0.640801,
+      "attempts": 807,
+      "total_vbm": 802,
+      "dem_pct_vbm": 0.640898,
       "ever_not_accepted": 14,
       "ever_not_accepted_dem": 10,
       "currently_needs_cure": 5,
       "currently_needs_cure_dem": 3,
       "cured": 7,
       "cured_dem": 5,
-      "pre_cure_rej_rate": 0.017413,
-      "post_cure_rej_rate": 0.006219,
+      "pre_cure_rej_rate": 0.017348,
+      "post_cure_rej_rate": 0.006196,
       "cure_rate": 0.5,
-      "rej_vs_statewide": -0.004854
+      "rej_vs_statewide": -0.004836
     },
     {
       "locality": "ALBEMARLE COUNTY",
@@ -73,25 +73,25 @@
       "pre_cure_rej_rate": 0.013932,
       "post_cure_rej_rate": 0.006654,
       "cure_rate": 0.477612,
-      "rej_vs_statewide": -0.004419
+      "rej_vs_statewide": -0.004378
     },
     {
       "locality": "ALEXANDRIA CITY",
       "cd": "08",
       "target_cd": "No",
-      "attempts": 6364,
-      "total_vbm": 6311,
-      "dem_pct_vbm": 0.898273,
-      "ever_not_accepted": 104,
-      "ever_not_accepted_dem": 89,
-      "currently_needs_cure": 53,
+      "attempts": 6797,
+      "total_vbm": 6743,
+      "dem_pct_vbm": 0.89871,
+      "ever_not_accepted": 111,
+      "ever_not_accepted_dem": 95,
+      "currently_needs_cure": 54,
       "currently_needs_cure_dem": 41,
-      "cured": 49,
-      "cured_dem": 46,
-      "pre_cure_rej_rate": 0.016342,
-      "post_cure_rej_rate": 0.008328,
-      "cure_rate": 0.471154,
-      "rej_vs_statewide": -0.002745
+      "cured": 54,
+      "cured_dem": 51,
+      "pre_cure_rej_rate": 0.016331,
+      "post_cure_rej_rate": 0.007945,
+      "cure_rate": 0.486486,
+      "rej_vs_statewide": -0.003087
     },
     {
       "locality": "ALLEGHANY COUNTY",
@@ -109,7 +109,7 @@
       "pre_cure_rej_rate": 0.017316,
       "post_cure_rej_rate": 0.017316,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.006243
+      "rej_vs_statewide": 0.006284
     },
     {
       "locality": "AMELIA COUNTY",
@@ -127,7 +127,7 @@
       "pre_cure_rej_rate": 0.004184,
       "post_cure_rej_rate": 0.004184,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.006889
+      "rej_vs_statewide": -0.006848
     },
     {
       "locality": "AMHERST COUNTY",
@@ -145,7 +145,7 @@
       "pre_cure_rej_rate": 0.043646,
       "post_cure_rej_rate": 0.012837,
       "cure_rate": 0.705882,
-      "rej_vs_statewide": 0.001764
+      "rej_vs_statewide": 0.001805
     },
     {
       "locality": "APPOMATTOX COUNTY",
@@ -163,7 +163,7 @@
       "pre_cure_rej_rate": 0.039526,
       "post_cure_rej_rate": 0.011858,
       "cure_rate": 0.7,
-      "rej_vs_statewide": 0.000785
+      "rej_vs_statewide": 0.000826
     },
     {
       "locality": "ARLINGTON COUNTY",
@@ -181,7 +181,7 @@
       "pre_cure_rej_rate": 0.01555,
       "post_cure_rej_rate": 0.009704,
       "cure_rate": 0.323308,
-      "rej_vs_statewide": -0.001369
+      "rej_vs_statewide": -0.001328
     },
     {
       "locality": "AUGUSTA COUNTY",
@@ -199,7 +199,7 @@
       "pre_cure_rej_rate": 0.02981,
       "post_cure_rej_rate": 0.019648,
       "cure_rate": 0.340909,
-      "rej_vs_statewide": 0.008575
+      "rej_vs_statewide": 0.008616
     },
     {
       "locality": "BATH COUNTY",
@@ -217,7 +217,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.011073
+      "rej_vs_statewide": -0.011032
     },
     {
       "locality": "BEDFORD COUNTY",
@@ -235,7 +235,7 @@
       "pre_cure_rej_rate": 0.046889,
       "post_cure_rej_rate": 0.024346,
       "cure_rate": 0.480769,
-      "rej_vs_statewide": 0.013273
+      "rej_vs_statewide": 0.013314
     },
     {
       "locality": "BEDFORD COUNTY",
@@ -248,12 +248,12 @@
       "ever_not_accepted_dem": 16,
       "currently_needs_cure": 12,
       "currently_needs_cure_dem": 5,
-      "cured": 19,
+      "cured": 20,
       "cured_dem": 10,
       "pre_cure_rej_rate": 0.034958,
       "post_cure_rej_rate": 0.012712,
-      "cure_rate": 0.575758,
-      "rej_vs_statewide": 0.001639
+      "cure_rate": 0.606061,
+      "rej_vs_statewide": 0.00168
     },
     {
       "locality": "BLAND COUNTY",
@@ -271,51 +271,51 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.011073
+      "rej_vs_statewide": -0.011032
     },
     {
       "locality": "BOTETOURT COUNTY",
       "cd": "06",
       "target_cd": "No",
-      "attempts": 789,
-      "total_vbm": 788,
-      "dem_pct_vbm": 0.468274,
+      "attempts": 791,
+      "total_vbm": 790,
+      "dem_pct_vbm": 0.46962,
       "ever_not_accepted": 3,
       "ever_not_accepted_dem": 3,
       "currently_needs_cure": 1,
       "currently_needs_cure_dem": 1,
       "cured": 1,
       "cured_dem": 1,
-      "pre_cure_rej_rate": 0.003802,
-      "post_cure_rej_rate": 0.001267,
+      "pre_cure_rej_rate": 0.003793,
+      "post_cure_rej_rate": 0.001264,
       "cure_rate": 0.333333,
-      "rej_vs_statewide": -0.009806
+      "rej_vs_statewide": -0.009768
     },
     {
       "locality": "BRISTOL CITY",
       "cd": "09",
       "target_cd": "No",
-      "attempts": 341,
-      "total_vbm": 340,
-      "dem_pct_vbm": 0.485294,
+      "attempts": 342,
+      "total_vbm": 341,
+      "dem_pct_vbm": 0.483871,
       "ever_not_accepted": 10,
       "ever_not_accepted_dem": 4,
       "currently_needs_cure": 1,
       "currently_needs_cure_dem": 0,
       "cured": 8,
       "cured_dem": 3,
-      "pre_cure_rej_rate": 0.029326,
-      "post_cure_rej_rate": 0.002933,
+      "pre_cure_rej_rate": 0.02924,
+      "post_cure_rej_rate": 0.002924,
       "cure_rate": 0.8,
-      "rej_vs_statewide": -0.00814
+      "rej_vs_statewide": -0.008108
     },
     {
       "locality": "BRUNSWICK COUNTY",
       "cd": "04",
       "target_cd": "No",
-      "attempts": 362,
-      "total_vbm": 362,
-      "dem_pct_vbm": 0.745856,
+      "attempts": 363,
+      "total_vbm": 363,
+      "dem_pct_vbm": 0.746556,
       "ever_not_accepted": 0,
       "ever_not_accepted_dem": 0,
       "currently_needs_cure": 0,
@@ -325,7 +325,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.011073
+      "rej_vs_statewide": -0.011032
     },
     {
       "locality": "BUCHANAN COUNTY",
@@ -343,25 +343,25 @@
       "pre_cure_rej_rate": 0.023474,
       "post_cure_rej_rate": 0.014085,
       "cure_rate": 0.4,
-      "rej_vs_statewide": 0.003012
+      "rej_vs_statewide": 0.003053
     },
     {
       "locality": "BUCKINGHAM COUNTY",
       "cd": "05",
       "target_cd": "05",
-      "attempts": 290,
-      "total_vbm": 281,
-      "dem_pct_vbm": 0.697509,
+      "attempts": 292,
+      "total_vbm": 283,
+      "dem_pct_vbm": 0.69258,
       "ever_not_accepted": 18,
       "ever_not_accepted_dem": 16,
       "currently_needs_cure": 9,
       "currently_needs_cure_dem": 7,
       "cured": 9,
       "cured_dem": 9,
-      "pre_cure_rej_rate": 0.062069,
-      "post_cure_rej_rate": 0.031034,
+      "pre_cure_rej_rate": 0.061644,
+      "post_cure_rej_rate": 0.030822,
       "cure_rate": 0.5,
-      "rej_vs_statewide": 0.019961
+      "rej_vs_statewide": 0.01979
     },
     {
       "locality": "BUENA VISTA CITY",
@@ -379,7 +379,7 @@
       "pre_cure_rej_rate": 0.018692,
       "post_cure_rej_rate": 0.009346,
       "cure_rate": 0.5,
-      "rej_vs_statewide": -0.001727
+      "rej_vs_statewide": -0.001686
     },
     {
       "locality": "CAMPBELL COUNTY",
@@ -397,7 +397,7 @@
       "pre_cure_rej_rate": 0.023941,
       "post_cure_rej_rate": 0.017495,
       "cure_rate": 0.230769,
-      "rej_vs_statewide": 0.006422
+      "rej_vs_statewide": 0.006463
     },
     {
       "locality": "CAROLINE COUNTY",
@@ -415,7 +415,7 @@
       "pre_cure_rej_rate": 0.036709,
       "post_cure_rej_rate": 0.017722,
       "cure_rate": 0.482759,
-      "rej_vs_statewide": 0.006649
+      "rej_vs_statewide": 0.00669
     },
     {
       "locality": "CARROLL COUNTY",
@@ -433,7 +433,7 @@
       "pre_cure_rej_rate": 0.063209,
       "post_cure_rej_rate": 0.030794,
       "cure_rate": 0.512821,
-      "rej_vs_statewide": 0.019721
+      "rej_vs_statewide": 0.019762
     },
     {
       "locality": "CHARLES CITY COUNTY",
@@ -451,7 +451,7 @@
       "pre_cure_rej_rate": 0.036232,
       "post_cure_rej_rate": 0.021739,
       "cure_rate": 0.4,
-      "rej_vs_statewide": 0.010666
+      "rej_vs_statewide": 0.010707
     },
     {
       "locality": "CHARLOTTE COUNTY",
@@ -469,7 +469,7 @@
       "pre_cure_rej_rate": 0.043716,
       "post_cure_rej_rate": 0.032787,
       "cure_rate": 0.25,
-      "rej_vs_statewide": 0.021714
+      "rej_vs_statewide": 0.021755
     },
     {
       "locality": "CHARLOTTESVILLE CITY",
@@ -487,7 +487,7 @@
       "pre_cure_rej_rate": 0.030383,
       "post_cure_rej_rate": 0.016513,
       "cure_rate": 0.369565,
-      "rej_vs_statewide": 0.00544
+      "rej_vs_statewide": 0.005481
     },
     {
       "locality": "CHESAPEAKE CITY",
@@ -505,7 +505,7 @@
       "pre_cure_rej_rate": 0.016796,
       "post_cure_rej_rate": 0.008033,
       "cure_rate": 0.434783,
-      "rej_vs_statewide": -0.00304
+      "rej_vs_statewide": -0.002999
     },
     {
       "locality": "CHESAPEAKE CITY",
@@ -523,43 +523,43 @@
       "pre_cure_rej_rate": 0.019301,
       "post_cure_rej_rate": 0.011647,
       "cure_rate": 0.37931,
-      "rej_vs_statewide": 0.000574
+      "rej_vs_statewide": 0.000615
     },
     {
       "locality": "CHESTERFIELD COUNTY",
       "cd": "04",
       "target_cd": "No",
-      "attempts": 6013,
-      "total_vbm": 5971,
-      "dem_pct_vbm": 0.737732,
+      "attempts": 6032,
+      "total_vbm": 5990,
+      "dem_pct_vbm": 0.737563,
       "ever_not_accepted": 82,
       "ever_not_accepted_dem": 68,
       "currently_needs_cure": 42,
       "currently_needs_cure_dem": 36,
       "cured": 40,
       "cured_dem": 32,
-      "pre_cure_rej_rate": 0.013637,
-      "post_cure_rej_rate": 0.006985,
+      "pre_cure_rej_rate": 0.013594,
+      "post_cure_rej_rate": 0.006963,
       "cure_rate": 0.487805,
-      "rej_vs_statewide": -0.004088
+      "rej_vs_statewide": -0.004069
     },
     {
       "locality": "CHESTERFIELD COUNTY",
       "cd": "01",
       "target_cd": "01",
-      "attempts": 7669,
-      "total_vbm": 7625,
-      "dem_pct_vbm": 0.654951,
+      "attempts": 7720,
+      "total_vbm": 7676,
+      "dem_pct_vbm": 0.65555,
       "ever_not_accepted": 75,
       "ever_not_accepted_dem": 46,
       "currently_needs_cure": 44,
       "currently_needs_cure_dem": 30,
       "cured": 30,
       "cured_dem": 16,
-      "pre_cure_rej_rate": 0.00978,
-      "post_cure_rej_rate": 0.005737,
+      "pre_cure_rej_rate": 0.009715,
+      "post_cure_rej_rate": 0.005699,
       "cure_rate": 0.4,
-      "rej_vs_statewide": -0.005336
+      "rej_vs_statewide": -0.005333
     },
     {
       "locality": "CHESTERFIELD COUNTY",
@@ -577,7 +577,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.011073
+      "rej_vs_statewide": -0.011032
     },
     {
       "locality": "CLARKE COUNTY",
@@ -595,15 +595,15 @@
       "pre_cure_rej_rate": 0.037879,
       "post_cure_rej_rate": 0.015152,
       "cure_rate": 0.6,
-      "rej_vs_statewide": 0.004079
+      "rej_vs_statewide": 0.00412
     },
     {
       "locality": "COLONIAL HEIGHTS CITY",
       "cd": "04",
       "target_cd": "No",
-      "attempts": 359,
-      "total_vbm": 359,
-      "dem_pct_vbm": 0.387187,
+      "attempts": 361,
+      "total_vbm": 361,
+      "dem_pct_vbm": 0.385042,
       "ever_not_accepted": 0,
       "ever_not_accepted_dem": 0,
       "currently_needs_cure": 0,
@@ -613,7 +613,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.011073
+      "rej_vs_statewide": -0.011032
     },
     {
       "locality": "COVINGTON CITY",
@@ -631,7 +631,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.011073
+      "rej_vs_statewide": -0.011032
     },
     {
       "locality": "CRAIG COUNTY",
@@ -649,25 +649,25 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.011073
+      "rej_vs_statewide": -0.011032
     },
     {
       "locality": "CULPEPER COUNTY",
       "cd": "07",
       "target_cd": "No",
-      "attempts": 1484,
-      "total_vbm": 1481,
-      "dem_pct_vbm": 0.592167,
+      "attempts": 1485,
+      "total_vbm": 1482,
+      "dem_pct_vbm": 0.592443,
       "ever_not_accepted": 8,
       "ever_not_accepted_dem": 6,
       "currently_needs_cure": 3,
       "currently_needs_cure_dem": 3,
       "cured": 4,
       "cured_dem": 3,
-      "pre_cure_rej_rate": 0.005391,
-      "post_cure_rej_rate": 0.002022,
+      "pre_cure_rej_rate": 0.005387,
+      "post_cure_rej_rate": 0.00202,
       "cure_rate": 0.5,
-      "rej_vs_statewide": -0.009051
+      "rej_vs_statewide": -0.009012
     },
     {
       "locality": "CUMBERLAND COUNTY",
@@ -685,7 +685,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.011073
+      "rej_vs_statewide": -0.011032
     },
     {
       "locality": "DANVILLE CITY",
@@ -703,7 +703,7 @@
       "pre_cure_rej_rate": 0.033737,
       "post_cure_rej_rate": 0.009516,
       "cure_rate": 0.692308,
-      "rej_vs_statewide": -0.001557
+      "rej_vs_statewide": -0.001516
     },
     {
       "locality": "DICKENSON COUNTY",
@@ -721,7 +721,7 @@
       "pre_cure_rej_rate": 0.021186,
       "post_cure_rej_rate": 0.012712,
       "cure_rate": 0.4,
-      "rej_vs_statewide": 0.001639
+      "rej_vs_statewide": 0.00168
     },
     {
       "locality": "DINWIDDIE COUNTY",
@@ -739,7 +739,7 @@
       "pre_cure_rej_rate": 0.059561,
       "post_cure_rej_rate": 0.014107,
       "cure_rate": 0.763158,
-      "rej_vs_statewide": 0.003034
+      "rej_vs_statewide": 0.003075
     },
     {
       "locality": "EMPORIA CITY",
@@ -757,7 +757,7 @@
       "pre_cure_rej_rate": 0.056452,
       "post_cure_rej_rate": 0.024194,
       "cure_rate": 0.571429,
-      "rej_vs_statewide": 0.013121
+      "rej_vs_statewide": 0.013162
     },
     {
       "locality": "ESSEX COUNTY",
@@ -775,7 +775,7 @@
       "pre_cure_rej_rate": 0.026906,
       "post_cure_rej_rate": 0.004484,
       "cure_rate": 0.666667,
-      "rej_vs_statewide": -0.006589
+      "rej_vs_statewide": -0.006548
     },
     {
       "locality": "FAIRFAX CITY",
@@ -793,43 +793,43 @@
       "pre_cure_rej_rate": 0.03303,
       "post_cure_rej_rate": 0.006834,
       "cure_rate": 0.655172,
-      "rej_vs_statewide": -0.004239
+      "rej_vs_statewide": -0.004198
     },
     {
       "locality": "FAIRFAX COUNTY",
       "cd": "11",
       "target_cd": "No",
-      "attempts": 30606,
-      "total_vbm": 30360,
-      "dem_pct_vbm": 0.83946,
-      "ever_not_accepted": 514,
-      "ever_not_accepted_dem": 437,
-      "currently_needs_cure": 246,
-      "currently_needs_cure_dem": 211,
-      "cured": 257,
-      "cured_dem": 218,
-      "pre_cure_rej_rate": 0.016794,
-      "post_cure_rej_rate": 0.008038,
-      "cure_rate": 0.5,
-      "rej_vs_statewide": -0.003035
+      "attempts": 30608,
+      "total_vbm": 30363,
+      "dem_pct_vbm": 0.839476,
+      "ever_not_accepted": 515,
+      "ever_not_accepted_dem": 438,
+      "currently_needs_cure": 245,
+      "currently_needs_cure_dem": 210,
+      "cured": 259,
+      "cured_dem": 220,
+      "pre_cure_rej_rate": 0.016826,
+      "post_cure_rej_rate": 0.008004,
+      "cure_rate": 0.502913,
+      "rej_vs_statewide": -0.003028
     },
     {
       "locality": "FAIRFAX COUNTY",
       "cd": "08",
       "target_cd": "No",
       "attempts": 12360,
-      "total_vbm": 12282,
-      "dem_pct_vbm": 0.84807,
+      "total_vbm": 12283,
+      "dem_pct_vbm": 0.848083,
       "ever_not_accepted": 161,
       "ever_not_accepted_dem": 136,
-      "currently_needs_cure": 78,
-      "currently_needs_cure_dem": 68,
-      "cured": 80,
-      "cured_dem": 65,
+      "currently_needs_cure": 77,
+      "currently_needs_cure_dem": 67,
+      "cured": 81,
+      "cured_dem": 66,
       "pre_cure_rej_rate": 0.013026,
-      "post_cure_rej_rate": 0.006311,
-      "cure_rate": 0.496894,
-      "rej_vs_statewide": -0.004762
+      "post_cure_rej_rate": 0.00623,
+      "cure_rate": 0.503106,
+      "rej_vs_statewide": -0.004802
     },
     {
       "locality": "FAIRFAX COUNTY",
@@ -847,7 +847,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.011073
+      "rej_vs_statewide": -0.011032
     },
     {
       "locality": "FALLS CHURCH CITY",
@@ -865,7 +865,7 @@
       "pre_cure_rej_rate": 0.021802,
       "post_cure_rej_rate": 0.013081,
       "cure_rate": 0.333333,
-      "rej_vs_statewide": 0.002008
+      "rej_vs_statewide": 0.002049
     },
     {
       "locality": "FAUQUIER COUNTY",
@@ -883,7 +883,7 @@
       "pre_cure_rej_rate": 0.030247,
       "post_cure_rej_rate": 0.011168,
       "cure_rate": 0.6,
-      "rej_vs_statewide": 9.5e-05
+      "rej_vs_statewide": 0.000136
     },
     {
       "locality": "FLOYD COUNTY",
@@ -901,25 +901,25 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.011073
+      "rej_vs_statewide": -0.011032
     },
     {
       "locality": "FLUVANNA COUNTY",
       "cd": "05",
       "target_cd": "05",
-      "attempts": 1085,
-      "total_vbm": 1084,
-      "dem_pct_vbm": 0.712177,
+      "attempts": 1087,
+      "total_vbm": 1086,
+      "dem_pct_vbm": 0.712707,
       "ever_not_accepted": 11,
       "ever_not_accepted_dem": 8,
       "currently_needs_cure": 1,
       "currently_needs_cure_dem": 1,
       "cured": 10,
       "cured_dem": 7,
-      "pre_cure_rej_rate": 0.010138,
-      "post_cure_rej_rate": 0.000922,
+      "pre_cure_rej_rate": 0.01012,
+      "post_cure_rej_rate": 0.00092,
       "cure_rate": 0.909091,
-      "rej_vs_statewide": -0.010151
+      "rej_vs_statewide": -0.010112
     },
     {
       "locality": "FRANKLIN CITY",
@@ -937,7 +937,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.011073
+      "rej_vs_statewide": -0.011032
     },
     {
       "locality": "FRANKLIN COUNTY",
@@ -955,7 +955,7 @@
       "pre_cure_rej_rate": 0.031037,
       "post_cure_rej_rate": 0.006056,
       "cure_rate": 0.682927,
-      "rej_vs_statewide": -0.005017
+      "rej_vs_statewide": -0.004976
     },
     {
       "locality": "FREDERICK COUNTY",
@@ -973,7 +973,7 @@
       "pre_cure_rej_rate": 0.035814,
       "post_cure_rej_rate": 0.016279,
       "cure_rate": 0.532468,
-      "rej_vs_statewide": 0.005206
+      "rej_vs_statewide": 0.005247
     },
     {
       "locality": "FREDERICKSBURG CITY",
@@ -991,7 +991,7 @@
       "pre_cure_rej_rate": 0.054898,
       "post_cure_rej_rate": 0.018299,
       "cure_rate": 0.627451,
-      "rej_vs_statewide": 0.007226
+      "rej_vs_statewide": 0.007267
     },
     {
       "locality": "GALAX CITY",
@@ -1009,25 +1009,25 @@
       "pre_cure_rej_rate": 0.036036,
       "post_cure_rej_rate": 0.009009,
       "cure_rate": 0.75,
-      "rej_vs_statewide": -0.002064
+      "rej_vs_statewide": -0.002023
     },
     {
       "locality": "GILES COUNTY",
       "cd": "09",
       "target_cd": "No",
-      "attempts": 229,
-      "total_vbm": 227,
-      "dem_pct_vbm": 0.45815,
+      "attempts": 230,
+      "total_vbm": 228,
+      "dem_pct_vbm": 0.460526,
       "ever_not_accepted": 9,
       "ever_not_accepted_dem": 4,
       "currently_needs_cure": 2,
       "currently_needs_cure_dem": 0,
       "cured": 7,
       "cured_dem": 4,
-      "pre_cure_rej_rate": 0.039301,
-      "post_cure_rej_rate": 0.008734,
+      "pre_cure_rej_rate": 0.03913,
+      "post_cure_rej_rate": 0.008696,
       "cure_rate": 0.777778,
-      "rej_vs_statewide": -0.002339
+      "rej_vs_statewide": -0.002336
     },
     {
       "locality": "GLOUCESTER COUNTY",
@@ -1045,7 +1045,7 @@
       "pre_cure_rej_rate": 0.001238,
       "post_cure_rej_rate": 0.0,
       "cure_rate": 1.0,
-      "rej_vs_statewide": -0.011073
+      "rej_vs_statewide": -0.011032
     },
     {
       "locality": "GOOCHLAND COUNTY",
@@ -1063,7 +1063,7 @@
       "pre_cure_rej_rate": 0.039283,
       "post_cure_rej_rate": 0.018787,
       "cure_rate": 0.521739,
-      "rej_vs_statewide": 0.007714
+      "rej_vs_statewide": 0.007755
     },
     {
       "locality": "GRAYSON COUNTY",
@@ -1081,7 +1081,7 @@
       "pre_cure_rej_rate": 0.024823,
       "post_cure_rej_rate": 0.014184,
       "cure_rate": 0.428571,
-      "rej_vs_statewide": 0.003111
+      "rej_vs_statewide": 0.003152
     },
     {
       "locality": "GREENE COUNTY",
@@ -1099,7 +1099,7 @@
       "pre_cure_rej_rate": 0.010274,
       "post_cure_rej_rate": 0.005137,
       "cure_rate": 0.5,
-      "rej_vs_statewide": -0.005936
+      "rej_vs_statewide": -0.005895
     },
     {
       "locality": "GREENSVILLE COUNTY",
@@ -1117,43 +1117,43 @@
       "pre_cure_rej_rate": 0.004098,
       "post_cure_rej_rate": 0.004098,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.006975
+      "rej_vs_statewide": -0.006934
     },
     {
       "locality": "HALIFAX COUNTY",
       "cd": "05",
       "target_cd": "05",
-      "attempts": 644,
-      "total_vbm": 631,
-      "dem_pct_vbm": 0.687797,
+      "attempts": 656,
+      "total_vbm": 643,
+      "dem_pct_vbm": 0.684292,
       "ever_not_accepted": 32,
       "ever_not_accepted_dem": 25,
       "currently_needs_cure": 13,
       "currently_needs_cure_dem": 12,
       "cured": 18,
       "cured_dem": 13,
-      "pre_cure_rej_rate": 0.049689,
-      "post_cure_rej_rate": 0.020186,
+      "pre_cure_rej_rate": 0.04878,
+      "post_cure_rej_rate": 0.019817,
       "cure_rate": 0.5625,
-      "rej_vs_statewide": 0.009113
+      "rej_vs_statewide": 0.008785
     },
     {
       "locality": "HAMPTON CITY",
       "cd": "03",
       "target_cd": "No",
-      "attempts": 3574,
-      "total_vbm": 3523,
-      "dem_pct_vbm": 0.860914,
+      "attempts": 3591,
+      "total_vbm": 3540,
+      "dem_pct_vbm": 0.860734,
       "ever_not_accepted": 86,
       "ever_not_accepted_dem": 72,
       "currently_needs_cure": 51,
       "currently_needs_cure_dem": 44,
       "cured": 31,
       "cured_dem": 26,
-      "pre_cure_rej_rate": 0.024063,
-      "post_cure_rej_rate": 0.01427,
+      "pre_cure_rej_rate": 0.023949,
+      "post_cure_rej_rate": 0.014202,
       "cure_rate": 0.360465,
-      "rej_vs_statewide": 0.003197
+      "rej_vs_statewide": 0.00317
     },
     {
       "locality": "HANOVER COUNTY",
@@ -1171,7 +1171,7 @@
       "pre_cure_rej_rate": 0.0164,
       "post_cure_rej_rate": 0.0132,
       "cure_rate": 0.195122,
-      "rej_vs_statewide": 0.002127
+      "rej_vs_statewide": 0.002168
     },
     {
       "locality": "HANOVER COUNTY",
@@ -1189,61 +1189,61 @@
       "pre_cure_rej_rate": 0.014141,
       "post_cure_rej_rate": 0.010101,
       "cure_rate": 0.285714,
-      "rej_vs_statewide": -0.000972
+      "rej_vs_statewide": -0.000931
     },
     {
       "locality": "HARRISONBURG CITY",
       "cd": "06",
       "target_cd": "No",
-      "attempts": 582,
-      "total_vbm": 572,
-      "dem_pct_vbm": 0.776224,
+      "attempts": 583,
+      "total_vbm": 573,
+      "dem_pct_vbm": 0.776614,
       "ever_not_accepted": 14,
       "ever_not_accepted_dem": 10,
       "currently_needs_cure": 10,
       "currently_needs_cure_dem": 6,
       "cured": 4,
       "cured_dem": 4,
-      "pre_cure_rej_rate": 0.024055,
-      "post_cure_rej_rate": 0.017182,
+      "pre_cure_rej_rate": 0.024014,
+      "post_cure_rej_rate": 0.017153,
       "cure_rate": 0.285714,
-      "rej_vs_statewide": 0.006109
+      "rej_vs_statewide": 0.006121
     },
     {
       "locality": "HENRICO COUNTY",
       "cd": "01",
       "target_cd": "01",
-      "attempts": 8136,
-      "total_vbm": 8046,
-      "dem_pct_vbm": 0.702709,
+      "attempts": 8147,
+      "total_vbm": 8057,
+      "dem_pct_vbm": 0.702991,
       "ever_not_accepted": 160,
       "ever_not_accepted_dem": 95,
       "currently_needs_cure": 90,
       "currently_needs_cure_dem": 50,
       "cured": 67,
       "cured_dem": 44,
-      "pre_cure_rej_rate": 0.019666,
-      "post_cure_rej_rate": 0.011062,
+      "pre_cure_rej_rate": 0.019639,
+      "post_cure_rej_rate": 0.011047,
       "cure_rate": 0.41875,
-      "rej_vs_statewide": -1.1e-05
+      "rej_vs_statewide": 1.5e-05
     },
     {
       "locality": "HENRICO COUNTY",
       "cd": "04",
       "target_cd": "No",
-      "attempts": 4827,
-      "total_vbm": 4762,
-      "dem_pct_vbm": 0.870853,
+      "attempts": 4828,
+      "total_vbm": 4763,
+      "dem_pct_vbm": 0.87067,
       "ever_not_accepted": 131,
       "ever_not_accepted_dem": 113,
       "currently_needs_cure": 65,
       "currently_needs_cure_dem": 54,
       "cured": 59,
       "cured_dem": 52,
-      "pre_cure_rej_rate": 0.027139,
-      "post_cure_rej_rate": 0.013466,
+      "pre_cure_rej_rate": 0.027133,
+      "post_cure_rej_rate": 0.013463,
       "cure_rate": 0.450382,
-      "rej_vs_statewide": 0.002393
+      "rej_vs_statewide": 0.002431
     },
     {
       "locality": "HENRICO COUNTY",
@@ -1261,25 +1261,25 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.011073
+      "rej_vs_statewide": -0.011032
     },
     {
       "locality": "HENRY COUNTY",
       "cd": "09",
       "target_cd": "No",
-      "attempts": 895,
-      "total_vbm": 893,
-      "dem_pct_vbm": 0.615901,
-      "ever_not_accepted": 7,
-      "ever_not_accepted_dem": 4,
+      "attempts": 896,
+      "total_vbm": 894,
+      "dem_pct_vbm": 0.615213,
+      "ever_not_accepted": 8,
+      "ever_not_accepted_dem": 5,
       "currently_needs_cure": 2,
       "currently_needs_cure_dem": 1,
       "cured": 0,
       "cured_dem": 0,
-      "pre_cure_rej_rate": 0.007821,
-      "post_cure_rej_rate": 0.002235,
+      "pre_cure_rej_rate": 0.008929,
+      "post_cure_rej_rate": 0.002232,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.008838
+      "rej_vs_statewide": -0.0088
     },
     {
       "locality": "HIGHLAND COUNTY",
@@ -1297,7 +1297,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.011073
+      "rej_vs_statewide": -0.011032
     },
     {
       "locality": "HOPEWELL CITY",
@@ -1315,25 +1315,25 @@
       "pre_cure_rej_rate": 0.068889,
       "post_cure_rej_rate": 0.062222,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.051149
+      "rej_vs_statewide": 0.05119
     },
     {
       "locality": "ISLE OF WIGHT COUNTY",
       "cd": "02",
       "target_cd": "02",
-      "attempts": 1259,
-      "total_vbm": 1238,
-      "dem_pct_vbm": 0.581583,
+      "attempts": 1301,
+      "total_vbm": 1280,
+      "dem_pct_vbm": 0.583594,
       "ever_not_accepted": 37,
       "ever_not_accepted_dem": 25,
       "currently_needs_cure": 21,
       "currently_needs_cure_dem": 13,
       "cured": 16,
       "cured_dem": 12,
-      "pre_cure_rej_rate": 0.029388,
-      "post_cure_rej_rate": 0.01668,
+      "pre_cure_rej_rate": 0.02844,
+      "post_cure_rej_rate": 0.016141,
       "cure_rate": 0.432432,
-      "rej_vs_statewide": 0.005607
+      "rej_vs_statewide": 0.005109
     },
     {
       "locality": "JAMES CITY COUNTY",
@@ -1351,7 +1351,7 @@
       "pre_cure_rej_rate": 0.011852,
       "post_cure_rej_rate": 0.001378,
       "cure_rate": 0.604651,
-      "rej_vs_statewide": -0.009695
+      "rej_vs_statewide": -0.009654
     },
     {
       "locality": "KING & QUEEN COUNTY",
@@ -1369,25 +1369,25 @@
       "pre_cure_rej_rate": 0.036145,
       "post_cure_rej_rate": 0.03012,
       "cure_rate": 0.166667,
-      "rej_vs_statewide": 0.019047
+      "rej_vs_statewide": 0.019088
     },
     {
       "locality": "KING GEORGE COUNTY",
       "cd": "07",
       "target_cd": "No",
-      "attempts": 637,
-      "total_vbm": 630,
-      "dem_pct_vbm": 0.587302,
+      "attempts": 639,
+      "total_vbm": 632,
+      "dem_pct_vbm": 0.587025,
       "ever_not_accepted": 14,
       "ever_not_accepted_dem": 8,
       "currently_needs_cure": 7,
       "currently_needs_cure_dem": 4,
       "cured": 7,
       "cured_dem": 4,
-      "pre_cure_rej_rate": 0.021978,
-      "post_cure_rej_rate": 0.010989,
+      "pre_cure_rej_rate": 0.021909,
+      "post_cure_rej_rate": 0.010955,
       "cure_rate": 0.5,
-      "rej_vs_statewide": -8.4e-05
+      "rej_vs_statewide": -7.7e-05
     },
     {
       "locality": "KING WILLIAM COUNTY",
@@ -1405,7 +1405,7 @@
       "pre_cure_rej_rate": 0.043836,
       "post_cure_rej_rate": 0.013699,
       "cure_rate": 0.6875,
-      "rej_vs_statewide": 0.002626
+      "rej_vs_statewide": 0.002667
     },
     {
       "locality": "LANCASTER COUNTY",
@@ -1423,7 +1423,7 @@
       "pre_cure_rej_rate": 0.047022,
       "post_cure_rej_rate": 0.028213,
       "cure_rate": 0.4,
-      "rej_vs_statewide": 0.01714
+      "rej_vs_statewide": 0.017181
     },
     {
       "locality": "LEE COUNTY",
@@ -1441,25 +1441,25 @@
       "pre_cure_rej_rate": 0.012766,
       "post_cure_rej_rate": 0.004255,
       "cure_rate": 0.666667,
-      "rej_vs_statewide": -0.006818
+      "rej_vs_statewide": -0.006777
     },
     {
       "locality": "LEXINGTON CITY",
       "cd": "06",
       "target_cd": "No",
-      "attempts": 154,
-      "total_vbm": 148,
-      "dem_pct_vbm": 0.905405,
+      "attempts": 155,
+      "total_vbm": 149,
+      "dem_pct_vbm": 0.90604,
       "ever_not_accepted": 10,
       "ever_not_accepted_dem": 8,
       "currently_needs_cure": 6,
       "currently_needs_cure_dem": 6,
       "cured": 4,
       "cured_dem": 2,
-      "pre_cure_rej_rate": 0.064935,
-      "post_cure_rej_rate": 0.038961,
+      "pre_cure_rej_rate": 0.064516,
+      "post_cure_rej_rate": 0.03871,
       "cure_rate": 0.4,
-      "rej_vs_statewide": 0.027888
+      "rej_vs_statewide": 0.027678
     },
     {
       "locality": "LOUDOUN COUNTY",
@@ -1477,7 +1477,7 @@
       "pre_cure_rej_rate": 0.058282,
       "post_cure_rej_rate": 0.02623,
       "cure_rate": 0.534577,
-      "rej_vs_statewide": 0.015157
+      "rej_vs_statewide": 0.015198
     },
     {
       "locality": "LOUISA COUNTY",
@@ -1495,7 +1495,7 @@
       "pre_cure_rej_rate": 0.023981,
       "post_cure_rej_rate": 0.008793,
       "cure_rate": 0.633333,
-      "rej_vs_statewide": -0.00228
+      "rej_vs_statewide": -0.002239
     },
     {
       "locality": "LUNENBURG COUNTY",
@@ -1513,79 +1513,79 @@
       "pre_cure_rej_rate": 0.062745,
       "post_cure_rej_rate": 0.043137,
       "cure_rate": 0.3125,
-      "rej_vs_statewide": 0.032064
+      "rej_vs_statewide": 0.032105
     },
     {
       "locality": "LYNCHBURG CITY",
       "cd": "05",
       "target_cd": "05",
-      "attempts": 2256,
-      "total_vbm": 2211,
-      "dem_pct_vbm": 0.669833,
+      "attempts": 2271,
+      "total_vbm": 2227,
+      "dem_pct_vbm": 0.66996,
       "ever_not_accepted": 101,
       "ever_not_accepted_dem": 62,
-      "currently_needs_cure": 45,
-      "currently_needs_cure_dem": 28,
-      "cured": 54,
-      "cured_dem": 33,
-      "pre_cure_rej_rate": 0.04477,
-      "post_cure_rej_rate": 0.019947,
-      "cure_rate": 0.534653,
-      "rej_vs_statewide": 0.008874
+      "currently_needs_cure": 44,
+      "currently_needs_cure_dem": 27,
+      "cured": 55,
+      "cured_dem": 34,
+      "pre_cure_rej_rate": 0.044474,
+      "post_cure_rej_rate": 0.019375,
+      "cure_rate": 0.544554,
+      "rej_vs_statewide": 0.008343
     },
     {
       "locality": "MADISON COUNTY",
       "cd": "07",
       "target_cd": "No",
-      "attempts": 253,
-      "total_vbm": 246,
-      "dem_pct_vbm": 0.621951,
+      "attempts": 254,
+      "total_vbm": 248,
+      "dem_pct_vbm": 0.620968,
       "ever_not_accepted": 13,
       "ever_not_accepted_dem": 11,
-      "currently_needs_cure": 7,
-      "currently_needs_cure_dem": 6,
+      "currently_needs_cure": 6,
+      "currently_needs_cure_dem": 5,
       "cured": 5,
       "cured_dem": 4,
-      "pre_cure_rej_rate": 0.051383,
-      "post_cure_rej_rate": 0.027668,
+      "pre_cure_rej_rate": 0.051181,
+      "post_cure_rej_rate": 0.023622,
       "cure_rate": 0.384615,
-      "rej_vs_statewide": 0.016595
+      "rej_vs_statewide": 0.01259
     },
     {
       "locality": "MANASSAS CITY",
       "cd": "10",
       "target_cd": "No",
-      "attempts": 1018,
-      "total_vbm": 1010,
-      "dem_pct_vbm": 0.780198,
+      "attempts": 1020,
+      "total_vbm": 1012,
+      "dem_pct_vbm": 0.779644,
       "ever_not_accepted": 22,
       "ever_not_accepted_dem": 15,
       "currently_needs_cure": 8,
       "currently_needs_cure_dem": 5,
       "cured": 14,
       "cured_dem": 10,
-      "pre_cure_rej_rate": 0.021611,
-      "post_cure_rej_rate": 0.007859,
+      "pre_cure_rej_rate": 0.021569,
+      "post_cure_rej_rate": 0.007843,
       "cure_rate": 0.636364,
-      "rej_vs_statewide": -0.003214
+      "rej_vs_statewide": -0.003189
     },
     {
       "locality": "MANASSAS PARK CITY",
       "cd": "10",
       "target_cd": "No",
-      "attempts": 369,
-      "total_vbm": 369,
-      "dem_pct_vbm": 0.785908,
+      "attempts": 370,
+      "total_vbm": 370,
+      "dem_pct_vbm": 0.783784,
       "ever_not_accepted": 5,
       "ever_not_accepted_dem": 4,
       "currently_needs_cure": 0,
       "currently_needs_cure_dem": 0,
       "cured": 5,
       "cured_dem": 4,
-      "pre_cure_rej_rate": 0.01355,
+      "pre_cure_rej_rate": 0.013514,
       "post_cure_rej_rate": 0.0,
       "cure_rate": 1.0,
-      "rej_vs_statewide": -0.011073
+      "rej_vs_statewide": -0.011032
     },
     {
       "locality": "MARTINSVILLE CITY",
@@ -1603,7 +1603,7 @@
       "pre_cure_rej_rate": 0.038576,
       "post_cure_rej_rate": 0.014837,
       "cure_rate": 0.538462,
-      "rej_vs_statewide": 0.003764
+      "rej_vs_statewide": 0.003805
     },
     {
       "locality": "MATHEWS COUNTY",
@@ -1621,7 +1621,7 @@
       "pre_cure_rej_rate": 0.035928,
       "post_cure_rej_rate": 0.02994,
       "cure_rate": 0.166667,
-      "rej_vs_statewide": 0.018867
+      "rej_vs_statewide": 0.018908
     },
     {
       "locality": "MECKLENBURG COUNTY",
@@ -1639,7 +1639,7 @@
       "pre_cure_rej_rate": 0.058518,
       "post_cure_rej_rate": 0.026008,
       "cure_rate": 0.533333,
-      "rej_vs_statewide": 0.014935
+      "rej_vs_statewide": 0.014976
     },
     {
       "locality": "MIDDLESEX COUNTY",
@@ -1657,25 +1657,25 @@
       "pre_cure_rej_rate": 0.023622,
       "post_cure_rej_rate": 0.0,
       "cure_rate": 1.0,
-      "rej_vs_statewide": -0.011073
+      "rej_vs_statewide": -0.011032
     },
     {
       "locality": "MONTGOMERY COUNTY",
       "cd": "09",
       "target_cd": "No",
-      "attempts": 2235,
-      "total_vbm": 2226,
-      "dem_pct_vbm": 0.718778,
+      "attempts": 2241,
+      "total_vbm": 2232,
+      "dem_pct_vbm": 0.719086,
       "ever_not_accepted": 36,
       "ever_not_accepted_dem": 27,
       "currently_needs_cure": 9,
       "currently_needs_cure_dem": 6,
       "cured": 27,
       "cured_dem": 21,
-      "pre_cure_rej_rate": 0.016107,
-      "post_cure_rej_rate": 0.004027,
+      "pre_cure_rej_rate": 0.016064,
+      "post_cure_rej_rate": 0.004016,
       "cure_rate": 0.75,
-      "rej_vs_statewide": -0.007046
+      "rej_vs_statewide": -0.007016
     },
     {
       "locality": "NELSON COUNTY",
@@ -1693,61 +1693,61 @@
       "pre_cure_rej_rate": 0.014052,
       "post_cure_rej_rate": 0.007026,
       "cure_rate": 0.5,
-      "rej_vs_statewide": -0.004047
+      "rej_vs_statewide": -0.004006
     },
     {
       "locality": "NEW KENT COUNTY",
       "cd": "01",
       "target_cd": "01",
-      "attempts": 780,
-      "total_vbm": 771,
-      "dem_pct_vbm": 0.581064,
+      "attempts": 781,
+      "total_vbm": 772,
+      "dem_pct_vbm": 0.581606,
       "ever_not_accepted": 27,
       "ever_not_accepted_dem": 19,
       "currently_needs_cure": 9,
       "currently_needs_cure_dem": 6,
       "cured": 13,
       "cured_dem": 8,
-      "pre_cure_rej_rate": 0.034615,
-      "post_cure_rej_rate": 0.011538,
+      "pre_cure_rej_rate": 0.034571,
+      "post_cure_rej_rate": 0.011524,
       "cure_rate": 0.481481,
-      "rej_vs_statewide": 0.000465
+      "rej_vs_statewide": 0.000492
     },
     {
       "locality": "NEWPORT NEWS CITY",
       "cd": "03",
       "target_cd": "No",
-      "attempts": 4222,
-      "total_vbm": 4150,
-      "dem_pct_vbm": 0.824578,
+      "attempts": 4223,
+      "total_vbm": 4151,
+      "dem_pct_vbm": 0.824621,
       "ever_not_accepted": 127,
       "ever_not_accepted_dem": 107,
       "currently_needs_cure": 72,
       "currently_needs_cure_dem": 61,
       "cured": 45,
       "cured_dem": 37,
-      "pre_cure_rej_rate": 0.030081,
-      "post_cure_rej_rate": 0.017054,
+      "pre_cure_rej_rate": 0.030073,
+      "post_cure_rej_rate": 0.017049,
       "cure_rate": 0.354331,
-      "rej_vs_statewide": 0.005981
+      "rej_vs_statewide": 0.006017
     },
     {
       "locality": "NORFOLK CITY",
       "cd": "03",
       "target_cd": "No",
-      "attempts": 6276,
-      "total_vbm": 6223,
-      "dem_pct_vbm": 0.856179,
-      "ever_not_accepted": 116,
-      "ever_not_accepted_dem": 99,
-      "currently_needs_cure": 53,
-      "currently_needs_cure_dem": 44,
+      "attempts": 6306,
+      "total_vbm": 6252,
+      "dem_pct_vbm": 0.856526,
+      "ever_not_accepted": 117,
+      "ever_not_accepted_dem": 100,
+      "currently_needs_cure": 54,
+      "currently_needs_cure_dem": 45,
       "cured": 56,
       "cured_dem": 48,
-      "pre_cure_rej_rate": 0.018483,
-      "post_cure_rej_rate": 0.008445,
-      "cure_rate": 0.482759,
-      "rej_vs_statewide": -0.002628
+      "pre_cure_rej_rate": 0.018554,
+      "post_cure_rej_rate": 0.008563,
+      "cure_rate": 0.478632,
+      "rej_vs_statewide": -0.002469
     },
     {
       "locality": "NORFOLK CITY",
@@ -1765,7 +1765,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.011073
+      "rej_vs_statewide": -0.011032
     },
     {
       "locality": "NORTHAMPTON COUNTY",
@@ -1783,7 +1783,7 @@
       "pre_cure_rej_rate": 0.011928,
       "post_cure_rej_rate": 0.005964,
       "cure_rate": 0.5,
-      "rej_vs_statewide": -0.005109
+      "rej_vs_statewide": -0.005068
     },
     {
       "locality": "NORTHUMBERLAND COUNTY",
@@ -1801,7 +1801,7 @@
       "pre_cure_rej_rate": 0.025157,
       "post_cure_rej_rate": 0.003145,
       "cure_rate": 0.875,
-      "rej_vs_statewide": -0.007928
+      "rej_vs_statewide": -0.007887
     },
     {
       "locality": "NORTON CITY",
@@ -1819,25 +1819,25 @@
       "pre_cure_rej_rate": 0.054545,
       "post_cure_rej_rate": 0.018182,
       "cure_rate": 0.666667,
-      "rej_vs_statewide": 0.007109
+      "rej_vs_statewide": 0.00715
     },
     {
       "locality": "NOTTOWAY COUNTY",
       "cd": "05",
       "target_cd": "05",
-      "attempts": 253,
-      "total_vbm": 247,
-      "dem_pct_vbm": 0.566802,
+      "attempts": 259,
+      "total_vbm": 253,
+      "dem_pct_vbm": 0.577075,
       "ever_not_accepted": 13,
       "ever_not_accepted_dem": 12,
       "currently_needs_cure": 6,
       "currently_needs_cure_dem": 6,
       "cured": 6,
       "cured_dem": 5,
-      "pre_cure_rej_rate": 0.051383,
-      "post_cure_rej_rate": 0.023715,
+      "pre_cure_rej_rate": 0.050193,
+      "post_cure_rej_rate": 0.023166,
       "cure_rate": 0.461538,
-      "rej_vs_statewide": 0.012642
+      "rej_vs_statewide": 0.012134
     },
     {
       "locality": "ORANGE COUNTY",
@@ -1855,25 +1855,25 @@
       "pre_cure_rej_rate": 0.016184,
       "post_cure_rej_rate": 0.005963,
       "cure_rate": 0.631579,
-      "rej_vs_statewide": -0.00511
+      "rej_vs_statewide": -0.005069
     },
     {
       "locality": "PAGE COUNTY",
       "cd": "06",
       "target_cd": "No",
-      "attempts": 442,
-      "total_vbm": 434,
-      "dem_pct_vbm": 0.43318,
+      "attempts": 445,
+      "total_vbm": 437,
+      "dem_pct_vbm": 0.432494,
       "ever_not_accepted": 9,
       "ever_not_accepted_dem": 1,
       "currently_needs_cure": 8,
       "currently_needs_cure_dem": 1,
       "cured": 1,
       "cured_dem": 0,
-      "pre_cure_rej_rate": 0.020362,
-      "post_cure_rej_rate": 0.0181,
+      "pre_cure_rej_rate": 0.020225,
+      "post_cure_rej_rate": 0.017978,
       "cure_rate": 0.111111,
-      "rej_vs_statewide": 0.007027
+      "rej_vs_statewide": 0.006946
     },
     {
       "locality": "PATRICK COUNTY",
@@ -1891,25 +1891,25 @@
       "pre_cure_rej_rate": 0.051515,
       "post_cure_rej_rate": 0.024242,
       "cure_rate": 0.470588,
-      "rej_vs_statewide": 0.013169
+      "rej_vs_statewide": 0.01321
     },
     {
       "locality": "PETERSBURG CITY",
       "cd": "04",
       "target_cd": "No",
-      "attempts": 1171,
-      "total_vbm": 1161,
-      "dem_pct_vbm": 0.955211,
+      "attempts": 1172,
+      "total_vbm": 1162,
+      "dem_pct_vbm": 0.95525,
       "ever_not_accepted": 16,
       "ever_not_accepted_dem": 16,
       "currently_needs_cure": 10,
       "currently_needs_cure_dem": 10,
       "cured": 6,
       "cured_dem": 6,
-      "pre_cure_rej_rate": 0.013664,
-      "post_cure_rej_rate": 0.00854,
+      "pre_cure_rej_rate": 0.013652,
+      "post_cure_rej_rate": 0.008532,
       "cure_rate": 0.375,
-      "rej_vs_statewide": -0.002533
+      "rej_vs_statewide": -0.0025
     },
     {
       "locality": "PITTSYLVANIA COUNTY",
@@ -1927,7 +1927,7 @@
       "pre_cure_rej_rate": 0.024086,
       "post_cure_rej_rate": 0.007475,
       "cure_rate": 0.655172,
-      "rej_vs_statewide": -0.003598
+      "rej_vs_statewide": -0.003557
     },
     {
       "locality": "POQUOSON CITY",
@@ -1945,97 +1945,97 @@
       "pre_cure_rej_rate": 0.011905,
       "post_cure_rej_rate": 0.007937,
       "cure_rate": 0.333333,
-      "rej_vs_statewide": -0.003136
+      "rej_vs_statewide": -0.003095
     },
     {
       "locality": "PORTSMOUTH CITY",
       "cd": "03",
       "target_cd": "No",
-      "attempts": 2766,
-      "total_vbm": 2753,
-      "dem_pct_vbm": 0.876498,
-      "ever_not_accepted": 40,
-      "ever_not_accepted_dem": 34,
-      "currently_needs_cure": 13,
-      "currently_needs_cure_dem": 10,
+      "attempts": 2786,
+      "total_vbm": 2771,
+      "dem_pct_vbm": 0.876579,
+      "ever_not_accepted": 42,
+      "ever_not_accepted_dem": 35,
+      "currently_needs_cure": 15,
+      "currently_needs_cure_dem": 11,
       "cured": 25,
       "cured_dem": 23,
-      "pre_cure_rej_rate": 0.014461,
-      "post_cure_rej_rate": 0.0047,
-      "cure_rate": 0.625,
-      "rej_vs_statewide": -0.006373
+      "pre_cure_rej_rate": 0.015075,
+      "post_cure_rej_rate": 0.005384,
+      "cure_rate": 0.595238,
+      "rej_vs_statewide": -0.005648
     },
     {
       "locality": "POWHATAN COUNTY",
       "cd": "05",
       "target_cd": "05",
       "attempts": 749,
-      "total_vbm": 747,
-      "dem_pct_vbm": 0.51004,
+      "total_vbm": 748,
+      "dem_pct_vbm": 0.509358,
       "ever_not_accepted": 5,
       "ever_not_accepted_dem": 3,
-      "currently_needs_cure": 2,
+      "currently_needs_cure": 1,
       "currently_needs_cure_dem": 0,
-      "cured": 3,
+      "cured": 4,
       "cured_dem": 3,
       "pre_cure_rej_rate": 0.006676,
-      "post_cure_rej_rate": 0.00267,
-      "cure_rate": 0.6,
-      "rej_vs_statewide": -0.008403
+      "post_cure_rej_rate": 0.001335,
+      "cure_rate": 0.8,
+      "rej_vs_statewide": -0.009697
     },
     {
       "locality": "PRINCE EDWARD COUNTY",
       "cd": "05",
       "target_cd": "05",
-      "attempts": 496,
-      "total_vbm": 489,
-      "dem_pct_vbm": 0.695297,
+      "attempts": 519,
+      "total_vbm": 512,
+      "dem_pct_vbm": 0.695312,
       "ever_not_accepted": 16,
       "ever_not_accepted_dem": 11,
       "currently_needs_cure": 7,
       "currently_needs_cure_dem": 4,
       "cured": 8,
       "cured_dem": 6,
-      "pre_cure_rej_rate": 0.032258,
-      "post_cure_rej_rate": 0.014113,
+      "pre_cure_rej_rate": 0.030829,
+      "post_cure_rej_rate": 0.013487,
       "cure_rate": 0.5,
-      "rej_vs_statewide": 0.00304
+      "rej_vs_statewide": 0.002455
     },
     {
       "locality": "PRINCE GEORGE COUNTY",
       "cd": "04",
       "target_cd": "No",
-      "attempts": 734,
-      "total_vbm": 730,
-      "dem_pct_vbm": 0.557534,
+      "attempts": 737,
+      "total_vbm": 733,
+      "dem_pct_vbm": 0.557981,
       "ever_not_accepted": 4,
       "ever_not_accepted_dem": 1,
       "currently_needs_cure": 4,
       "currently_needs_cure_dem": 1,
       "cured": 0,
       "cured_dem": 0,
-      "pre_cure_rej_rate": 0.00545,
-      "post_cure_rej_rate": 0.00545,
+      "pre_cure_rej_rate": 0.005427,
+      "post_cure_rej_rate": 0.005427,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.005623
+      "rej_vs_statewide": -0.005605
     },
     {
       "locality": "PRINCE WILLIAM COUNTY",
       "cd": "07",
       "target_cd": "No",
       "attempts": 9514,
-      "total_vbm": 9441,
-      "dem_pct_vbm": 0.804682,
+      "total_vbm": 9443,
+      "dem_pct_vbm": 0.804723,
       "ever_not_accepted": 297,
       "ever_not_accepted_dem": 243,
-      "currently_needs_cure": 73,
-      "currently_needs_cure_dem": 60,
-      "cured": 200,
-      "cured_dem": 161,
+      "currently_needs_cure": 71,
+      "currently_needs_cure_dem": 58,
+      "cured": 202,
+      "cured_dem": 163,
       "pre_cure_rej_rate": 0.031217,
-      "post_cure_rej_rate": 0.007673,
-      "cure_rate": 0.673401,
-      "rej_vs_statewide": -0.0034
+      "post_cure_rej_rate": 0.007463,
+      "cure_rate": 0.680135,
+      "rej_vs_statewide": -0.003569
     },
     {
       "locality": "PRINCE WILLIAM COUNTY",
@@ -2053,43 +2053,43 @@
       "pre_cure_rej_rate": 0.029531,
       "post_cure_rej_rate": 0.00794,
       "cure_rate": 0.698113,
-      "rej_vs_statewide": -0.003133
+      "rej_vs_statewide": -0.003092
     },
     {
       "locality": "PULASKI COUNTY",
       "cd": "09",
       "target_cd": "No",
-      "attempts": 841,
-      "total_vbm": 827,
-      "dem_pct_vbm": 0.551391,
+      "attempts": 842,
+      "total_vbm": 828,
+      "dem_pct_vbm": 0.551932,
       "ever_not_accepted": 23,
       "ever_not_accepted_dem": 11,
       "currently_needs_cure": 14,
       "currently_needs_cure_dem": 6,
       "cured": 9,
       "cured_dem": 5,
-      "pre_cure_rej_rate": 0.027348,
-      "post_cure_rej_rate": 0.016647,
+      "pre_cure_rej_rate": 0.027316,
+      "post_cure_rej_rate": 0.016627,
       "cure_rate": 0.391304,
-      "rej_vs_statewide": 0.005574
+      "rej_vs_statewide": 0.005595
     },
     {
       "locality": "RADFORD CITY",
       "cd": "09",
       "target_cd": "No",
       "attempts": 222,
-      "total_vbm": 219,
-      "dem_pct_vbm": 0.767123,
+      "total_vbm": 220,
+      "dem_pct_vbm": 0.763636,
       "ever_not_accepted": 6,
       "ever_not_accepted_dem": 3,
-      "currently_needs_cure": 3,
+      "currently_needs_cure": 2,
       "currently_needs_cure_dem": 1,
       "cured": 3,
       "cured_dem": 2,
       "pre_cure_rej_rate": 0.027027,
-      "post_cure_rej_rate": 0.013514,
+      "post_cure_rej_rate": 0.009009,
       "cure_rate": 0.5,
-      "rej_vs_statewide": 0.002441
+      "rej_vs_statewide": -0.002023
     },
     {
       "locality": "RAPPAHANNOCK COUNTY",
@@ -2107,25 +2107,25 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.011073
+      "rej_vs_statewide": -0.011032
     },
     {
       "locality": "RICHMOND CITY",
       "cd": "04",
       "target_cd": "No",
-      "attempts": 5331,
-      "total_vbm": 5161,
-      "dem_pct_vbm": 0.925402,
-      "ever_not_accepted": 234,
-      "ever_not_accepted_dem": 218,
-      "currently_needs_cure": 170,
+      "attempts": 5348,
+      "total_vbm": 5177,
+      "dem_pct_vbm": 0.925439,
+      "ever_not_accepted": 235,
+      "ever_not_accepted_dem": 219,
+      "currently_needs_cure": 171,
       "currently_needs_cure_dem": 156,
-      "cured": 59,
-      "cured_dem": 58,
-      "pre_cure_rej_rate": 0.043894,
-      "post_cure_rej_rate": 0.031889,
-      "cure_rate": 0.252137,
-      "rej_vs_statewide": 0.020816
+      "cured": 60,
+      "cured_dem": 59,
+      "pre_cure_rej_rate": 0.043942,
+      "post_cure_rej_rate": 0.031975,
+      "cure_rate": 0.255319,
+      "rej_vs_statewide": 0.020943
     },
     {
       "locality": "RICHMOND CITY",
@@ -2143,7 +2143,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.011073
+      "rej_vs_statewide": -0.011032
     },
     {
       "locality": "RICHMOND COUNTY",
@@ -2161,25 +2161,25 @@
       "pre_cure_rej_rate": 0.052632,
       "post_cure_rej_rate": 0.052632,
       "cure_rate": 0.0,
-      "rej_vs_statewide": 0.041559
+      "rej_vs_statewide": 0.0416
     },
     {
       "locality": "ROANOKE CITY",
       "cd": "06",
       "target_cd": "No",
-      "attempts": 2613,
+      "attempts": 2612,
       "total_vbm": 2530,
       "dem_pct_vbm": 0.769565,
       "ever_not_accepted": 115,
       "ever_not_accepted_dem": 80,
-      "currently_needs_cure": 83,
+      "currently_needs_cure": 82,
       "currently_needs_cure_dem": 56,
       "cured": 30,
       "cured_dem": 22,
-      "pre_cure_rej_rate": 0.044011,
-      "post_cure_rej_rate": 0.031764,
+      "pre_cure_rej_rate": 0.044028,
+      "post_cure_rej_rate": 0.031394,
       "cure_rate": 0.26087,
-      "rej_vs_statewide": 0.020691
+      "rej_vs_statewide": 0.020362
     },
     {
       "locality": "ROANOKE COUNTY",
@@ -2197,7 +2197,7 @@
       "pre_cure_rej_rate": 0.015356,
       "post_cure_rej_rate": 0.007371,
       "cure_rate": 0.52,
-      "rej_vs_statewide": -0.003702
+      "rej_vs_statewide": -0.003661
     },
     {
       "locality": "ROANOKE COUNTY",
@@ -2215,7 +2215,7 @@
       "pre_cure_rej_rate": 0.011704,
       "post_cure_rej_rate": 0.005121,
       "cure_rate": 0.5625,
-      "rej_vs_statewide": -0.005952
+      "rej_vs_statewide": -0.005911
     },
     {
       "locality": "ROCKBRIDGE COUNTY",
@@ -2233,7 +2233,7 @@
       "pre_cure_rej_rate": 0.027523,
       "post_cure_rej_rate": 0.011468,
       "cure_rate": 0.583333,
-      "rej_vs_statewide": 0.000395
+      "rej_vs_statewide": 0.000436
     },
     {
       "locality": "ROCKINGHAM COUNTY",
@@ -2251,7 +2251,7 @@
       "pre_cure_rej_rate": 0.022444,
       "post_cure_rej_rate": 0.011222,
       "cure_rate": 0.5,
-      "rej_vs_statewide": 0.000149
+      "rej_vs_statewide": 0.00019
     },
     {
       "locality": "RUSSELL COUNTY",
@@ -2269,7 +2269,7 @@
       "pre_cure_rej_rate": 0.041667,
       "post_cure_rej_rate": 0.017857,
       "cure_rate": 0.571429,
-      "rej_vs_statewide": 0.006784
+      "rej_vs_statewide": 0.006825
     },
     {
       "locality": "SALEM CITY",
@@ -2287,7 +2287,7 @@
       "pre_cure_rej_rate": 0.030695,
       "post_cure_rej_rate": 0.011309,
       "cure_rate": 0.631579,
-      "rej_vs_statewide": 0.000236
+      "rej_vs_statewide": 0.000277
     },
     {
       "locality": "SCOTT COUNTY",
@@ -2305,25 +2305,25 @@
       "pre_cure_rej_rate": 0.032258,
       "post_cure_rej_rate": 0.016129,
       "cure_rate": 0.5,
-      "rej_vs_statewide": 0.005056
+      "rej_vs_statewide": 0.005097
     },
     {
       "locality": "SHENANDOAH COUNTY",
       "cd": "06",
       "target_cd": "No",
-      "attempts": 762,
-      "total_vbm": 755,
-      "dem_pct_vbm": 0.496689,
+      "attempts": 764,
+      "total_vbm": 757,
+      "dem_pct_vbm": 0.498018,
       "ever_not_accepted": 19,
       "ever_not_accepted_dem": 10,
       "currently_needs_cure": 7,
       "currently_needs_cure_dem": 5,
       "cured": 12,
       "cured_dem": 5,
-      "pre_cure_rej_rate": 0.024934,
-      "post_cure_rej_rate": 0.009186,
+      "pre_cure_rej_rate": 0.024869,
+      "post_cure_rej_rate": 0.009162,
       "cure_rate": 0.631579,
-      "rej_vs_statewide": -0.001887
+      "rej_vs_statewide": -0.00187
     },
     {
       "locality": "SMYTH COUNTY",
@@ -2341,7 +2341,7 @@
       "pre_cure_rej_rate": 0.040426,
       "post_cure_rej_rate": 0.012766,
       "cure_rate": 0.684211,
-      "rej_vs_statewide": 0.001693
+      "rej_vs_statewide": 0.001734
     },
     {
       "locality": "SOUTHAMPTON COUNTY",
@@ -2359,7 +2359,7 @@
       "pre_cure_rej_rate": 0.038627,
       "post_cure_rej_rate": 0.012876,
       "cure_rate": 0.666667,
-      "rej_vs_statewide": 0.001803
+      "rej_vs_statewide": 0.001844
     },
     {
       "locality": "SPOTSYLVANIA COUNTY",
@@ -2377,14 +2377,14 @@
       "pre_cure_rej_rate": 0.006919,
       "post_cure_rej_rate": 0.002162,
       "cure_rate": 0.625,
-      "rej_vs_statewide": -0.008911
+      "rej_vs_statewide": -0.00887
     },
     {
       "locality": "STAFFORD COUNTY",
       "cd": "07",
       "target_cd": "No",
-      "attempts": 4732,
-      "total_vbm": 4708,
+      "attempts": 4735,
+      "total_vbm": 4711,
       "dem_pct_vbm": 0.666525,
       "ever_not_accepted": 72,
       "ever_not_accepted_dem": 53,
@@ -2392,10 +2392,10 @@
       "currently_needs_cure_dem": 18,
       "cured": 41,
       "cured_dem": 31,
-      "pre_cure_rej_rate": 0.015216,
-      "post_cure_rej_rate": 0.005072,
+      "pre_cure_rej_rate": 0.015206,
+      "post_cure_rej_rate": 0.005069,
       "cure_rate": 0.569444,
-      "rej_vs_statewide": -0.006001
+      "rej_vs_statewide": -0.005963
     },
     {
       "locality": "STAUNTON CITY",
@@ -2413,7 +2413,7 @@
       "pre_cure_rej_rate": 0.028465,
       "post_cure_rej_rate": 0.012376,
       "cure_rate": 0.521739,
-      "rej_vs_statewide": 0.001303
+      "rej_vs_statewide": 0.001344
     },
     {
       "locality": "SUFFOLK CITY",
@@ -2431,15 +2431,15 @@
       "pre_cure_rej_rate": 0.016909,
       "post_cure_rej_rate": 0.009196,
       "cure_rate": 0.438596,
-      "rej_vs_statewide": -0.001877
+      "rej_vs_statewide": -0.001836
     },
     {
       "locality": "SURRY COUNTY",
       "cd": "04",
       "target_cd": "No",
-      "attempts": 265,
-      "total_vbm": 265,
-      "dem_pct_vbm": 0.758491,
+      "attempts": 271,
+      "total_vbm": 271,
+      "dem_pct_vbm": 0.752768,
       "ever_not_accepted": 0,
       "ever_not_accepted_dem": 0,
       "currently_needs_cure": 0,
@@ -2449,7 +2449,7 @@
       "pre_cure_rej_rate": 0.0,
       "post_cure_rej_rate": 0.0,
       "cure_rate": null,
-      "rej_vs_statewide": -0.011073
+      "rej_vs_statewide": -0.011032
     },
     {
       "locality": "SUSSEX COUNTY",
@@ -2467,133 +2467,133 @@
       "pre_cure_rej_rate": 0.006369,
       "post_cure_rej_rate": 0.0,
       "cure_rate": 0.0,
-      "rej_vs_statewide": -0.011073
+      "rej_vs_statewide": -0.011032
     },
     {
       "locality": "TAZEWELL COUNTY",
       "cd": "09",
       "target_cd": "No",
-      "attempts": 588,
-      "total_vbm": 582,
-      "dem_pct_vbm": 0.434708,
+      "attempts": 589,
+      "total_vbm": 583,
+      "dem_pct_vbm": 0.435678,
       "ever_not_accepted": 15,
       "ever_not_accepted_dem": 9,
       "currently_needs_cure": 6,
       "currently_needs_cure_dem": 3,
       "cured": 8,
       "cured_dem": 6,
-      "pre_cure_rej_rate": 0.02551,
-      "post_cure_rej_rate": 0.010204,
+      "pre_cure_rej_rate": 0.025467,
+      "post_cure_rej_rate": 0.010187,
       "cure_rate": 0.533333,
-      "rej_vs_statewide": -0.000869
+      "rej_vs_statewide": -0.000845
     },
     {
       "locality": "VIRGINIA BEACH CITY",
       "cd": "02",
       "target_cd": "02",
-      "attempts": 18185,
-      "total_vbm": 18016,
-      "dem_pct_vbm": 0.661745,
-      "ever_not_accepted": 264,
+      "attempts": 18308,
+      "total_vbm": 18138,
+      "dem_pct_vbm": 0.661594,
+      "ever_not_accepted": 265,
       "ever_not_accepted_dem": 153,
-      "currently_needs_cure": 169,
+      "currently_needs_cure": 170,
       "currently_needs_cure_dem": 93,
       "cured": 90,
       "cured_dem": 57,
-      "pre_cure_rej_rate": 0.014517,
-      "post_cure_rej_rate": 0.009293,
-      "cure_rate": 0.340909,
-      "rej_vs_statewide": -0.00178
+      "pre_cure_rej_rate": 0.014475,
+      "post_cure_rej_rate": 0.009286,
+      "cure_rate": 0.339623,
+      "rej_vs_statewide": -0.001746
     },
     {
       "locality": "WARREN COUNTY",
       "cd": "06",
       "target_cd": "No",
-      "attempts": 923,
-      "total_vbm": 907,
-      "dem_pct_vbm": 0.574421,
-      "ever_not_accepted": 40,
-      "ever_not_accepted_dem": 23,
-      "currently_needs_cure": 16,
-      "currently_needs_cure_dem": 8,
+      "attempts": 929,
+      "total_vbm": 912,
+      "dem_pct_vbm": 0.574561,
+      "ever_not_accepted": 41,
+      "ever_not_accepted_dem": 24,
+      "currently_needs_cure": 17,
+      "currently_needs_cure_dem": 9,
       "cured": 21,
       "cured_dem": 13,
-      "pre_cure_rej_rate": 0.043337,
-      "post_cure_rej_rate": 0.017335,
-      "cure_rate": 0.525,
-      "rej_vs_statewide": 0.006262
+      "pre_cure_rej_rate": 0.044133,
+      "post_cure_rej_rate": 0.018299,
+      "cure_rate": 0.512195,
+      "rej_vs_statewide": 0.007267
     },
     {
       "locality": "WASHINGTON COUNTY",
       "cd": "09",
       "target_cd": "No",
-      "attempts": 1054,
-      "total_vbm": 1046,
-      "dem_pct_vbm": 0.512428,
+      "attempts": 1057,
+      "total_vbm": 1049,
+      "dem_pct_vbm": 0.511916,
       "ever_not_accepted": 29,
       "ever_not_accepted_dem": 15,
       "currently_needs_cure": 8,
       "currently_needs_cure_dem": 3,
       "cured": 7,
       "cured_dem": 5,
-      "pre_cure_rej_rate": 0.027514,
-      "post_cure_rej_rate": 0.00759,
+      "pre_cure_rej_rate": 0.027436,
+      "post_cure_rej_rate": 0.007569,
       "cure_rate": 0.241379,
-      "rej_vs_statewide": -0.003483
+      "rej_vs_statewide": -0.003463
     },
     {
       "locality": "WAYNESBORO CITY",
       "cd": "06",
       "target_cd": "No",
-      "attempts": 656,
-      "total_vbm": 653,
-      "dem_pct_vbm": 0.649311,
+      "attempts": 660,
+      "total_vbm": 657,
+      "dem_pct_vbm": 0.649924,
       "ever_not_accepted": 16,
       "ever_not_accepted_dem": 9,
       "currently_needs_cure": 3,
       "currently_needs_cure_dem": 1,
       "cured": 12,
       "cured_dem": 7,
-      "pre_cure_rej_rate": 0.02439,
-      "post_cure_rej_rate": 0.004573,
+      "pre_cure_rej_rate": 0.024242,
+      "post_cure_rej_rate": 0.004545,
       "cure_rate": 0.75,
-      "rej_vs_statewide": -0.0065
+      "rej_vs_statewide": -0.006487
     },
     {
       "locality": "WESTMORELAND COUNTY",
       "cd": "01",
       "target_cd": "01",
-      "attempts": 469,
-      "total_vbm": 467,
-      "dem_pct_vbm": 0.627409,
+      "attempts": 474,
+      "total_vbm": 472,
+      "dem_pct_vbm": 0.622881,
       "ever_not_accepted": 5,
       "ever_not_accepted_dem": 4,
       "currently_needs_cure": 2,
       "currently_needs_cure_dem": 1,
       "cured": 3,
       "cured_dem": 3,
-      "pre_cure_rej_rate": 0.010661,
-      "post_cure_rej_rate": 0.004264,
+      "pre_cure_rej_rate": 0.010549,
+      "post_cure_rej_rate": 0.004219,
       "cure_rate": 0.6,
-      "rej_vs_statewide": -0.006809
+      "rej_vs_statewide": -0.006813
     },
     {
       "locality": "WILLIAMSBURG CITY",
       "cd": "01",
       "target_cd": "01",
-      "attempts": 503,
-      "total_vbm": 500,
-      "dem_pct_vbm": 0.822,
+      "attempts": 506,
+      "total_vbm": 503,
+      "dem_pct_vbm": 0.823062,
       "ever_not_accepted": 15,
       "ever_not_accepted_dem": 11,
       "currently_needs_cure": 3,
       "currently_needs_cure_dem": 3,
       "cured": 12,
       "cured_dem": 8,
-      "pre_cure_rej_rate": 0.029821,
-      "post_cure_rej_rate": 0.005964,
+      "pre_cure_rej_rate": 0.029644,
+      "post_cure_rej_rate": 0.005929,
       "cure_rate": 0.8,
-      "rej_vs_statewide": -0.005109
+      "rej_vs_statewide": -0.005103
     },
     {
       "locality": "WINCHESTER CITY",
@@ -2611,25 +2611,25 @@
       "pre_cure_rej_rate": 0.010549,
       "post_cure_rej_rate": 0.006329,
       "cure_rate": 0.4,
-      "rej_vs_statewide": -0.004744
+      "rej_vs_statewide": -0.004703
     },
     {
       "locality": "WISE COUNTY",
       "cd": "09",
       "target_cd": "No",
-      "attempts": 524,
-      "total_vbm": 516,
-      "dem_pct_vbm": 0.405039,
+      "attempts": 525,
+      "total_vbm": 517,
+      "dem_pct_vbm": 0.404255,
       "ever_not_accepted": 26,
       "ever_not_accepted_dem": 7,
       "currently_needs_cure": 8,
       "currently_needs_cure_dem": 2,
       "cured": 17,
       "cured_dem": 4,
-      "pre_cure_rej_rate": 0.049618,
-      "post_cure_rej_rate": 0.015267,
+      "pre_cure_rej_rate": 0.049524,
+      "post_cure_rej_rate": 0.015238,
       "cure_rate": 0.653846,
-      "rej_vs_statewide": 0.004194
+      "rej_vs_statewide": 0.004206
     },
     {
       "locality": "WYTHE COUNTY",
@@ -2647,25 +2647,25 @@
       "pre_cure_rej_rate": 0.048055,
       "post_cure_rej_rate": 0.016018,
       "cure_rate": 0.666667,
-      "rej_vs_statewide": 0.004945
+      "rej_vs_statewide": 0.004986
     },
     {
       "locality": "YORK COUNTY",
       "cd": "01",
       "target_cd": "01",
-      "attempts": 2127,
-      "total_vbm": 2095,
-      "dem_pct_vbm": 0.651551,
-      "ever_not_accepted": 67,
-      "ever_not_accepted_dem": 43,
-      "currently_needs_cure": 32,
-      "currently_needs_cure_dem": 17,
+      "attempts": 2130,
+      "total_vbm": 2097,
+      "dem_pct_vbm": 0.651884,
+      "ever_not_accepted": 68,
+      "ever_not_accepted_dem": 44,
+      "currently_needs_cure": 33,
+      "currently_needs_cure_dem": 18,
       "cured": 31,
       "cured_dem": 23,
-      "pre_cure_rej_rate": 0.0315,
-      "post_cure_rej_rate": 0.015045,
-      "cure_rate": 0.462687,
-      "rej_vs_statewide": 0.003972
+      "pre_cure_rej_rate": 0.031925,
+      "post_cure_rej_rate": 0.015493,
+      "cure_rate": 0.455882,
+      "rej_vs_statewide": 0.004461
     }
   ],
   "by_cd": [
@@ -2673,52 +2673,52 @@
       "cd": "01",
       "target": true,
       "localities": 18,
-      "total_in_history": 503,
-      "ever_rej_dem": 303,
-      "currently_needs_cure": 249,
-      "currently_needs_cure_dem": 137,
+      "total_in_history": 504,
+      "ever_rej_dem": 304,
+      "currently_needs_cure": 250,
+      "currently_needs_cure_dem": 138,
       "cured": 228,
-      "post_cure_rej_rate": 0.49503,
-      "cure_rate": 0.45328,
+      "post_cure_rej_rate": 0.496032,
+      "cure_rate": 0.452381,
       "first_rejection": "2026-09-19"
     },
     {
       "cd": "02",
       "target": true,
       "localities": 7,
-      "total_in_history": 456,
+      "total_in_history": 457,
       "ever_rej_dem": 281,
-      "currently_needs_cure": 265,
+      "currently_needs_cure": 266,
       "currently_needs_cure_dem": 154,
       "cured": 177,
-      "post_cure_rej_rate": 0.58114,
-      "cure_rate": 0.388158,
+      "post_cure_rej_rate": 0.582057,
+      "cure_rate": 0.387309,
       "first_rejection": "2026-09-24"
     },
     {
       "cd": "03",
       "target": false,
       "localities": 5,
-      "total_in_history": 427,
-      "ever_rej_dem": 360,
-      "currently_needs_cure": 224,
-      "currently_needs_cure_dem": 187,
+      "total_in_history": 430,
+      "ever_rej_dem": 362,
+      "currently_needs_cure": 227,
+      "currently_needs_cure_dem": 189,
       "cured": 179,
-      "post_cure_rej_rate": 0.52459,
-      "cure_rate": 0.419204,
+      "post_cure_rej_rate": 0.527907,
+      "cure_rate": 0.416279,
       "first_rejection": "2026-09-18"
     },
     {
       "cd": "04",
       "target": false,
       "localities": 12,
-      "total_in_history": 560,
-      "ever_rej_dem": 478,
-      "currently_needs_cure": 340,
+      "total_in_history": 561,
+      "ever_rej_dem": 479,
+      "currently_needs_cure": 341,
       "currently_needs_cure_dem": 290,
-      "cured": 204,
-      "post_cure_rej_rate": 0.607143,
-      "cure_rate": 0.364286,
+      "cured": 205,
+      "post_cure_rej_rate": 0.607843,
+      "cure_rate": 0.365419,
       "first_rejection": "2026-09-02"
     },
     {
@@ -2727,24 +2727,24 @@
       "localities": 23,
       "total_in_history": 639,
       "ever_rej_dem": 435,
-      "currently_needs_cure": 283,
-      "currently_needs_cure_dem": 189,
-      "cured": 338,
-      "post_cure_rej_rate": 0.442879,
-      "cure_rate": 0.528951,
+      "currently_needs_cure": 281,
+      "currently_needs_cure_dem": 188,
+      "cured": 341,
+      "post_cure_rej_rate": 0.43975,
+      "cure_rate": 0.533646,
       "first_rejection": "2026-09-17"
     },
     {
       "cd": "06",
       "target": false,
       "localities": 19,
-      "total_in_history": 488,
-      "ever_rej_dem": 265,
+      "total_in_history": 489,
+      "ever_rej_dem": 266,
       "currently_needs_cure": 264,
-      "currently_needs_cure_dem": 138,
+      "currently_needs_cure_dem": 139,
       "cured": 215,
-      "post_cure_rej_rate": 0.540984,
-      "cure_rate": 0.440574,
+      "post_cure_rej_rate": 0.539877,
+      "cure_rate": 0.439673,
       "first_rejection": "2026-09-17"
     },
     {
@@ -2753,37 +2753,37 @@
       "localities": 10,
       "total_in_history": 541,
       "ever_rej_dem": 417,
-      "currently_needs_cure": 165,
-      "currently_needs_cure_dem": 125,
-      "cured": 338,
-      "post_cure_rej_rate": 0.304991,
-      "cure_rate": 0.624769,
+      "currently_needs_cure": 162,
+      "currently_needs_cure_dem": 122,
+      "cured": 340,
+      "post_cure_rej_rate": 0.299445,
+      "cure_rate": 0.628466,
       "first_rejection": "2026-09-18"
     },
     {
       "cd": "08",
       "target": false,
       "localities": 4,
-      "total_in_history": 413,
-      "ever_rej_dem": 355,
+      "total_in_history": 420,
+      "ever_rej_dem": 361,
       "currently_needs_cure": 223,
-      "currently_needs_cure_dem": 190,
-      "cured": 177,
-      "post_cure_rej_rate": 0.539952,
-      "cure_rate": 0.428571,
+      "currently_needs_cure_dem": 189,
+      "cured": 183,
+      "post_cure_rej_rate": 0.530952,
+      "cure_rate": 0.435714,
       "first_rejection": "2026-09-24"
     },
     {
       "cd": "09",
       "target": false,
       "localities": 25,
-      "total_in_history": 428,
-      "ever_rej_dem": 203,
-      "currently_needs_cure": 163,
+      "total_in_history": 429,
+      "ever_rej_dem": 204,
+      "currently_needs_cure": 162,
       "currently_needs_cure_dem": 58,
       "cured": 236,
-      "post_cure_rej_rate": 0.380841,
-      "cure_rate": 0.551402,
+      "post_cure_rej_rate": 0.377622,
+      "cure_rate": 0.550117,
       "first_rejection": "2026-09-19"
     },
     {
@@ -2803,58 +2803,58 @@
       "cd": "11",
       "target": false,
       "localities": 2,
-      "total_in_history": 543,
-      "ever_rej_dem": 465,
-      "currently_needs_cure": 252,
-      "currently_needs_cure_dem": 217,
-      "cured": 276,
-      "post_cure_rej_rate": 0.464088,
-      "cure_rate": 0.508287,
+      "total_in_history": 544,
+      "ever_rej_dem": 466,
+      "currently_needs_cure": 251,
+      "currently_needs_cure_dem": 216,
+      "cured": 278,
+      "post_cure_rej_rate": 0.461397,
+      "cure_rate": 0.511029,
       "first_rejection": "2026-09-24"
     }
   ],
   "rejection_reasons": [
     {
       "reason": "Needs Cure",
-      "total": 6000,
-      "dem": 4285,
-      "rep": 1680,
-      "cured": 3049,
-      "still_needs_cure": 2754,
-      "cure_rate": 0.508167
+      "total": 6014,
+      "dem": 4297,
+      "rep": 1682,
+      "cured": 3062,
+      "still_needs_cure": 2752,
+      "cure_rate": 0.509145
     },
     {
       "reason": "Other",
-      "total": 221,
-      "dem": 153,
-      "rep": 64,
-      "cured": 15,
-      "still_needs_cure": 177,
-      "cure_rate": 0.067873
+      "total": 223,
+      "dem": 154,
+      "rep": 65,
+      "cured": 16,
+      "still_needs_cure": 178,
+      "cure_rate": 0.071749
     }
   ],
   "status_transitions": [
     {
       "rejection_reason": "Needs Cure",
-      "still_needs_cure": 2754,
-      "now_cured": 3049,
+      "still_needs_cure": 2752,
+      "now_cured": 3062,
       "switched_evip": 0,
-      "reissued": 15,
+      "reissued": 12,
       "undeliverable": 0,
-      "other_status": 182,
-      "total": 6000,
-      "cure_rate": 0.508167
+      "other_status": 188,
+      "total": 6014,
+      "cure_rate": 0.509145
     },
     {
       "rejection_reason": "Other",
-      "still_needs_cure": 177,
-      "now_cured": 15,
+      "still_needs_cure": 178,
+      "now_cured": 16,
       "switched_evip": 0,
-      "reissued": 1,
+      "reissued": 2,
       "undeliverable": 0,
-      "other_status": 28,
-      "total": 221,
-      "cure_rate": 0.067873
+      "other_status": 27,
+      "total": 223,
+      "cure_rate": 0.071749
     }
   ],
   "cure_voters": [
@@ -4991,6 +4991,32 @@
       "party": "Dem"
     },
     {
+      "voter_file_vanid": "4830",
+      "state_file_id": "918458116",
+      "last_name": "Arce Grogan",
+      "first_name": "Gloria",
+      "middle_name": "M",
+      "preferred_phone": "7033386759",
+      "cell_phone": "7033386759",
+      "address": "6300 Stevenson Ave Apt 909",
+      "city": "Alexandria",
+      "state": "VA",
+      "zip5": "22304",
+      "zip4": "3573",
+      "county_name": "Alexandria (City)",
+      "precinct_name": "307 - Tucker West",
+      "age": "80",
+      "sex": "F",
+      "dob": "05/27/1946",
+      "locality": "ALEXANDRIA CITY",
+      "cd": "08",
+      "cure_status": "Needs Cure",
+      "rejection_reason": "Needs Cure",
+      "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Name mismatch",
+      "party": "Dem"
+    },
+    {
       "voter_file_vanid": "19958208",
       "state_file_id": "261552667",
       "last_name": "Arnold",
@@ -5067,6 +5093,32 @@
       "ballot_status_reason": "Needs Cure",
       "ballot_comment": "Missing YOB",
       "party": "Rep"
+    },
+    {
+      "voter_file_vanid": "20733291",
+      "state_file_id": "007411305",
+      "last_name": "Awuakye",
+      "first_name": "George",
+      "middle_name": "",
+      "preferred_phone": "",
+      "cell_phone": "",
+      "address": "6014 Edsall Rd Apt 302",
+      "city": "Alexandria",
+      "state": "VA",
+      "zip5": "22304",
+      "zip4": "5837",
+      "county_name": "Alexandria (City)",
+      "precinct_name": "307 - Tucker West",
+      "age": "63",
+      "sex": "M",
+      "dob": "06/06/1963",
+      "locality": "ALEXANDRIA CITY",
+      "cd": "08",
+      "cure_status": "Needs Cure",
+      "rejection_reason": "Needs Cure",
+      "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Incorrect SSN4",
+      "party": "Dem"
     },
     {
       "voter_file_vanid": "9694610",
@@ -5504,10 +5556,10 @@
       "dob": "05/01/2003",
       "locality": "ALEXANDRIA CITY",
       "cd": "08",
-      "cure_status": "Needs Cure",
+      "cure_status": "Cured",
       "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "Missing oath envelope",
+      "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -5608,10 +5660,10 @@
       "dob": "08/17/1958",
       "locality": "ALEXANDRIA CITY",
       "cd": "08",
-      "cure_status": "Needs Cure",
+      "cure_status": "Cured",
       "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "Missing signature",
+      "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -5742,6 +5794,32 @@
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "",
       "ballot_comment": "",
+      "party": "Dem"
+    },
+    {
+      "voter_file_vanid": "18541532",
+      "state_file_id": "165796233",
+      "last_name": "Duckett",
+      "first_name": "Paula",
+      "middle_name": "M",
+      "preferred_phone": "2404165007",
+      "cell_phone": "2404165007",
+      "address": "5175 Brawner Pl",
+      "city": "Alexandria",
+      "state": "VA",
+      "zip5": "22304",
+      "zip4": "8703",
+      "county_name": "Alexandria (City)",
+      "precinct_name": "308 - Cameron Station Community Ctr",
+      "age": "76",
+      "sex": "F",
+      "dob": "04/07/1950",
+      "locality": "ALEXANDRIA CITY",
+      "cd": "08",
+      "cure_status": "Needs Cure",
+      "rejection_reason": "Needs Cure",
+      "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Incorrect address",
       "party": "Dem"
     },
     {
@@ -6154,9 +6232,9 @@
       "dob": "07/05/1982",
       "locality": "ALEXANDRIA CITY",
       "cd": "08",
-      "cure_status": "Needs Cure",
+      "cure_status": "Cured",
       "rejection_reason": "Other",
-      "ballot_status_reason": "Other",
+      "ballot_status_reason": "",
       "ballot_comment": "",
       "party": "Dem"
     },
@@ -6366,6 +6444,32 @@
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "",
       "ballot_comment": "",
+      "party": "Dem"
+    },
+    {
+      "voter_file_vanid": "1556913",
+      "state_file_id": "702027768",
+      "last_name": "Jackson",
+      "first_name": "Karen",
+      "middle_name": "Aszilee",
+      "preferred_phone": "",
+      "cell_phone": "",
+      "address": "5927 Quantrell Ave Apt 102",
+      "city": "Alexandria",
+      "state": "VA",
+      "zip5": "22312",
+      "zip4": "2762",
+      "county_name": "Alexandria (City)",
+      "precinct_name": "306 - William Ramsay School",
+      "age": "66",
+      "sex": "F",
+      "dob": "12/19/1959",
+      "locality": "ALEXANDRIA CITY",
+      "cd": "08",
+      "cure_status": "Needs Cure",
+      "rejection_reason": "Needs Cure",
+      "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing SSN4, YOB and signature",
       "party": "Dem"
     },
     {
@@ -7090,10 +7194,10 @@
       "dob": "02/15/1962",
       "locality": "ALEXANDRIA CITY",
       "cd": "08",
-      "cure_status": "Needs Cure",
+      "cure_status": "Cured",
       "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "Household swap",
+      "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -7350,10 +7454,10 @@
       "dob": "08/03/1928",
       "locality": "ALEXANDRIA CITY",
       "cd": "08",
-      "cure_status": "Needs Cure",
+      "cure_status": "Cured",
       "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "Missing SSN4",
+      "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -7487,6 +7591,58 @@
       "party": "Rep"
     },
     {
+      "voter_file_vanid": "18271072",
+      "state_file_id": "099052893",
+      "last_name": "Walsh",
+      "first_name": "Colleen",
+      "middle_name": "Anne",
+      "preferred_phone": "5718824803",
+      "cell_phone": "5718824803",
+      "address": "1106 Newton St",
+      "city": "Alexandria",
+      "state": "VA",
+      "zip5": "22301",
+      "zip4": "2007",
+      "county_name": "Alexandria (City)",
+      "precinct_name": "108 - George Washington Middle Sch",
+      "age": "25",
+      "sex": "F",
+      "dob": "05/15/2001",
+      "locality": "ALEXANDRIA CITY",
+      "cd": "08",
+      "cure_status": "Needs Cure",
+      "rejection_reason": "Needs Cure",
+      "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing SSN4",
+      "party": "Dem"
+    },
+    {
+      "voter_file_vanid": "18446921",
+      "state_file_id": "057772207",
+      "last_name": "Walsh",
+      "first_name": "Sean",
+      "middle_name": "Patrick Meehan",
+      "preferred_phone": "5718824803",
+      "cell_phone": "5718824803",
+      "address": "1106 Newton St",
+      "city": "Alexandria",
+      "state": "VA",
+      "zip5": "22301",
+      "zip4": "2007",
+      "county_name": "Alexandria (City)",
+      "precinct_name": "108 - George Washington Middle Sch",
+      "age": "25",
+      "sex": "M",
+      "dob": "05/15/2001",
+      "locality": "ALEXANDRIA CITY",
+      "cd": "08",
+      "cure_status": "Other",
+      "rejection_reason": "Needs Cure",
+      "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing SSN4",
+      "party": "Dem"
+    },
+    {
       "voter_file_vanid": "1554543",
       "state_file_id": "702022097",
       "last_name": "Warner",
@@ -7615,6 +7771,32 @@
       "ballot_status_reason": "Needs Cure",
       "ballot_comment": "Household swap",
       "party": "Dem"
+    },
+    {
+      "voter_file_vanid": "841153",
+      "state_file_id": "306026171",
+      "last_name": "Wilson",
+      "first_name": "Eleanor",
+      "middle_name": "Louise",
+      "preferred_phone": "7039668333",
+      "cell_phone": "7039668333",
+      "address": "2620 Main Line Blvd Apt 602",
+      "city": "Alexandria",
+      "state": "VA",
+      "zip5": "22301",
+      "zip4": "3111",
+      "county_name": "Alexandria (City)",
+      "precinct_name": "111 - Potomac Yard",
+      "age": "92",
+      "sex": "F",
+      "dob": "02/17/1934",
+      "locality": "ALEXANDRIA CITY",
+      "cd": "08",
+      "cure_status": "Needs Cure",
+      "rejection_reason": "Needs Cure",
+      "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Incorrect SSN4",
+      "party": "Rep"
     },
     {
       "voter_file_vanid": "3905903",
@@ -14344,7 +14526,7 @@
       "dob": "06/07/1945",
       "locality": "BEDFORD COUNTY",
       "cd": "05",
-      "cure_status": "Other",
+      "cure_status": "Cured",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "",
       "ballot_comment": "",
@@ -15774,7 +15956,7 @@
       "dob": "06/26/1969",
       "locality": "BOTETOURT COUNTY",
       "cd": "06",
-      "cure_status": "Other",
+      "cure_status": "Re-Issued",
       "rejection_reason": "Other",
       "ballot_status_reason": "",
       "ballot_comment": "",
@@ -31790,7 +31972,7 @@
       "dob": "06/21/1963",
       "locality": "FAIRFAX CITY",
       "cd": "11",
-      "cure_status": "Re-Issued",
+      "cure_status": "Other",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "",
       "ballot_comment": "",
@@ -40169,32 +40351,6 @@
       "party": "Dem"
     },
     {
-      "voter_file_vanid": "4767196",
-      "state_file_id": "187687839",
-      "last_name": "Kim",
-      "first_name": "Joseph",
-      "middle_name": "Jihoon",
-      "preferred_phone": "5716995551",
-      "cell_phone": "5716995551",
-      "address": "2445 Casmar St",
-      "city": "Vienna",
-      "state": "VA",
-      "zip5": "22180",
-      "zip4": "6833",
-      "county_name": "Fairfax",
-      "precinct_name": "720 - Thoreau",
-      "age": "52",
-      "sex": "M",
-      "dob": "08/10/1974",
-      "locality": "FAIRFAX COUNTY",
-      "cd": "11",
-      "cure_status": "Cured",
-      "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "",
-      "ballot_comment": "",
-      "party": "Dem"
-    },
-    {
       "voter_file_vanid": "14451703",
       "state_file_id": "400257900",
       "last_name": "Kim",
@@ -40218,6 +40374,32 @@
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
       "ballot_comment": "SSN",
+      "party": "Dem"
+    },
+    {
+      "voter_file_vanid": "4767196",
+      "state_file_id": "187687839",
+      "last_name": "Kim",
+      "first_name": "Joseph",
+      "middle_name": "Jihoon",
+      "preferred_phone": "5716995551",
+      "cell_phone": "5716995551",
+      "address": "2445 Casmar St",
+      "city": "Vienna",
+      "state": "VA",
+      "zip5": "22180",
+      "zip4": "6833",
+      "county_name": "Fairfax",
+      "precinct_name": "720 - Thoreau",
+      "age": "52",
+      "sex": "M",
+      "dob": "08/10/1974",
+      "locality": "FAIRFAX COUNTY",
+      "cd": "11",
+      "cure_status": "Cured",
+      "rejection_reason": "Needs Cure",
+      "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -41982,10 +42164,10 @@
       "dob": "01/01/1944",
       "locality": "FAIRFAX COUNTY",
       "cd": "08",
-      "cure_status": "Needs Cure",
+      "cure_status": "Cured",
       "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "SSN",
+      "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -42320,10 +42502,10 @@
       "dob": "05/08/2007",
       "locality": "FAIRFAX COUNTY",
       "cd": "11",
-      "cure_status": "Needs Cure",
+      "cure_status": "Cured",
       "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "Address",
+      "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -49061,6 +49243,32 @@
       "party": "Dem"
     },
     {
+      "voter_file_vanid": "18433260",
+      "state_file_id": "824141127",
+      "last_name": "Welkeba",
+      "first_name": "Sosena",
+      "middle_name": "Legeesa",
+      "preferred_phone": "5713038101",
+      "cell_phone": "5713038101",
+      "address": "7659 Sheffield Village Ln",
+      "city": "Lorton",
+      "state": "VA",
+      "zip5": "22079",
+      "zip4": "1718",
+      "county_name": "Fairfax",
+      "precinct_name": "622 - Lorton Station",
+      "age": "42",
+      "sex": "F",
+      "dob": "08/02/1984",
+      "locality": "FAIRFAX COUNTY",
+      "cd": "11",
+      "cure_status": "Needs Cure",
+      "rejection_reason": "Needs Cure",
+      "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Address",
+      "party": "Dem"
+    },
+    {
       "voter_file_vanid": "833613",
       "state_file_id": "306011636",
       "last_name": "Whitehead",
@@ -49574,10 +49782,10 @@
       "dob": "07/13/2006",
       "locality": "FAIRFAX COUNTY",
       "cd": "11",
-      "cure_status": "Needs Cure",
+      "cure_status": "Cured",
       "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "Address",
+      "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -68034,7 +68242,7 @@
       "dob": "09/07/2002",
       "locality": "HENRICO COUNTY",
       "cd": "01",
-      "cure_status": "Re-Issued",
+      "cure_status": "Other",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "",
       "ballot_comment": "",
@@ -70899,6 +71107,32 @@
       "ballot_status_reason": "Other",
       "ballot_comment": "",
       "party": "Rep"
+    },
+    {
+      "voter_file_vanid": "17177824",
+      "state_file_id": "028688246",
+      "last_name": "Tickle",
+      "first_name": "Randal",
+      "middle_name": "Wayne",
+      "preferred_phone": "5406326179",
+      "cell_phone": "5406326179",
+      "address": "3136 Fairystone Park Hwy",
+      "city": "Bassett",
+      "state": "VA",
+      "zip5": "24055",
+      "zip4": "6173",
+      "county_name": "Henry",
+      "precinct_name": "501 - Bassett #1",
+      "age": "48",
+      "sex": "M",
+      "dob": "05/02/1978",
+      "locality": "HENRY COUNTY",
+      "cd": "09",
+      "cure_status": "Other",
+      "rejection_reason": "Needs Cure",
+      "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "No B Envelope",
+      "party": "Dem"
     },
     {
       "voter_file_vanid": "4734492",
@@ -73806,7 +74040,7 @@
       "dob": "02/02/1948",
       "locality": "JAMES CITY COUNTY",
       "cd": "01",
-      "cure_status": "Re-Issued",
+      "cure_status": "Other",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "",
       "ballot_comment": "",
@@ -102172,10 +102406,10 @@
       "dob": "09/25/1952",
       "locality": "LYNCHBURG CITY",
       "cd": "05",
-      "cure_status": "Needs Cure",
+      "cure_status": "Cured",
       "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "No apt number",
+      "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -103108,7 +103342,7 @@
       "dob": "02/11/2008",
       "locality": "MADISON COUNTY",
       "cd": "07",
-      "cure_status": "Needs Cure",
+      "cure_status": "Other",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
       "ballot_comment": "Address mismatch",
@@ -112241,6 +112475,32 @@
       "party": "Dem"
     },
     {
+      "voter_file_vanid": "91259",
+      "state_file_id": "023005784",
+      "last_name": "Holland",
+      "first_name": "Teresina",
+      "middle_name": "Trinnette",
+      "preferred_phone": "",
+      "cell_phone": "",
+      "address": "719 Marvin Ave Apt 203",
+      "city": "Norfolk",
+      "state": "VA",
+      "zip5": "23518",
+      "zip4": "2555",
+      "county_name": "Norfolk (City)",
+      "precinct_name": "511 - Crossroads",
+      "age": "61",
+      "sex": "F",
+      "dob": "09/13/1965",
+      "locality": "NORFOLK CITY",
+      "cd": "03",
+      "cure_status": "Needs Cure",
+      "rejection_reason": "Needs Cure",
+      "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Address on B Env does not match voter reg",
+      "party": "Dem"
+    },
+    {
       "voter_file_vanid": "69249",
       "state_file_id": "021002010",
       "last_name": "Holzsweig",
@@ -117337,6 +117597,32 @@
       "party": "Dem"
     },
     {
+      "voter_file_vanid": "2910008",
+      "state_file_id": "918526119",
+      "last_name": "Fricke",
+      "first_name": "Steven",
+      "middle_name": "Larry",
+      "preferred_phone": "7574842281",
+      "cell_phone": "",
+      "address": "4722 River Shore Rd",
+      "city": "Portsmouth",
+      "state": "VA",
+      "zip5": "23703",
+      "zip4": "1518",
+      "county_name": "Portsmouth (City)",
+      "precinct_name": "039 - Churchland Primary And Intermediate School",
+      "age": "64",
+      "sex": "M",
+      "dob": "03/06/1962",
+      "locality": "PORTSMOUTH CITY",
+      "cd": "03",
+      "cure_status": "Needs Cure",
+      "rejection_reason": "Needs Cure",
+      "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Last 4 SSN Missing",
+      "party": "Rep"
+    },
+    {
       "voter_file_vanid": "86109",
       "state_file_id": "022016003",
       "last_name": "Fuller",
@@ -117438,6 +117724,32 @@
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
       "ballot_comment": "Envelope B missing",
+      "party": "Dem"
+    },
+    {
+      "voter_file_vanid": "86902",
+      "state_file_id": "022017648",
+      "last_name": "Hardmon",
+      "first_name": "Dale",
+      "middle_name": "Thomas",
+      "preferred_phone": "7574872234",
+      "cell_phone": "",
+      "address": "2540 Bird Ln Apt A",
+      "city": "Portsmouth",
+      "state": "VA",
+      "zip5": "23702",
+      "zip4": "2340",
+      "county_name": "Portsmouth (City)",
+      "precinct_name": "017 - Victory Life Fellowship",
+      "age": "70",
+      "sex": "M",
+      "dob": "11/19/1955",
+      "locality": "PORTSMOUTH CITY",
+      "cd": "03",
+      "cure_status": "Needs Cure",
+      "rejection_reason": "Needs Cure",
+      "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Envelope B not complete",
       "party": "Dem"
     },
     {
@@ -118266,10 +118578,10 @@
       "dob": "07/24/1994",
       "locality": "POWHATAN COUNTY",
       "cd": "05",
-      "cure_status": "Needs Cure",
+      "cure_status": "Cured",
       "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "no signature on B envelope",
+      "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Rep"
     },
     {
@@ -120684,10 +120996,10 @@
       "dob": "08/25/1970",
       "locality": "PRINCE WILLIAM COUNTY",
       "cd": "07",
-      "cure_status": "Needs Cure",
+      "cure_status": "Cured",
       "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "Missing voter signature",
+      "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -122764,10 +123076,10 @@
       "dob": "11/10/1944",
       "locality": "PRINCE WILLIAM COUNTY",
       "cd": "07",
-      "cure_status": "Needs Cure",
+      "cure_status": "Cured",
       "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "Printed name is missing",
+      "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -132696,7 +133008,7 @@
       "dob": "01/02/1951",
       "locality": "RADFORD CITY",
       "cd": "09",
-      "cure_status": "Needs Cure",
+      "cure_status": "Other",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
       "ballot_comment": "Envelope B was not filled out.",
@@ -133684,10 +133996,10 @@
       "dob": "10/19/1961",
       "locality": "RICHMOND CITY",
       "cd": "04",
-      "cure_status": "Needs Cure",
+      "cure_status": "Cured",
       "rejection_reason": "Needs Cure",
-      "ballot_status_reason": "Needs Cure",
-      "ballot_comment": "incorrect YOB",
+      "ballot_status_reason": "",
+      "ballot_comment": "",
       "party": "Dem"
     },
     {
@@ -136986,7 +137298,7 @@
       "dob": "08/05/1949",
       "locality": "RICHMOND CITY",
       "cd": "04",
-      "cure_status": "Other",
+      "cure_status": "Needs Cure",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
       "ballot_comment": "No Apt #",
@@ -137198,6 +137510,32 @@
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "",
       "ballot_comment": "",
+      "party": "Dem"
+    },
+    {
+      "voter_file_vanid": "1704158",
+      "state_file_id": "803005684",
+      "last_name": "Price",
+      "first_name": "Willie",
+      "middle_name": "",
+      "preferred_phone": "8044207291",
+      "cell_phone": "8044207291",
+      "address": "1100 German School Rd Apt 7",
+      "city": "Richmond",
+      "state": "VA",
+      "zip5": "23225",
+      "zip4": "4276",
+      "county_name": "Richmond (City)",
+      "precinct_name": "412 - Four Hundred Twelve",
+      "age": "87",
+      "sex": "M",
+      "dob": "06/18/1939",
+      "locality": "RICHMOND CITY",
+      "cd": "04",
+      "cure_status": "Needs Cure",
+      "rejection_reason": "Needs Cure",
+      "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Incorrect Address",
       "party": "Dem"
     },
     {
@@ -140938,7 +141276,7 @@
       "dob": "07/27/1966",
       "locality": "ROANOKE CITY",
       "cd": "06",
-      "cure_status": "Needs Cure",
+      "cure_status": "Other",
       "rejection_reason": "Needs Cure",
       "ballot_status_reason": "Needs Cure",
       "ballot_comment": "Missing SSN",
@@ -155531,6 +155869,32 @@
       "party": "Rep"
     },
     {
+      "voter_file_vanid": "606941",
+      "state_file_id": "223012307",
+      "last_name": "Lazar",
+      "first_name": "Dorothy",
+      "middle_name": "Jean",
+      "preferred_phone": "7576509131",
+      "cell_phone": "7576509131",
+      "address": "2707 Bracston Rd",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "zip5": "23456",
+      "zip4": "6561",
+      "county_name": "Virginia Beach (City)",
+      "precinct_name": "060 - Precinct 60",
+      "age": "98",
+      "sex": "F",
+      "dob": "07/08/1928",
+      "locality": "VIRGINIA BEACH CITY",
+      "cd": "02",
+      "cure_status": "Needs Cure",
+      "rejection_reason": "Other",
+      "ballot_status_reason": "Other",
+      "ballot_comment": "",
+      "party": "Rep"
+    },
+    {
       "voter_file_vanid": "622411",
       "state_file_id": "224016891",
       "last_name": "Lazo",
@@ -159273,6 +159637,32 @@
       "ballot_status_reason": "",
       "ballot_comment": "",
       "party": "Rep"
+    },
+    {
+      "voter_file_vanid": "15503441",
+      "state_file_id": "437872224",
+      "last_name": "Loth",
+      "first_name": "Paul",
+      "middle_name": "Anthony",
+      "preferred_phone": "5407171176",
+      "cell_phone": "5407171176",
+      "address": "293 Cardinal Dr",
+      "city": "Front Royal",
+      "state": "VA",
+      "zip5": "22630",
+      "zip4": "5921",
+      "county_name": "Warren",
+      "precinct_name": "501 - South River",
+      "age": "71",
+      "sex": "M",
+      "dob": "07/15/1955",
+      "locality": "WARREN COUNTY",
+      "cd": "06",
+      "cure_status": "Needs Cure",
+      "rejection_reason": "Needs Cure",
+      "ballot_status_reason": "Needs Cure",
+      "ballot_comment": "Missing Information",
+      "party": "Dem"
     },
     {
       "voter_file_vanid": "1634447",
@@ -164083,6 +164473,32 @@
       "ballot_status_reason": "Needs Cure",
       "ballot_comment": "Missing SSN4",
       "party": "Rep"
+    },
+    {
+      "voter_file_vanid": "20654305",
+      "state_file_id": "173874746",
+      "last_name": "Pratt",
+      "first_name": "Madilyn",
+      "middle_name": "Sayuri",
+      "preferred_phone": "",
+      "cell_phone": "",
+      "address": "107 Polaris Dr",
+      "city": "Yorktown",
+      "state": "VA",
+      "zip5": "23693",
+      "zip4": "2621",
+      "county_name": "York",
+      "precinct_name": "501 - Tabb",
+      "age": "18",
+      "sex": "F",
+      "dob": "02/06/2008",
+      "locality": "YORK COUNTY",
+      "cd": "01",
+      "cure_status": "Needs Cure",
+      "rejection_reason": "Other",
+      "ballot_status_reason": "Other",
+      "ballot_comment": "",
+      "party": "Dem"
     },
     {
       "voter_file_vanid": "18942484",
