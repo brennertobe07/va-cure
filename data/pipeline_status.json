@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-10-27 07:02",
-  "ok": true,
+  "checked_at": "2026-10-28 07:01",
+  "ok": false,
   "steps": [
     {
       "name": "Pipeline",
       "time": "05:55",
-      "ok": true,
-      "detail": "1,404,055 ballots loaded"
+      "ok": false,
+      "detail": "SQL error [BULK INSERT Daily_Absentee_List]: ('42000', '[42000] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Bulk load data conversion error (type mism"
     },
     {
       "name": "DNC drop",
@@ -16,9 +16,9 @@
     },
     {
       "name": "Dashboards",
-      "time": "07:02",
-      "ok": true,
-      "detail": "Exported"
+      "time": "07:01",
+      "ok": false,
+      "detail": "One or more exports failed"
     }
   ]
 }
